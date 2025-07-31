@@ -1,0 +1,80 @@
+[
+  {
+    "id": "placeholder-bordeaux",
+    "name": "Placeholder Bordeaux",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Bordeaux",
+    "country": "France",
+    "winery": "Demo Winery",
+    "coordinates": { "lat": 44.8378, "lng": -0.5792 },
+    "notes": "A classic Bordeaux with notes of plum and cedar.",
+    "aromas": ["plum", "cedar"],
+    "varietals": ["Merlot", "Cabernet Sauvignon"],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium",
+    "favorite": true,
+    "status": "cellar",
+    "tags": ["placeholder", "bordeaux"]
+  },
+  {
+    "id": "placeholder-napa",
+    "name": "Placeholder Napa",
+    "vintage": 2018,
+    "type": "red",
+    "region": "Napa Valley",
+    "country": "USA",
+    "winery": "Demo Cellars",
+    "coordinates": { "lat": 38.5025, "lng": -122.2654 },
+    "notes": "Rich and bold with blackberry and vanilla.",
+    "aromas": ["blackberry", "vanilla"],
+    "varietals": ["Cabernet Sauvignon"],
+    "alcohol": 14.2,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": true,
+    "status": "cellar",
+    "tags": ["placeholder", "napa"]
+  },
+  {
+    "id": "freja-cellars-pinot-noir-2018",
+    "name": "Freja Cellars Pinot Noir",
+    "vintage": 2018,
+    "type": "red",
+    "region": "Willamette Valley AVA",
+    "country": "USA",
+    "winery": "Freja Cellars",
+    "coordinates": {
+      "lat": 45.2121,
+      "lng": -123.1618
+    },
+    "notes": "Bright red fruit core of cherry and raspberry, layered with subtle earth and baking spice. Silky texture, vibrant acidity, and a long finish with hints of rose petal and forest floor.",
+    "aromas": [
+      "red cherry",
+      "raspberry",
+      "forest floor",
+      "violet",
+      "clove",
+      "oak spice",
+      "rose petal",
+      "earth"
+    ],
+    "varietals": [
+      "Pinot Noir"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "Pinot Noir",
+      "Willamette Valley",
+      "Estate Bottled",
+      "Single Vineyard",
+      "2018 Vintage"
+    ],
+    "details": "Freja Cellars is a small family-owned winery founded in 2005; this bottling comes from a single-vineyard block planted on volcanic soils, offering classic Oregon elegance and age-worthiness."
+  }  
+] 

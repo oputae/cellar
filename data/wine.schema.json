@@ -1,0 +1,135 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Wine Entry Schema",
+  "description": "Schema for wine tracking entries with geographic and tasting data",
+  "type": "object",
+  "required": ["id", "name", "vintage", "type", "region", "coordinates"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9-_]+$",
+      "description": "Unique identifier for the wine entry"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Name of the wine"
+    },
+    "vintage": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2030,
+      "description": "Vintage year of the wine"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["red", "white", "rosé", "sparkling", "dessert", "fortified"],
+      "description": "Type of wine"
+    },
+    "region": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Wine region or appellation"
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Country of origin"
+    },
+    "winery": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Winery or producer name"
+    },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90,
+          "description": "Latitude coordinate"
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "description": "Longitude coordinate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Tasting notes or personal observations"
+    },
+    "aromas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "maxItems": 20,
+      "description": "Array of detected aromas"
+    },
+    "varietals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "maxItems": 10,
+      "description": "Grape varietals used"
+    },
+    "alcohol": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "Alcohol percentage"
+    },
+    "body": {
+      "type": "string",
+      "enum": ["light", "medium-light", "medium", "medium-full", "full"],
+      "description": "Wine body"
+    },
+    "acidity": {
+      "type": "string",
+      "enum": ["low", "medium-low", "medium", "medium-high", "high"],
+      "description": "Acidity level"
+    },
+    "favorite": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this wine is marked as favorite"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["cellar", "consumed"],
+      "description": "Whether the wine is still in the cellar or has been consumed."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 30
+      },
+      "maxItems": 10,
+      "description": "Custom tags for categorization"
+    },
+    "details": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Unique facts or context about the wine, region, or winery."
+    }
+  },
+  "additionalProperties": false
+} 

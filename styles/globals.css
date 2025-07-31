@@ -1,0 +1,158 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for wine tracker */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply text-gray-900 bg-gray-50;
+  }
+}
+
+@layer components {
+  /* Wine marker styles */
+  .wine-marker {
+    @apply transition-transform duration-200;
+  }
+  
+  .wine-marker:hover {
+    @apply transform scale-110;
+  }
+  
+  /* Wine popup styles */
+  .wine-popup {
+    @apply min-w-[200px];
+  }
+  
+  /* Custom scrollbar */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #d1d5db #f3f4f6;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: #f3f4f6;
+    border-radius: 3px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #d1d5db;
+    border-radius: 3px;
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af;
+  }
+}
+
+@layer utilities {
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.3s ease-out;
+  }
+  
+  /* Wine type color utilities */
+  .wine-red {
+    @apply text-red-600 bg-red-50 border-red-200;
+  }
+  
+  .wine-white {
+    @apply text-yellow-600 bg-yellow-50 border-yellow-200;
+  }
+  
+  .wine-rose {
+    @apply text-pink-600 bg-pink-50 border-pink-200;
+  }
+  
+  .wine-sparkling {
+    @apply text-purple-600 bg-purple-50 border-purple-200;
+  }
+  
+  .wine-dessert {
+    @apply text-amber-600 bg-amber-50 border-amber-200;
+  }
+  
+  .wine-fortified {
+    @apply text-orange-600 bg-orange-50 border-orange-200;
+  }
+}
+
+/* Leaflet map customizations */
+.leaflet-container {
+  @apply rounded-lg;
+}
+
+.leaflet-popup-content-wrapper {
+  @apply rounded-lg shadow-lg;
+}
+
+.leaflet-popup-content {
+  @apply m-0 p-0;
+}
+
+.leaflet-popup-tip {
+  @apply shadow-lg;
+}
+
+/* Marker cluster customizations */
+.marker-cluster-small {
+  @apply bg-wine-200 border-wine-300;
+}
+
+.marker-cluster-small div {
+  @apply bg-wine-300 text-wine-800;
+}
+
+.marker-cluster-medium {
+  @apply bg-wine-300 border-wine-400;
+}
+
+.marker-cluster-medium div {
+  @apply bg-wine-400 text-wine-900;
+}
+
+.marker-cluster-large {
+  @apply bg-wine-400 border-wine-500;
+}
+
+.marker-cluster-large div {
+  @apply bg-wine-500 text-white;
+}
+
+/* Focus styles for accessibility */
+.focus-visible:focus {
+  @apply outline-none ring-2 ring-wine-500 ring-offset-2;
+}
+
+/* Loading states */
+.loading-skeleton {
+  @apply animate-pulse bg-gray-200 rounded;
+}
+
+/* Responsive text utilities */
+.text-responsive {
+  @apply text-sm sm:text-base lg:text-lg;
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  .print-break {
+    page-break-before: always;
+  }
+} 
