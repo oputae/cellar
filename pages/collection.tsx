@@ -112,6 +112,63 @@ export default function CollectionPage() {
             </p>
           </div>
 
+          {/* Collection Stats */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div className="bg-gradient-to-br from-wine-600/20 to-wine-800/20 backdrop-blur-sm rounded-2xl border border-wine-500/20 p-6 shadow-elegant">
+              <div className="flex items-center">
+                <div className="h-10 w-10 bg-gradient-to-br from-wine-500 to-wine-600 rounded-lg flex items-center justify-center">
+                  <BeakerIcon className="h-5 w-5 text-white" />
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm font-medium text-white/60">Total Wines</p>
+                  <p className="text-2xl font-display font-bold text-white">{allWines.length}</p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-gold-600/20 to-gold-800/20 backdrop-blur-sm rounded-2xl border border-gold-500/20 p-6 shadow-elegant">
+              <div className="flex items-center">
+                <div className="h-10 w-10 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
+                  <StarIcon className="h-5 w-5 text-white" />
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm font-medium text-white/60">Favorites</p>
+                  <p className="text-2xl font-display font-bold text-white">
+                    {allWines.filter(w => w.favorite).length}
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-dark-600/20 to-dark-800/20 backdrop-blur-sm rounded-2xl border border-dark-500/20 p-6 shadow-elegant">
+              <div className="flex items-center">
+                <div className="h-10 w-10 bg-gradient-to-br from-dark-500 to-dark-600 rounded-lg flex items-center justify-center">
+                  <MapPinIcon className="h-5 w-5 text-white" />
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm font-medium text-white/60">Regions</p>
+                  <p className="text-2xl font-display font-bold text-white">
+                    {new Set(allWines.map(w => w.region)).size}
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-sm rounded-2xl border border-purple-500/20 p-6 shadow-elegant">
+              <div className="flex items-center">
+                <div className="h-10 w-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
+                  <span className="text-white font-bold text-sm">🌍</span>
+                </div>
+                <div className="ml-3">
+                  <p className="text-sm font-medium text-white/60">Countries</p>
+                  <p className="text-2xl font-display font-bold text-white">
+                    {new Set(allWines.map(w => w.country).filter(Boolean)).size}
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           {/* Search and Filters */}
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 mb-8 shadow-elegant">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
@@ -170,63 +227,6 @@ export default function CollectionPage() {
                 </p>
               </div>
             )}
-          </div>
-
-          {/* Collection Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
-            <div className="bg-gradient-to-br from-wine-600/20 to-wine-800/20 backdrop-blur-sm rounded-2xl border border-wine-500/20 p-6 shadow-elegant">
-              <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-wine-500 to-wine-600 rounded-lg flex items-center justify-center">
-                  <BeakerIcon className="h-5 w-5 text-white" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Total Wines</p>
-                  <p className="text-2xl font-display font-bold text-white">{allWines.length}</p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-gradient-to-br from-gold-600/20 to-gold-800/20 backdrop-blur-sm rounded-2xl border border-gold-500/20 p-6 shadow-elegant">
-              <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
-                  <StarIcon className="h-5 w-5 text-white" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Favorites</p>
-                  <p className="text-2xl font-display font-bold text-white">
-                    {allWines.filter(w => w.favorite).length}
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-gradient-to-br from-dark-600/20 to-dark-800/20 backdrop-blur-sm rounded-2xl border border-dark-500/20 p-6 shadow-elegant">
-              <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-dark-500 to-dark-600 rounded-lg flex items-center justify-center">
-                  <MapPinIcon className="h-5 w-5 text-white" />
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Regions</p>
-                  <p className="text-2xl font-display font-bold text-white">
-                    {new Set(allWines.map(w => w.region)).size}
-                  </p>
-                </div>
-              </div>
-            </div>
-            
-            <div className="bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-sm rounded-2xl border border-purple-500/20 p-6 shadow-elegant">
-              <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">🌍</span>
-                </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Countries</p>
-                  <p className="text-2xl font-display font-bold text-white">
-                    {new Set(allWines.map(w => w.country).filter(Boolean)).size}
-                  </p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Wine List */}
