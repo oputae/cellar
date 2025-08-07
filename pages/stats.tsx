@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import { useState } from 'react';
 import { getAllWines, getUniqueCountries, getUniqueRegions, getWineTypes } from '@/utils/wine';
-import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, GlobeAltIcon, ChartBarIcon, CalendarIcon, TagIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, GlobeAltIcon, ChartBarIcon, CalendarIcon, TagIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function StatsPage() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const wines = getAllWines();
   const totalWines = wines.length;
   const favorites = wines.filter(w => w.favorite).length;
@@ -39,6 +41,8 @@ export default function StatsPage() {
                   </h1>
                 </Link>
               </div>
+              
+              {/* Desktop Navigation */}
               <nav className="hidden md:flex space-x-8">
                 <Link href="/" className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Map
@@ -50,7 +54,50 @@ export default function StatsPage() {
                   Analytics
                 </Link>
               </nav>
+
+              {/* Mobile menu button */}
+              <div className="md:hidden">
+                <button
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="text-white/70 hover:text-wine-300 p-2 transition-colors duration-200"
+                >
+                  {mobileMenuOpen ? (
+                    <XMarkIcon className="h-6 w-6" />
+                  ) : (
+                    <Bars3Icon className="h-6 w-6" />
+                  )}
+                </button>
+              </div>
             </div>
+
+            {/* Mobile Navigation */}
+            {mobileMenuOpen && (
+              <div className="md:hidden pb-6">
+                <nav className="flex flex-col space-y-4">
+                  <Link 
+                    href="/" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Map
+                  </Link>
+                  <Link 
+                    href="/collection" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Collection
+                  </Link>
+                  <Link 
+                    href="/stats" 
+                    className="text-white/90 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Analytics
+                  </Link>
+                </nav>
+              </div>
+            )}
           </div>
         </header>
 

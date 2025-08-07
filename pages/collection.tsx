@@ -3,13 +3,14 @@ import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { getAllWines, filterWines } from '@/utils/wine';
 import { WineType } from '@/types/wine';
-import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, MagnifyingGlassIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, MagnifyingGlassIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function CollectionPage() {
   const allWines = getAllWines();
   const [searchKeyword, setSearchKeyword] = useState('');
   const [selectedType, setSelectedType] = useState<WineType | ''>('');
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   
   // Filter wines based on search and filters
   const filteredWines = useMemo(() => {
@@ -40,6 +41,8 @@ export default function CollectionPage() {
                   </h1>
                 </Link>
               </div>
+              
+              {/* Desktop Navigation */}
               <nav className="hidden md:flex space-x-8">
                 <Link href="/" className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Map
@@ -51,7 +54,50 @@ export default function CollectionPage() {
                   Analytics
                 </Link>
               </nav>
+
+              {/* Mobile menu button */}
+              <div className="md:hidden">
+                <button
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="text-white/70 hover:text-wine-300 p-2 transition-colors duration-200"
+                >
+                  {mobileMenuOpen ? (
+                    <XMarkIcon className="h-6 w-6" />
+                  ) : (
+                    <Bars3Icon className="h-6 w-6" />
+                  )}
+                </button>
+              </div>
             </div>
+
+            {/* Mobile Navigation */}
+            {mobileMenuOpen && (
+              <div className="md:hidden pb-6">
+                <nav className="flex flex-col space-y-4">
+                  <Link 
+                    href="/" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Map
+                  </Link>
+                  <Link 
+                    href="/collection" 
+                    className="text-white/90 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Collection
+                  </Link>
+                  <Link 
+                    href="/stats" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Analytics
+                  </Link>
+                </nav>
+              </div>
+            )}
           </div>
         </header>
 

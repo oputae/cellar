@@ -6,7 +6,7 @@ import type { Wine, WineFilter as WineFilterType } from '@/types/wine';
 import { getAllWines, filterWines } from '@/utils/wine';
 import WineMap from '@/components/WineMap';
 import WineFilter from '@/components/WineFilter';
-import { MapPinIcon, StarIcon, BeakerIcon, GlobeAltIcon } from '@heroicons/react/24/outline';
+import { MapPinIcon, StarIcon, BeakerIcon, GlobeAltIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 interface HomeProps {
   wines: Wine[];
@@ -15,6 +15,7 @@ interface HomeProps {
 export default function Home({ wines }: HomeProps) {
   const [filter, setFilter] = useState<WineFilterType>({});
   const [selectedWine, setSelectedWine] = useState<Wine | null>(null);
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const filteredWines = filterWines(wines, filter);
 
@@ -49,6 +50,8 @@ export default function Home({ wines }: HomeProps) {
                   </h1>
                 </div>
               </div>
+              
+              {/* Desktop Navigation */}
               <nav className="hidden md:flex space-x-8">
                 <Link href="/" className="text-white/90 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200">
                   Map
@@ -60,7 +63,50 @@ export default function Home({ wines }: HomeProps) {
                   Analytics
                 </Link>
               </nav>
+
+              {/* Mobile menu button */}
+              <div className="md:hidden">
+                <button
+                  onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                  className="text-white/70 hover:text-wine-300 p-2 transition-colors duration-200"
+                >
+                  {mobileMenuOpen ? (
+                    <XMarkIcon className="h-6 w-6" />
+                  ) : (
+                    <Bars3Icon className="h-6 w-6" />
+                  )}
+                </button>
+              </div>
             </div>
+
+            {/* Mobile Navigation */}
+            {mobileMenuOpen && (
+              <div className="md:hidden pb-6">
+                <nav className="flex flex-col space-y-4">
+                  <Link 
+                    href="/" 
+                    className="text-white/90 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Map
+                  </Link>
+                  <Link 
+                    href="/collection" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Collection
+                  </Link>
+                  <Link 
+                    href="/stats" 
+                    className="text-white/70 hover:text-wine-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Analytics
+                  </Link>
+                </nav>
+              </div>
+            )}
           </div>
         </header>
 
