@@ -76,5 +76,53 @@
       "2018 Vintage"
     ],
     "details": "Freja Cellars is a small family-owned winery founded in 2005; this bottling comes from a single-vineyard block planted on volcanic soils, offering classic Oregon elegance and age-worthiness."
-  }  
+  },
+  {
+    "id": "domaine-berthoumieu-charles-de-batz-2017",
+    "name": "Domaine Berthoumieu Charles de Batz",
+    "vintage": 2017,
+    "type": "red",
+    "region": "Madiran",
+    "country": "France",
+    "winery": "Domaine Berthoumieu",
+    "coordinates": {
+      "lat": 43.549639,
+      "lng": -0.057621
+    },
+    "notes": "Opaque purple-ruby with a narrow garnet rim. The nose unfurls dense black fruits (blackberry, cassis, black cherry) woven with violet, licorice, cocoa, cedar and tobacco, plus a graphite/mineral edge. Full-bodied and powerful on the palate; the core is packed with ripe black fruits and dark chocolate, framed by abundant, fine-grained tannins typical of Tannat. Acidity is medium-high, bringing lift to the richness; oak is present but well-integrated, adding spice and toast without dominating. Savory undertones of dried herbs and a cool menthol/eucalyptus note emerge with air. The finish is long, vigorous and drying, with fruit, cocoa and cedar echoing for 30+ seconds. Decant 2–3 hours if drinking now; built for medium to long-term aging.",
+    "aromas": [
+      "blackberry",
+      "cassis",
+      "black cherry",
+      "plum",
+      "violet",
+      "licorice",
+      "cocoa",
+      "tobacco leaf",
+      "cedar",
+      "graphite",
+      "dried thyme",
+      "eucalyptus"
+    ],
+    "varietals": [
+      "Tannat",
+      "Cabernet Sauvignon"
+    ],
+    "alcohol": 14.5,
+    "body": "full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "madiran",
+      "southwest-france",
+      "tannat",
+      "old-vines",
+      "oak-aged",
+      "age-worthy",
+      "collectible",
+      "hearty-foods"
+    ],
+    "details": "Flagship cuvée from Domaine Berthoumieu, named for Charles de Batz-Castelmore d'Artagnan—born nearby in Gascony. Typically 90% Tannat and 10% Cabernet Sauvignon from 50–100+ year-old vines; grapes are fully destemmed and fermented by variety (often in cement), with controlled micro-oxygenation—a technique pioneered in Madiran—to tame Tannat's formidable tannins. Élevage is about 12 months in French oak (≈50% new) before blending and light filtration. Madiran's clay-limestone and clay-siliceous soils, along with long, dry autumns, contribute to the wine's power, structure, and capacity to age."
+  }
 ] 
