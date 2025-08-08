@@ -105,5 +105,47 @@
       "hearty-foods"
     ],
     "details": "Flagship cuvée from Domaine Berthoumieu, named for Charles de Batz-Castelmore d'Artagnan—born nearby in Gascony. Typically 90% Tannat and 10% Cabernet Sauvignon from 50–100+ year-old vines; grapes are fully destemmed and fermented by variety (often in cement), with controlled micro-oxygenation—a technique pioneered in Madiran—to tame Tannat's formidable tannins. Élevage is about 12 months in French oak (≈50% new) before blending and light filtration. Madiran's clay-limestone and clay-siliceous soils, along with long, dry autumns, contribute to the wine's power, structure, and capacity to age."
+  },
+  {
+    "id": "bow-and-arrow-time-machine-blanc-2024",
+    "name": "Time Machine Blanc",
+    "vintage": 2024,
+    "type": "white",
+    "region": "Willamette Valley",
+    "country": "United States",
+    "winery": "Bow & Arrow",
+    "coordinates": {
+      "lat": 45.3245,
+      "lng": -122.7110
+    },
+    "notes": "Pale straw with green highlights. The nose greets with bright citrus zest, Asian pear, fresh apple, and a flinty minerality. On the palate it is crisp and clean—medium-light-bodied with lively acidity, subtle floral hints, and a saline-tinged finish. Refreshing and elegant, echoing pear and lemon, with a gently chalky texture.",
+    "aromas": [
+      "Asian pear",
+      "lemon zest",
+      "green apple",
+      "white flowers",
+      "flint",
+      "citrus",
+      "mineral",
+      "grass"
+    ],
+    "varietals": [
+      "Chenin Blanc",
+      "Chardonnay",
+      "Melon de Bourgogne"
+    ],
+    "alcohol": 12.0,
+    "body": "medium-light",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "Willamette Valley",
+      "white blend",
+      "low-intervention",
+      "Loire-style",
+      "everyday"
+    ],
+    "details": "2024 release by Bow & Arrow, loosely inspired by Loire Valley whites, blending mostly Chenin Blanc with splashes of Chardonnay and Melon de Bourgogne. Made in Portland, the winery embraces humble, drinkable terroir-driven natural wines. Organic farming, fermented in diverse vessels (steel, egg, old oak), light lees aging, low ABV and bright freshness characterize its style."
   }
 ] 
