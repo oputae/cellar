@@ -7,9 +7,11 @@ A production-ready Next.js application for tracking and exploring wine collectio
 - **Interactive Map**: Leaflet + OpenStreetMap with GeoJSON markers and clustering
 - **Wine Database**: Comprehensive JSON schema with tasting notes and metadata
 - **Static Site Generation**: Fast loading with SSG via `getStaticProps` and `getStaticPaths`
-- **Responsive Design**: Mobile-first design with TailwindCSS
+- **Responsive Design**: Mobile-first design with TailwindCSS and hamburger navigation
 - **Accessibility**: WCAG compliant with proper ARIA labels and keyboard navigation
 - **SEO Optimized**: Meta tags, structured data, and semantic HTML
+- **Collection Management**: Search, filter, and organize wines by type, region, and favorites
+- **Analytics Dashboard**: Comprehensive statistics and insights about your collection
 
 ## Tech Stack
 
@@ -67,30 +69,39 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 }
 ```
 
+### Current Wine Collection
+
+The application currently includes 4 wines from various regions:
+
+1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
+2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
+3. **Bow & Arrow Time Machine Blanc** (2024) - Willamette Valley, Oregon, USA
+4. **Bastide de la Ciselette Vin de Pays du Var Rosé** (2022) - Provence, France
+
 ### Sample JSON Entry
 
 ```json
 {
-  "id": "chateau-margaux-2015",
-  "name": "Château Margaux",
-  "vintage": 2015,
+  "id": "domaine-berthoumieu-charles-de-batz-2017",
+  "name": "Domaine Berthoumieu Charles de Batz",
+  "vintage": 2017,
   "type": "red",
-  "region": "Margaux",
+  "region": "Madiran",
   "country": "France",
-  "winery": "Château Margaux",
+  "winery": "Domaine Berthoumieu",
   "coordinates": {
-    "lat": 45.0433,
-    "lng": -0.6742
+    "lat": 43.549639,
+    "lng": -0.057621
   },
-  "notes": "Exceptional vintage with perfect balance. Deep ruby color with complex aromas of black fruits, tobacco, and cedar. Silky tannins and long finish.",
-  "aromas": ["blackberry", "cassis", "tobacco", "cedar", "vanilla", "violets"],
-  "varietals": ["Cabernet Sauvignon", "Merlot", "Cabernet Franc", "Petit Verdot"],
-  "alcohol": 13.5,
+  "notes": "Opaque purple-ruby with a narrow garnet rim. The nose unfurls dense black fruits (blackberry, cassis, black cherry) woven with violet, licorice, cocoa, cedar and tobacco, plus a graphite/mineral edge. Full-bodied and powerful on the palate; the core is packed with ripe black fruits and dark chocolate, framed by abundant, fine-grained tannins typical of Tannat. Acidity is medium-high, bringing lift to the richness; oak is present but well-integrated, adding spice and toast without dominating. Savory undertones of dried herbs and a cool menthol/eucalyptus note emerge with air. The finish is long, vigorous and drying, with fruit, cocoa and cedar echoing for 30+ seconds. Decant 2–3 hours if drinking now; built for medium to long-term aging.",
+  "aromas": ["blackberry", "cassis", "black cherry", "plum", "violet", "licorice", "cocoa", "tobacco leaf", "cedar", "graphite", "dried thyme", "eucalyptus"],
+  "varietals": ["Tannat", "Cabernet Sauvignon"],
+  "alcohol": 14.5,
   "body": "full",
-  "acidity": "medium",
-  "favorite": true,
+  "acidity": "medium-high",
+  "favorite": false,
   "status": "cellar",
-  "tags": ["bordeaux", "first-growth", "collectible", "special-occasion"]
+  "tags": ["madiran", "southwest-france", "tannat", "old-vines", "oak-aged", "age-worthy", "collectible", "hearty-foods"]
 }
 ```
 
@@ -300,61 +311,28 @@ For questions or issues:
 
 ---
 
-## Example: Placeholder Wines
+## Recent Updates
 
-Here's a minimal set of sample wines you can use. Add this to your `data/wines.json` file:
+### UI/UX Improvements
+- **Mobile Navigation**: Added hamburger menu for mobile devices with smooth transitions
+- **Card Alignment**: Fixed wine card layout with consistent "View Details" button alignment
+- **Collection Stats**: Moved statistics above search bar for better user flow
+- **Responsive Design**: Enhanced mobile experience across all pages
 
-```json
-[
-  {
-    "id": "placeholder-bordeaux",
-    "name": "Placeholder Bordeaux",
-    "vintage": 2020,
-    "type": "red",
-    "region": "Bordeaux",
-    "country": "France",
-    "winery": "Demo Winery",
-    "coordinates": { "lat": 44.8378, "lng": -0.5792 },
-    "notes": "A classic Bordeaux with notes of plum and cedar.",
-    "aromas": ["plum", "cedar"],
-    "varietals": ["Merlot", "Cabernet Sauvignon"],
-    "alcohol": 13.5,
-    "body": "medium",
-    "acidity": "medium",
-    "favorite": false,
-    "status": "consumed",
-    "tags": ["placeholder", "bordeaux"]
-  },
-  {
-    "id": "placeholder-napa",
-    "name": "Placeholder Napa",
-    "vintage": 2018,
-    "type": "red",
-    "region": "Napa Valley",
-    "country": "USA",
-    "winery": "Demo Cellars",
-    "coordinates": { "lat": 38.5025, "lng": -122.2654 },
-    "notes": "Rich and bold with blackberry and vanilla.",
-    "aromas": ["blackberry", "vanilla"],
-    "varietals": ["Cabernet Sauvignon"],
-    "alcohol": 14.2,
-    "body": "full",
-    "acidity": "medium",
-    "favorite": true,
-    "status": "cellar",
-    "tags": ["placeholder", "napa"]
-  }
-]
-```
+### Wine Collection Growth
+- Added comprehensive wine entries with detailed tasting notes
+- Implemented proper image placeholders for all wines
+- Enhanced wine categorization with detailed tags and metadata
 
----
+## Getting Started
 
-## What to do
+The application comes with a curated collection of 4 wines from various regions. To add your own wines:
 
-1. **Copy the above JSON** and replace the contents of your `data/wines.json` file with it.
-2. **Restart your dev server** (`npm run dev`).
-3. **Reload the map page**. You should see two markers: one in France (Bordeaux) and one in California (Napa).
+1. **Use the LLM Prompt Template** (see below) to generate wine entries
+2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`
+3. **Update the wine data** in `/data/wines.json`
+4. **Test the build process** with `npm run build`
 
----
+## LLM Prompt Template
 
-If you still don't see any markers, let me know and we'll troubleshoot further (for example, checking the data loading logic or console errors). If you want me to apply this change for you, just say so! 
+Use this template to generate wine entries with AI assistance: 

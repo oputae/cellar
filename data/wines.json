@@ -1,24 +1,5 @@
 [
   {
-    "id": "placeholder-bordeaux",
-    "name": "Placeholder Bordeaux",
-    "vintage": 2020,
-    "type": "red",
-    "region": "Bordeaux",
-    "country": "France",
-    "winery": "Demo Winery",
-    "coordinates": { "lat": 44.8378, "lng": -0.5792 },
-    "notes": "A classic Bordeaux with notes of plum and cedar.",
-    "aromas": ["plum", "cedar"],
-    "varietals": ["Merlot", "Cabernet Sauvignon"],
-    "alcohol": 13.5,
-    "body": "medium",
-    "acidity": "medium",
-    "favorite": true,
-    "status": "cellar",
-    "tags": ["placeholder", "bordeaux"]
-  },
-  {
     "id": "freja-cellars-pinot-noir-2018",
     "name": "Freja Cellars Pinot Noir",
     "vintage": 2018,
