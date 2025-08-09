@@ -114,14 +114,13 @@ export default function Home({ wines }: HomeProps) {
           {/* Hero Section */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-5xl md:text-6xl font-display font-bold text-white mb-6 leading-tight">
-              Your World of
+              Cellar? More like a
               <span className="block bg-gradient-to-r from-wine-400 to-gold-400 bg-clip-text text-transparent">
-                Fine Wines
+                vibe.
               </span>
             </h2>
             <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
-              Explore your curated collection through an interactive world map, discover tasting notes, 
-              and track your journey through the world&apos;s most prestigious wine regions.
+              Tap the map, roam the world one sip at a time.
             </p>
           </div>
 
