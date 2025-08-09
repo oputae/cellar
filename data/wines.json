@@ -176,5 +176,149 @@
       "short-maceration"
     ],
     "details": "Founded in 2010, Bastide de la Ciselette became the 57th winery in the Bandol appellation; owner Robert DeSalvo and vigneron Romain Bournaud farm ~15 ha, incorporating organic and biodynamic methods. Vineyards lie on pebbly clay with abundant limestone in Bandol's south-facing amphitheater. This cuvée is labeled Vin de Pays du Var (regional indication rather than Bandol AOC). Typically 60% Grenache and 40% Merlot; hand-harvested fruit receives a brief skin maceration, is pressed pneumatically and fermented to dryness in tank, then held ~4 months before bottling to preserve freshness and natural acidity."
+  },
+  {
+    "id": "murgo-etna-rosato-2022",
+    "name": "Murgo Etna Rosato",
+    "vintage": 2022,
+    "type": "rosé",
+    "region": "Etna DOC",
+    "country": "Italy",
+    "winery": "Murgo",
+    "coordinates": {
+      "lat": 37.708900,
+      "lng": 15.114000
+    },
+    "notes": "Pale salmon/onion-skin hue with brilliant clarity. The nose opens on blood orange, white cherry and nectarine, layered with rose petals, lavender and a whisper of cinnamon, smoke and crushed volcanic rock. Medium-light on the palate with high, citrus-charged acidity and a faint phenolic snap from brief skin contact; flavors echo blood orange, wild strawberry and stone fruit over a saline, mineral spine. Texture is sleek and nervy yet mouthwatering; the finish is long, savory and stony with lingering citrus peel, pink pepper and sea-spray notes.",
+    "aromas": [
+      "blood orange",
+      "white cherry",
+      "nectarine",
+      "rose petals",
+      "lavender",
+      "crushed rock",
+      "smoke",
+      "pink grapefruit zest",
+      "wild strawberry",
+      "saline",
+      "pink pepper"
+    ],
+    "varietals": [
+      "Nerello Mascalese"
+    ],
+    "alcohol": 12.5,
+    "body": "medium-light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sicily",
+      "etna",
+      "rosato",
+      "volcanic-soils",
+      "nerello-mascalese",
+      "cold-maceration",
+      "tank-aged",
+      "old-vines",
+      "alberello",
+      "seafood-pairing"
+    ],
+    "details": "From vineyards on Mount Etna's eastern slopes around Zafferana Etnea (dark ash, mineral-rich volcanic soils; elevations up to ~1,000 m) where old, bush-trained alberelli vines are common. 100% Nerello Mascalese; grapes (30–40+ year vines) undergo a short cold maceration (~4 hours) before the free-run juice is drawn off for fermentation in tank. The wine rests about five months in tank and two months in bottle, emphasizing crisp acidity, mineral tension and a savory, smoky complexity characteristic of Etna rosatos."
+  },
+  {
+    "id": "bodegas-ostatu-rioja-rosado-2022",
+    "name": "Bodegas Ostatu Rioja Rosado",
+    "vintage": 2022,
+    "type": "rosé",
+    "region": "Rioja DOCa",
+    "country": "Spain",
+    "winery": "Bodegas Ostatu",
+    "coordinates": {
+      "lat": 42.545000,
+      "lng": -2.650000
+    },
+    "notes": "Deep rosy pink/salmon hue. Expressive aromas of watermelon, ripe raspberry and cherry are laced with rose petal, fennel and a faint earthy spice. The palate is medium in body with a succulent, juicy core of red fruits; high-strung, mouthwatering acidity provides the signature snap and twang, while a subtle phenolic nibble from brief skin contact adds texture. Fermentation in stainless steel keeps it vivid and clean, finishing long on red citrus, mineral and light spice.",
+    "aromas": [
+      "watermelon",
+      "raspberry",
+      "cherry",
+      "strawberry",
+      "rose petal",
+      "fennel",
+      "red citrus",
+      "crushed stone",
+      "white pepper",
+      "herbes de provence",
+      "blood orange zest"
+    ],
+    "varietals": [
+      "Tempranillo",
+      "Garnacha",
+      "Viura"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "rioja",
+      "rioja-alavesa",
+      "rosado",
+      "organic",
+      "native-yeasts",
+      "stainless-steel",
+      "short-maceration",
+      "mountain-vineyards",
+      "seafood-pairing"
+    ],
+    "details": "Intentional rosado from Certified Organic, high-elevation (600+ m) sites in Rioja Alavesa. Blend typically 63% Tempranillo, 35% Garnacha and 2% Viura; a short skin maceration is followed by a long, cool fermentation on native yeasts in stainless steel. The Sáenz de Samaniego family has farmed in Rioja Alavesa since the 16th century; wines under the Ostatu label began in 1970, and the estate was modernized in 2002 with input from Hubert de Boüard of Château Angélus."
+  },
+  {
+    "id": "ernest-eugenia-bruella-ranch-lodi-cinsault-rose-2022",
+    "name": "Ernest Vineyards \"Eugenia\" Bruella Ranch Lodi Cinsault Rosé",
+    "vintage": 2022,
+    "type": "rosé",
+    "region": "Lodi AVA",
+    "country": "United States",
+    "winery": "Ernest Vineyards",
+    "coordinates": {
+      "lat": 38.130000,
+      "lng": -121.272000
+    },
+    "notes": "Dusty rose with a hint of onion-skin/orange at the rim. The nose leads with rosy florals and light spice over cranberry, red cherry and orange peel, joined by black tea, dried herbs and a faint mineral dust. Medium-light on the palate with bright, cutting acidity; flavors of tart red berries and citrus ride over a subtly savory, stony core and a gentle phenolic nip from brief skin contact. Stainless-steel precision keeps it crisp and clean. The finish is long and mouthwatering, echoing cranberry, tea and wet stone with a saline snap.",
+    "aromas": [
+      "rose petal",
+      "cranberry",
+      "red cherry",
+      "orange peel",
+      "black tea",
+      "white pepper",
+      "dried herbs",
+      "wet stone",
+      "strawberry",
+      "saline"
+    ],
+    "varietals": [
+      "Cinsault"
+    ],
+    "alcohol": 12.8,
+    "body": "medium-light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "lodi",
+      "cinsault",
+      "rosé",
+      "stainless-steel",
+      "short-maceration",
+      "high-acidity",
+      "food-versatile",
+      "central-valley",
+      "sandy-clay",
+      "small-production"
+    ],
+    "details": "Produced under Ernest's \"Eugenia\" label devoted to rosé and exploratory projects. Sourced from Bruella Ranch east of Lodi, where Cinsault—naturally heat- and drought-tolerant—thrives in sandy-clay soils with some Pacific influence. After a brief skin maceration, the free-run juice ferments cool in stainless steel to preserve freshness and the variety's naturally high acidity. The 2022 release totaled approximately 675 cases, delivering a crisp, mineral, and food-flexible style."
   }
 ] 
