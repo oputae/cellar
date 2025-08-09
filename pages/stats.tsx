@@ -234,18 +234,22 @@ export default function StatsPage() {
                 <h3 className="text-2xl font-display font-semibold text-white">Top Countries</h3>
               </div>
               <div className="space-y-3">
-                {countries.slice(0, 5).map((country, index) => {
-                  const countryCount = wines.filter(w => w.country === country).length;
-                  return (
+                {countries
+                  .map(country => ({
+                    country,
+                    count: wines.filter(w => w.country === country).length
+                  }))
+                  .sort((a, b) => b.count - a.count)
+                  .slice(0, 5)
+                  .map(({ country, count }, index) => (
                     <div key={country} className="flex items-center justify-between p-3 bg-white/5 rounded-lg">
                       <div className="flex items-center gap-3">
                         <span className="text-white/60 text-sm font-medium">#{index + 1}</span>
                         <span className="text-white font-medium">{country}</span>
                       </div>
-                      <span className="text-white font-semibold">{countryCount}</span>
+                      <span className="text-white font-semibold">{count}</span>
                     </div>
-                  );
-                })}
+                  ))}
               </div>
             </div>
           </div>
