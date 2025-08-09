@@ -161,7 +161,7 @@
     "alcohol": 12.5,
     "body": "medium-light",
     "acidity": "medium-high",
-    "favorite": false,
+    "favorite": true,
     "status": "cellar",
     "tags": [
       "provence",

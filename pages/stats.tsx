@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
-import { getAllWines, getUniqueCountries, getUniqueRegions, getWineTypes } from '@/utils/wine';
+import { getAllWines, getUniqueCountries, getWineTypes } from '@/utils/wine';
 import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, GlobeAltIcon, ChartBarIcon, CalendarIcon, TagIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function StatsPage() {
@@ -10,7 +10,7 @@ export default function StatsPage() {
   const totalWines = wines.length;
   const favorites = wines.filter(w => w.favorite).length;
   const countries = getUniqueCountries();
-  const regions = getUniqueRegions();
+
   const types = getWineTypes();
   const typeCounts = types.map(type => ({ type, count: wines.filter(w => w.type === type).length }));
   const vintages = wines.map(w => w.vintage).filter(Boolean);
@@ -113,7 +113,7 @@ export default function StatsPage() {
           </div>
 
           {/* Key Metrics */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             <div className="bg-gradient-to-br from-wine-600/20 to-wine-800/20 backdrop-blur-sm rounded-2xl border border-wine-500/20 p-6 shadow-elegant animate-float">
               <div className="flex items-center">
                 <div className="h-12 w-12 bg-gradient-to-br from-wine-500 to-wine-600 rounded-xl flex items-center justify-center shadow-elegant">
@@ -150,17 +150,7 @@ export default function StatsPage() {
               </div>
             </div>
             
-            <div className="bg-gradient-to-br from-blue-600/20 to-blue-800/20 backdrop-blur-sm rounded-2xl border border-blue-500/20 p-6 shadow-elegant animate-float" style={{ animationDelay: '1.5s' }}>
-              <div className="flex items-center">
-                <div className="h-12 w-12 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center shadow-elegant">
-                  <MapPinIcon className="h-6 w-6 text-white" />
-                </div>
-                <div className="ml-4">
-                  <p className="text-sm font-medium text-white/60">Regions</p>
-                  <p className="text-3xl font-display font-bold text-white">{regions.length}</p>
-                </div>
-              </div>
-            </div>
+
           </div>
 
           {/* Detailed Analytics */}
@@ -235,24 +225,24 @@ export default function StatsPage() {
               </div>
             </div>
 
-            {/* Top Regions */}
+            {/* Top Countries */}
             <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-8 shadow-elegant animate-scale-in">
               <div className="flex items-center gap-3 mb-6">
                 <div className="h-8 w-8 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <MapPinIcon className="h-4 w-4 text-white" />
+                  <GlobeAltIcon className="h-4 w-4 text-white" />
                 </div>
-                <h3 className="text-2xl font-display font-semibold text-white">Top Regions</h3>
+                <h3 className="text-2xl font-display font-semibold text-white">Top Countries</h3>
               </div>
               <div className="space-y-3">
-                {regions.slice(0, 5).map((region, index) => {
-                  const regionCount = wines.filter(w => w.region === region).length;
+                {countries.slice(0, 5).map((country, index) => {
+                  const countryCount = wines.filter(w => w.country === country).length;
                   return (
-                    <div key={region} className="flex items-center justify-between p-3 bg-white/5 rounded-lg">
+                    <div key={country} className="flex items-center justify-between p-3 bg-white/5 rounded-lg">
                       <div className="flex items-center gap-3">
                         <span className="text-white/60 text-sm font-medium">#{index + 1}</span>
-                        <span className="text-white font-medium">{region}</span>
+                        <span className="text-white font-medium">{country}</span>
                       </div>
-                      <span className="text-white font-semibold">{regionCount}</span>
+                      <span className="text-white font-semibold">{countryCount}</span>
                     </div>
                   );
                 })}
