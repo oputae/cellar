@@ -147,5 +147,53 @@
       "everyday"
     ],
     "details": "2024 release by Bow & Arrow, loosely inspired by Loire Valley whites, blending mostly Chenin Blanc with splashes of Chardonnay and Melon de Bourgogne. Made in Portland, the winery embraces humble, drinkable terroir-driven natural wines. Organic farming, fermented in diverse vessels (steel, egg, old oak), light lees aging, low ABV and bright freshness characterize its style."
+  },
+  {
+    "id": "bastide-de-la-ciselette-vin-de-pays-du-var-rose-2022",
+    "name": "Bastide de la Ciselette Vin de Pays du Var Rosé",
+    "vintage": 2022,
+    "type": "rosé",
+    "region": "Vin de Pays du Var",
+    "country": "France",
+    "winery": "Bastide de la Ciselette",
+    "coordinates": {
+      "lat": 43.470000,
+      "lng": 6.230000
+    },
+    "notes": "Pale salmon with copper glints. Aromas open on wild raspberry, blood orange and ruby grapefruit layered with rosewater, white pepper and a faint sea-spray salinity. The palate is medium-light and brisk, showing vivid citrus and red berry fruit with a gently phenolic, lightly chalky texture from a short skin maceration; high natural acidity keeps it taut and refreshing. Savory notes of sage, rosemary and pink peppercorn add complexity. Dry, clean, and persistent, finishing long on citrus peel, mineral and pepper spice.",
+    "aromas": [
+      "wild raspberry",
+      "blood orange",
+      "ruby grapefruit",
+      "rosewater",
+      "white pepper",
+      "sea spray",
+      "sage",
+      "rosemary",
+      "pink peppercorn",
+      "red currant"
+    ],
+    "varietals": [
+      "Grenache",
+      "Merlot"
+    ],
+    "alcohol": 12.5,
+    "body": "medium-light",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "provence",
+      "vin-de-pays-du-var",
+      "rose",
+      "bandol-area",
+      "organic",
+      "biodynamic",
+      "summer",
+      "seafood-pairing",
+      "pneumatic-press",
+      "short-maceration"
+    ],
+    "details": "Founded in 2010, Bastide de la Ciselette became the 57th winery in the Bandol appellation; owner Robert DeSalvo and vigneron Romain Bournaud farm ~15 ha, incorporating organic and biodynamic methods. Vineyards lie on pebbly clay with abundant limestone in Bandol's south-facing amphitheater. This cuvée is labeled Vin de Pays du Var (regional indication rather than Bandol AOC). Typically 60% Grenache and 40% Merlot; hand-harvested fruit receives a brief skin maceration, is pressed pneumatically and fermented to dryness in tank, then held ~4 months before bottling to preserve freshness and natural acidity."
   }
 ] 

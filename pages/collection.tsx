@@ -251,7 +251,7 @@ export default function CollectionPage() {
               {filteredWines.map((wine, index) => (
                 <div 
                   key={wine.id} 
-                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-105 animate-slide-up"
+                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-105 animate-slide-up flex flex-col h-full"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -281,12 +281,14 @@ export default function CollectionPage() {
                   </div>
                   
                   {wine.notes && (
-                    <p className="text-white/80 text-sm leading-relaxed mb-4 line-clamp-3">
-                      {wine.notes}
-                    </p>
+                    <div className="flex-1 mb-4">
+                      <p className="text-white/80 text-sm leading-relaxed line-clamp-3">
+                        {wine.notes}
+                      </p>
+                    </div>
                   )}
                   
-                  <div className="flex items-center justify-between pt-4 border-t border-white/10">
+                  <div className="flex items-center justify-between pt-4 border-t border-white/10 mt-auto">
                     <div className="flex items-center gap-4 text-sm text-white/60">
                       {wine.winery && (
                         <span className="flex items-center gap-1">
