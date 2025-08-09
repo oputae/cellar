@@ -26,14 +26,14 @@ export default function Home({ wines }: HomeProps) {
   return (
     <>
       <Head>
-        <title>Cellar17 - Premium Wine Collection</title>
+        <title>Cellar17 - Cellar at 17</title>
         <meta name="description" content="Discover and explore your curated wine collection with our sophisticated mapping and tasting platform." />
         <meta name="keywords" content="wine, cellar, collection, tasting notes, premium wines, sommelier" />
-        <meta property="og:title" content="Cellar17 - Premium Wine Collection" />
+        <meta property="og:title" content="Cellar17 - Cellar at 17" />
         <meta property="og:description" content="Discover and explore your curated wine collection with our sophisticated mapping and tasting platform." />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Cellar17 - Premium Wine Collection" />
+        <meta name="twitter:title" content="Cellar17 - Cellar at 17" />
         <meta name="twitter:description" content="Discover and explore your curated wine collection with our sophisticated mapping and tasting platform." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
