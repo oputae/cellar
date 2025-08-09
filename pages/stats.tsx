@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
 import { getAllWines, getUniqueCountries, getWineTypes } from '@/utils/wine';
-import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, GlobeAltIcon, ChartBarIcon, CalendarIcon, TagIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, BeakerIcon, StarIcon, GlobeAltIcon, ChartBarIcon, CalendarIcon, TagIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function StatsPage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

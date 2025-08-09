@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { getAllWines, filterWines } from '@/utils/wine';
 import { WineType } from '@/types/wine';
-import { ArrowLeftIcon, BeakerIcon, MapPinIcon, StarIcon, MagnifyingGlassIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, BeakerIcon, StarIcon, MagnifyingGlassIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 
 export default function CollectionPage() {
   const allWines = getAllWines();
