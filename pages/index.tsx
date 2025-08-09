@@ -114,12 +114,9 @@ export default function Home({ wines }: HomeProps) {
           {/* Hero Section */}
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-5xl md:text-6xl font-display font-bold text-white mb-6 leading-tight">
-              Cellar? More like a
-              <span className="block bg-gradient-to-r from-wine-400 to-gold-400 bg-clip-text text-transparent">
-                vibe.
-              </span>
+              Cellar? More like a vibe.
             </h2>
-            <p className="text-xl text-white/80 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-2xl text-white/80 max-w-3xl mx-auto leading-relaxed">
               Tap the map, roam the world one sip at a time.
             </p>
           </div>
