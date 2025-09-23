@@ -320,5 +320,349 @@
       "small-production"
     ],
     "details": "Produced under Ernest's \"Eugenia\" label devoted to rosé and exploratory projects. Sourced from Bruella Ranch east of Lodi, where Cinsault—naturally heat- and drought-tolerant—thrives in sandy-clay soils with some Pacific influence. After a brief skin maceration, the free-run juice ferments cool in stainless steel to preserve freshness and the variety's naturally high acidity. The 2022 release totaled approximately 675 cases, delivering a crisp, mineral, and food-flexible style."
+  },
+  {
+    "id": "chateau-aney-haut-medoc-cru-bourgeois-2015",
+    "name": "Château Aney Haut-Médoc Cru Bourgeois",
+    "vintage": 2015,
+    "type": "red",
+    "region": "Haut-Médoc",
+    "country": "France",
+    "winery": "Château Aney",
+    "coordinates": {
+      "lat": 45.160000,
+      "lng": -0.733000
+    },
+    "notes": "Deep ruby with a garnet rim. Classic left-bank bouquet of cassis, blackberry and blackcurrant leaf layered with cedar, graphite, tobacco and pencil shavings. Medium-full on the palate with firm, fine Cabernet tannins, a gravelly mineral line and balanced, medium acidity; Merlot adds plummy flesh while Cab Franc/Petit Verdot bring spice and lift. Long, poised finish echoing cassis, cedar and graphite with a savory, dry close; elegant rather than massive, showing the vintage's ripeness with refined structure.",
+    "aromas": [
+      "cassis",
+      "blackberry",
+      "blackcurrant leaf",
+      "cedar",
+      "graphite",
+      "tobacco",
+      "pencil shavings",
+      "violet",
+      "cocoa",
+      "dried herbs"
+    ],
+    "varietals": [
+      "Cabernet Sauvignon",
+      "Merlot",
+      "Cabernet Franc",
+      "Petit Verdot"
+    ],
+    "alcohol": 13.5,
+    "body": "medium-full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "bordeaux",
+      "left-bank",
+      "cru-bourgeois",
+      "gravel-soils",
+      "oak-aged",
+      "age-worthy",
+      "classic-style"
+    ],
+    "details": "Estate in Cussac-Fort-Médoc between Saint-Julien and Margaux. Final blend mirrors plantings: ~65% Cabernet Sauvignon, 25% Merlot, 7% Cabernet Franc, 3% Petit Verdot. Fermented in a mix of concrete and stainless, aged ~1 year in barrels (≈30% new) and ~1 year in stainless pre-bottling. Built in 1850 by the Aney family; revived by the Raimond family after 1972, regaining Cru Bourgeois status."
+  },
+  {
+    "id": "chateau-de-landiras-graves-rouge-2018",
+    "name": "Château de Landiras Graves Rouge",
+    "vintage": 2018,
+    "type": "red",
+    "region": "Graves",
+    "country": "France",
+    "winery": "Château de Landiras",
+    "coordinates": {
+      "lat": 44.555000,
+      "lng": -0.408000
+    },
+    "notes": "Crimson-ruby core. Aromas of blackcurrant, black plum and blackberry framed by graphite, cedar, warm spice and a gentle cocoa/tobacco note. Medium body with supple Merlot mid-palate and Cabernet spine; tannins are polished yet persistent, acidity medium-plus for lift. Finishes savory and long on cassis, graphite and cacao with a faint gravelly mineral echo.",
+    "aromas": [
+      "blackcurrant",
+      "black plum",
+      "blackberry",
+      "graphite",
+      "cedar",
+      "tobacco",
+      "cacao",
+      "warm spice",
+      "violet"
+    ],
+    "varietals": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "bordeaux",
+      "graves",
+      "stainless-and-concrete",
+      "french-oak",
+      "balanced",
+      "drink-or-hold"
+    ],
+    "details": "From the Left Bank's Graves AOC, known for sandy, gravelly clay over deep gravels. Blend ~65% Merlot, 35% Cabernet Sauvignon; fermented in temperature-controlled concrete tanks using only ambient yeasts. Aged ~12 months in French oak barriques (≈10% new). Historic château set in the heart of Graves; current ownership has introduced organic practices."
+  },
+  {
+    "id": "chateau-lamoliere-fronsac-2019",
+    "name": "Château Lamoliere Fronsac",
+    "vintage": 2019,
+    "type": "red",
+    "region": "Fronsac",
+    "country": "France",
+    "winery": "Château Lamoliere",
+    "coordinates": {
+      "lat": 44.932000,
+      "lng": -0.317000
+    },
+    "notes": "Opaque ruby-purple. Plummy Merlot fruit and black cherry with damp violets, graphite, warm spice and a hint of green bell pepper from Cab Franc. Medium-full with a ripe, fleshy core, fine-grained tannins and lively, medium-plus acidity; oak is well-judged, adding subtle toast and sweetness. Long finish of dark plum, violets and spice over a limestone-chalky snap.",
+    "aromas": [
+      "plum",
+      "black cherry",
+      "violet",
+      "graphite",
+      "warm spice",
+      "cedar",
+      "green bell pepper",
+      "licorice",
+      "crushed stone"
+    ],
+    "varietals": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "alcohol": 14.0,
+    "body": "medium-full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "right-bank",
+      "limestone",
+      "french-oak",
+      "merlot-dominant",
+      "age-worthy",
+      "value-fronsac"
+    ],
+    "details": "From rolling hills north of the Dordogne with abundant limestone and clay; vines average ~40 years. Blend ~86% Merlot and 14% Cabernet Franc. Fermented in tank, then transferred to used French oak barrels for ~12 months. Estate linked to Patrick Léon (ex-Mouton Rothschild/Almaviva/Opus One); part of Château Les Trois Croix."
+  },
+  {
+    "id": "chateau-la-vaisinerie-puisseguin-saint-emilion-2019",
+    "name": "Château La Vaisinerie Puisseguin Saint-Émilion",
+    "vintage": 2019,
+    "type": "red",
+    "region": "Puisseguin Saint-Émilion",
+    "country": "France",
+    "winery": "Château La Vaisinerie",
+    "coordinates": {
+      "lat": 44.938500,
+      "lng": -0.112000
+    },
+    "notes": "Deep garnet-red. Aromas of red and black fruits—cranberry, cherry, damson plum and blackberry—woven with tobacco, dried herbs, licorice and crushed stone. Medium-full body with fine, grainy tannins and bright, medium-plus acidity; fruit purity balanced by savory earth and spice. Persistent finish that stays lifted and mineral alongside ripe Merlot flesh.",
+    "aromas": [
+      "cranberry",
+      "cherry",
+      "damson plum",
+      "blackberry",
+      "tobacco",
+      "dried herbs",
+      "licorice",
+      "crushed stone",
+      "cocoa"
+    ],
+    "varietals": [
+      "Merlot",
+      "Cabernet Franc"
+    ],
+    "alcohol": 14.0,
+    "body": "medium-full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "saint-emilion-satellite",
+      "clay-limestone",
+      "part-oak-aged",
+      "right-bank",
+      "organic-conversion",
+      "food-friendly"
+    ],
+    "details": "Small 17th-century estate (≈25 ha; 13 ha under vine) acquired in 2019 by négociant Alain Moses (Twins). Soils are classic clay/limestone; blend ~90% Merlot, 10% Cabernet Franc. Careful sorting and gentle vinification in concrete; ~50% aged 12–14 months in French barriques (≈1/3 new), remainder in tank. Puisseguin is among Saint-Émilion's stricter satellite AOCs."
+  },
+  {
+    "id": "angelo-negro-langhe-nebbiolo-angelin-2022",
+    "name": "Angelo Negro Langhe Nebbiolo \"Angelin\"",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Langhe",
+    "country": "Italy",
+    "winery": "Angelo Negro",
+    "coordinates": {
+      "lat": 44.700000,
+      "lng": 8.040000
+    },
+    "notes": "Bright ruby-red. Perfumed nose of rose petal, violet and fresh red berries (raspberry, cherry) with orange peel and a faint anise/earth note. Medium body with a crunchy, youthful bite; tannins are present and chalky yet fine, acidity high and mouth-watering. Finishes long and lifted on red cherry, floral tones and mineral dust; nimble and energetic.",
+    "aromas": [
+      "rose petal",
+      "violet",
+      "red cherry",
+      "raspberry",
+      "strawberry",
+      "orange peel",
+      "anise",
+      "earth",
+      "crushed stone"
+    ],
+    "varietals": [
+      "Nebbiolo"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "piemonte",
+      "langhe-nebbiolo",
+      "floral",
+      "high-acidity",
+      "cask-aged",
+      "hand-harvested"
+    ],
+    "details": "Sourced from holdings across Langhe and Roero; family grows grapes since the 1600s. Hand-picked Nebbiolo macerated in steel for ~15–18 days, then matured ~12 months in cask. Style emphasizes purity, florals and crunchy red fruit with firm, fine tannins."
+  },
+  {
+    "id": "renzo-castella-langhe-nebbiolo-2022",
+    "name": "Renzo Castella Langhe Nebbiolo",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Langhe",
+    "country": "Italy",
+    "winery": "Renzo Castella",
+    "coordinates": {
+      "lat": 44.625000,
+      "lng": 8.016000
+    },
+    "notes": "Transparent ruby. Aromas of dark cherry and redcurrant with rose, violet, white pepper and subtle savory herbs over a stony undertone. Medium body with well-defined, firm tannins and a resonant line of high acidity; purity of cherry fruit carries through. Long, mineral finish with echoes of rose and pepper; structure reminiscent of Barolo in a more approachable frame.",
+    "aromas": [
+      "dark cherry",
+      "redcurrant",
+      "rose",
+      "violet",
+      "white pepper",
+      "savory herbs",
+      "tar",
+      "crushed stone",
+      "orange zest"
+    ],
+    "varietals": [
+      "Nebbiolo"
+    ],
+    "alcohol": 14.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "piemonte",
+      "langhe",
+      "neutral-oak",
+      "malolactic-in-steel",
+      "structured",
+      "value"
+    ],
+    "details": "Fruit from a herbicide- and pesticide-free vineyard near the Diano d'Alba/Serralunga border (Barolo area limestone influence). Destemmed, fermented in large neutral oak 'tini' ~1 week on skins; racked to stainless for malolactic and ~8 months' aging. Family farm founded in the early 1900s; Renzo transitioned to estate bottling."
+  },
+  {
+    "id": "de-forville-nebbiolo-dalba-san-rocco-2021",
+    "name": "De Forville Nebbiolo d'Alba \"San Rocco\"",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Nebbiolo d'Alba",
+    "country": "Italy",
+    "winery": "De Forville",
+    "coordinates": {
+      "lat": 44.660000,
+      "lng": 8.085000
+    },
+    "notes": "Ruby-garnet. Somber dark-fruit profile—black cherry, plum and blackberry—lifted by rose, violet and subtle balsamic/tea notes. Medium body with firm, pithy tannins shaped by an extended skin fermentation; acidity bright and refreshing. Persistent, savory finish with mineral drive and refined grip; approachable yet serious.",
+    "aromas": [
+      "black cherry",
+      "plum",
+      "blackberry",
+      "rose",
+      "violet",
+      "black tea",
+      "balsamic",
+      "licorice",
+      "minerals"
+    ],
+    "varietals": [
+      "Nebbiolo"
+    ],
+    "alcohol": 14.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "piemonte",
+      "nebbiolo-dalba",
+      "extended-maceration",
+      "large-oak",
+      "balanced",
+      "great-value"
+    ],
+    "details": "From San Rocco d'Elvio near Alba. Hand-harvested; fermented on skins in stainless up to four weeks to tame/shape tannins; then racked to large 50-hl oak barrels for ~1 year before bottling. De Forville-Anfosso family farms ~11 ha across Barbaresco/Neive with a 150-year history."
+  },
+  {
+    "id": "tiziano-mazzoni-colline-novaresi-nebbiolo-del-monteregio-2021",
+    "name": "Tiziano Mazzoni Colline Novaresi Nebbiolo \"del Monteregio\"",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Colline Novaresi",
+    "country": "Italy",
+    "winery": "Tiziano Mazzoni",
+    "coordinates": {
+      "lat": 45.610000,
+      "lng": 8.420000
+    },
+    "notes": "Luminous garnet-red with pink/orange reflections. Perfumed nose of bing cherry, crushed red raspberry and rose petal over citrus peel, leather, subtle spice and mineral. Medium body with fine-grained, gently assertive tannins and fresh, high acidity; sleek and precise. Smooth, savory finish that lingers on red fruit, rose and a hint of pepper and leather.",
+    "aromas": [
+      "bing cherry",
+      "red raspberry",
+      "rose petal",
+      "citrus peel",
+      "leather",
+      "white pepper",
+      "anise",
+      "earth",
+      "mineral"
+    ],
+    "varietals": [
+      "Nebbiolo"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "alto-piemonte",
+      "ghemme-area",
+      "indigenous-yeasts",
+      "used-tonneaux",
+      "unfined-unfiltered",
+      "elegant"
+    ],
+    "details": "From Cavaglio d'Agogna in the hills east of Ghemme (Alto Piemonte). Hand-harvested, destemmed; fermented with indigenous yeasts in stainless with ~10-day maceration; aged ~1 year in used 500-L French oak tonneaux. Bottled unfined and unfiltered; farming follows organic principles."
   }
 ] 
