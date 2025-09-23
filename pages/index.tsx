@@ -165,10 +165,10 @@ export default function Home({ wines }: HomeProps) {
                     </div>
                     <Link
                       href={`/${selectedWine.id}`}
-                      className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-wine-600 to-wine-700 text-white text-sm font-medium rounded-lg hover:from-wine-700 hover:to-wine-800 transition-all duration-200 shadow-elegant"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-wine-600/30 to-wine-700/30 text-wine-200 text-sm font-medium rounded-md hover:from-wine-600/40 hover:to-wine-700/40 hover:text-white transition-all duration-200 border border-wine-500/40 hover:border-wine-400/60"
                     >
                       View Details
-                      <svg className="ml-2 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </Link>

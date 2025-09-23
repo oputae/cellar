@@ -63,6 +63,14 @@
     animation: slideUp 0.3s ease-out;
   }
   
+  /* Line clamp utilities */
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
   /* Wine type color utilities */
   .wine-red {
     @apply text-red-600 bg-red-50 border-red-200;

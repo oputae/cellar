@@ -114,25 +114,25 @@ export default function CollectionPage() {
 
           {/* Collection Stats */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="bg-gradient-to-br from-wine-600/20 to-wine-800/20 backdrop-blur-sm rounded-2xl border border-wine-500/20 p-6 shadow-elegant">
+            <div className="bg-gradient-to-br from-wine-600/20 to-wine-800/20 backdrop-blur-sm rounded-2xl border border-wine-500/30 p-5 shadow-elegant">
               <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-wine-500 to-wine-600 rounded-lg flex items-center justify-center">
-                  <BeakerIcon className="h-5 w-5 text-white" />
+                <div className="h-12 w-12 bg-gradient-to-br from-wine-500 to-wine-600 rounded-xl flex items-center justify-center shadow-elegant">
+                  <BeakerIcon className="h-6 w-6 text-white" />
                 </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Total Wines</p>
+                <div className="ml-4">
+                  <p className="text-sm font-medium text-white/70">Total Wines</p>
                   <p className="text-2xl font-display font-bold text-white">{allWines.length}</p>
                 </div>
               </div>
             </div>
             
-            <div className="bg-gradient-to-br from-gold-600/20 to-gold-800/20 backdrop-blur-sm rounded-2xl border border-gold-500/20 p-6 shadow-elegant">
+            <div className="bg-gradient-to-br from-gold-600/20 to-gold-800/20 backdrop-blur-sm rounded-2xl border border-gold-500/30 p-5 shadow-elegant">
               <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-gold-500 to-gold-600 rounded-lg flex items-center justify-center">
-                  <StarIcon className="h-5 w-5 text-white" />
+                <div className="h-12 w-12 bg-gradient-to-br from-gold-500 to-gold-600 rounded-xl flex items-center justify-center shadow-elegant">
+                  <StarIcon className="h-6 w-6 text-white" />
                 </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Favorites</p>
+                <div className="ml-4">
+                  <p className="text-sm font-medium text-white/70">Favorites</p>
                   <p className="text-2xl font-display font-bold text-white">
                     {allWines.filter(w => w.favorite).length}
                   </p>
@@ -140,15 +140,13 @@ export default function CollectionPage() {
               </div>
             </div>
             
-
-            
-            <div className="bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-sm rounded-2xl border border-purple-500/20 p-6 shadow-elegant">
+            <div className="bg-gradient-to-br from-purple-600/20 to-purple-800/20 backdrop-blur-sm rounded-2xl border border-purple-500/30 p-5 shadow-elegant">
               <div className="flex items-center">
-                <div className="h-10 w-10 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">🌍</span>
+                <div className="h-12 w-12 bg-gradient-to-br from-purple-500 to-purple-600 rounded-xl flex items-center justify-center shadow-elegant">
+                  <span className="text-white font-bold text-lg">🌍</span>
                 </div>
-                <div className="ml-3">
-                  <p className="text-sm font-medium text-white/60">Countries</p>
+                <div className="ml-4">
+                  <p className="text-sm font-medium text-white/70">Countries</p>
                   <p className="text-2xl font-display font-bold text-white">
                     {new Set(allWines.map(w => w.country).filter(Boolean)).size}
                   </p>
@@ -158,7 +156,7 @@ export default function CollectionPage() {
           </div>
 
           {/* Search and Filters */}
-          <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 mb-8 shadow-elegant">
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 mb-8 shadow-elegant">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               {/* Search Box */}
               <div className="md:col-span-2">
@@ -169,7 +167,7 @@ export default function CollectionPage() {
                     placeholder="Search wines, aromas, varietals, notes..."
                     value={searchKeyword}
                     onChange={(e) => setSearchKeyword(e.target.value)}
-                    className="w-full pl-10 pr-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-wine-500/50 focus:border-wine-500/50 transition-all duration-200"
+                    className="w-full pl-10 pr-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-wine-500/50 focus:border-wine-500/50 transition-all duration-200"
                   />
                 </div>
               </div>
@@ -179,7 +177,7 @@ export default function CollectionPage() {
                 <select
                   value={selectedType}
                   onChange={(e) => setSelectedType(e.target.value as WineType | '')}
-                  className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl text-white focus:outline-none focus:ring-2 focus:ring-wine-500/50 focus:border-wine-500/50 transition-all duration-200"
+                  className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-wine-500/50 focus:border-wine-500/50 transition-all duration-200"
                 >
                   <option value="">All Types</option>
                   <option value="red">Red</option>
@@ -195,7 +193,7 @@ export default function CollectionPage() {
               <div>
                 <button
                   onClick={() => setShowFavoritesOnly(!showFavoritesOnly)}
-                  className={`w-full px-4 py-3 rounded-xl border transition-all duration-200 flex items-center justify-center gap-2 ${
+                  className={`w-full px-4 py-2.5 rounded-lg border transition-all duration-200 flex items-center justify-center gap-2 ${
                     showFavoritesOnly
                       ? 'bg-gold-600/20 border-gold-500/50 text-gold-300'
                       : 'bg-white/10 border-white/20 text-white/70 hover:bg-white/15'
@@ -239,7 +237,7 @@ export default function CollectionPage() {
               {filteredWines.map((wine, index) => (
                 <div 
                   key={wine.id} 
-                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-6 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-105 animate-slide-up flex flex-col h-full"
+                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-[1.02] animate-slide-up flex flex-col h-full"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -250,11 +248,11 @@ export default function CollectionPage() {
                       >
                         {wine.name}
                       </Link>
-                      <p className="text-white/70 text-lg mb-3">
+                      <p className="text-white/80 text-lg mb-2 font-medium">
                         {wine.vintage} • {wine.region}
                       </p>
                       {wine.country && (
-                        <p className="text-white/60 text-sm mb-3">{wine.country}</p>
+                        <p className="text-white/70 text-sm mb-3">{wine.country}</p>
                       )}
                     </div>
                     {wine.favorite && (
@@ -270,27 +268,27 @@ export default function CollectionPage() {
                   
                   {wine.notes && (
                     <div className="flex-1 mb-4">
-                      <p className="text-white/80 text-sm leading-relaxed line-clamp-3">
+                      <p className="text-white/85 text-sm leading-relaxed line-clamp-3">
                         {wine.notes}
                       </p>
                     </div>
                   )}
                   
                   <div className="flex items-center justify-between pt-4 border-t border-white/10 mt-auto">
-                    <div className="flex items-center gap-4 text-sm text-white/60">
+                    <div className="flex items-center gap-3 text-sm text-white/70">
                       {wine.winery && (
-                        <span className="flex items-center gap-1">
-                          <BeakerIcon className="h-4 w-4" />
-                          {wine.winery}
+                        <span className="flex items-center gap-1.5">
+                          <BeakerIcon className="h-4 w-4 text-wine-400" />
+                          <span className="font-medium">{wine.winery}</span>
                         </span>
                       )}
                     </div>
                     <Link
                       href={`/${wine.id}`}
-                      className="inline-flex items-center px-3 py-2 bg-gradient-to-r from-wine-600/20 to-wine-700/20 text-wine-300 text-sm font-medium rounded-lg hover:from-wine-600/30 hover:to-wine-700/30 transition-all duration-200 border border-wine-500/30"
+                      className="inline-flex items-center gap-1.5 px-4 py-1.5 bg-gradient-to-r from-wine-600/30 to-wine-700/30 text-wine-200 text-sm font-medium rounded-md hover:from-wine-600/40 hover:to-wine-700/40 hover:text-white transition-all duration-200 border border-wine-500/40 hover:border-wine-400/60"
                     >
                       View Details
-                      <svg className="ml-1 h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <svg className="h-3.5 w-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
                     </Link>
