@@ -71,6 +71,18 @@
     overflow: hidden;
   }
   
+  /* Grid utilities for uniform card heights */
+  .wine-grid {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(0, 1fr));
+  }
+  
+  .wine-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
   /* Wine type color utilities */
   .wine-red {
     @apply text-red-600 bg-red-50 border-red-200;

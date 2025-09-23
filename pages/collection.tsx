@@ -233,11 +233,11 @@ export default function CollectionPage() {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 wine-grid">
               {filteredWines.map((wine, index) => (
                 <div 
                   key={wine.id} 
-                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-[1.02] animate-slide-up flex flex-col h-full"
+                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-[1.02] animate-slide-up wine-card"
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -266,13 +266,15 @@ export default function CollectionPage() {
                     </span>
                   </div>
                   
-                  {wine.notes && (
-                    <div className="flex-1 mb-4">
+                  <div className="flex-1 mb-4 min-h-[4.5rem]">
+                    {wine.notes ? (
                       <p className="text-white/85 text-sm leading-relaxed line-clamp-3">
                         {wine.notes}
                       </p>
-                    </div>
-                  )}
+                    ) : (
+                      <div className="h-[4.5rem]"></div>
+                    )}
+                  </div>
                   
                   <div className="flex items-center justify-between pt-4 border-t border-white/10 mt-auto">
                     <div className="flex items-center gap-3 text-sm text-white/70">
