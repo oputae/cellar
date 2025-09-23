@@ -266,13 +266,11 @@ export default function CollectionPage() {
                     </span>
                   </div>
                   
-                  <div className="flex-1 mb-4 min-h-[4.5rem]">
-                    {wine.notes ? (
+                  <div className="flex-1 mb-4">
+                    {wine.notes && (
                       <p className="text-white/85 text-sm leading-relaxed line-clamp-3">
                         {wine.notes}
                       </p>
-                    ) : (
-                      <div className="h-[4.5rem]"></div>
                     )}
                   </div>
                   
