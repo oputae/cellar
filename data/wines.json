@@ -664,5 +664,171 @@
       "elegant"
     ],
     "details": "From Cavaglio d'Agogna in the hills east of Ghemme (Alto Piemonte). Hand-harvested, destemmed; fermented with indigenous yeasts in stainless with ~10-day maceration; aged ~1 year in used 500-L French oak tonneaux. Bottled unfined and unfiltered; farming follows organic principles."
+  },
+  {
+    "id": "copper-six-alisos-canyon-gamay-2023",
+    "name": "Copper Six Alisos Canyon Gamay",
+    "vintage": 2023,
+    "type": "red",
+    "region": "Alisos Canyon AVA",
+    "country": "United States",
+    "winery": "Copper Six Winery",
+    "coordinates": {
+      "lat": 34.746500,
+      "lng": -120.220000
+    },
+    "notes": "Vibrant ruby with violet flashes. Aromas leap from the glass—mountain raspberry, rosehip and black cherry—over crushed granite, chai spice and a twist of white pepper. The palate is lively and medium-bodied with bright, mouth-watering acidity; juicy red fruits are framed by fine, chalk-edged tannins from a touch of whole-cluster. Finishes long, stony and perfumed with violets and herbs; delicious slightly chilled.",
+    "aromas": [
+      "raspberry",
+      "rosehip",
+      "black cherry",
+      "violet",
+      "crushed granite",
+      "chai spice",
+      "white pepper",
+      "herbes de garrigue"
+    ],
+    "varietals": [
+      "Gamay"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "santa-barbara",
+      "alisos-canyon",
+      "gamay",
+      "whole-cluster",
+      "neutral-oak",
+      "serve-chilled",
+      "crunchy-red-fruit"
+    ],
+    "details": "Hand-harvested in two passes (late September/early October). After sorting and destemming into open-top tanks, ~25% whole clusters were included; gentle daily pump-overs. A portion barrel-fermented; aging in a mix of neutral French oak (225L, 300L, 500L) prior to bottling to preserve the AVA's cool-Pacific, sandstone/shale-driven freshness."
+  },
+  {
+    "id": "leah-jorgensen-le-coeur-de-tour-rain-havlin-vineyard-gamay-2022",
+    "name": "Leah Jorgensen Gamay Le Coeur de Tour Rain – Havlin Vineyard",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Rogue Valley",
+    "country": "United States",
+    "winery": "Leah Jorgensen Cellars",
+    "coordinates": {
+      "lat": 42.326000,
+      "lng": -122.875000
+    },
+    "notes": "Clear ruby. Lively scents of wild red cherry, raspberry and cranberry with violets, peppercorn and a hint of baking spice. Medium in body with bright, driving acidity; tangy red fruit flows across a silken mid-palate, framed by fine, powdery tannins. Long, pepper-tinged finish that remains energetic and food-versatile.",
+    "aromas": [
+      "wild red cherry",
+      "raspberry",
+      "cranberry",
+      "violet",
+      "black pepper",
+      "baking spice",
+      "rose petal"
+    ],
+    "varietals": [
+      "Gamay"
+    ],
+    "alcohol": 12.9,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "oregon",
+      "rogue-valley",
+      "native-yeast",
+      "neutral-french-oak",
+      "minimal-intervention",
+      "spice-finish"
+    ],
+    "details": "Hand-harvested and selectively sorted from Havlin Vineyard (ancient marine-influenced soils of shellfish, limestone and clay loam). Spontaneous fermentation on skins in stainless; then aged in neutral French oak to showcase terroir. No additives or shortcuts—an authentic, terroir-driven Gamay."
+  },
+  {
+    "id": "domaine-du-gueret-moulin-a-vent-2023",
+    "name": "Domaine du Gueret Moulin-à-Vent",
+    "vintage": 2023,
+    "type": "red",
+    "region": "Moulin-à-Vent",
+    "country": "France",
+    "winery": "Domaine du Gueret",
+    "coordinates": {
+      "lat": 46.215300,
+      "lng": 4.728800
+    },
+    "notes": "Deep ruby. Intense blackcurrant and black cherry layered with violet, licorice, woody nuance and a ferrous, granitic mineral tone. The palate is ripe and full-bodied for Gamay, with firm, finely knit tannins and brisk acidity giving length and poise. Long, savory finish etched by spice and granite dust—delicious now, with clear potential to develop complexity over a few years.",
+    "aromas": [
+      "blackcurrant",
+      "black cherry",
+      "violet",
+      "black licorice",
+      "woody spice",
+      "crushed granite",
+      "graphite"
+    ],
+    "varietals": [
+      "Gamay"
+    ],
+    "alcohol": 13.5,
+    "body": "medium-full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "beaujolais-cru",
+      "moulin-a-vent",
+      "granite-soils",
+      "whole-bunch",
+      "long-maceration",
+      "neutral-oak",
+      "age-worthy"
+    ],
+    "details": "Estate parcels around La Bruyère on manganese- and iron-rich granite slopes. Hand harvest; rigorous sorting; long macerations with whole-bunch fermentations (~10–15 days). Partial élevage in large, neutral oak to add depth without overt wood. The Favre-Curtelin family stewards ~13 ha split between Chénas and MAV; cellar dates to the 18th century."
+  },
+  {
+    "id": "domaine-des-gryphees-balmes-vieilles-vignes-2023",
+    "name": "Domaine des Gryphées Balmes Vieilles Vignes",
+    "vintage": 2023,
+    "type": "red",
+    "region": "Beaujolais-Villages",
+    "country": "France",
+    "winery": "Domaine des Gryphées",
+    "coordinates": {
+      "lat": 45.905000,
+      "lng": 4.600000
+    },
+    "notes": "Deep, reflective ruby with purple highlights. Soaring aromatics of black cherry, ripe strawberry and wild raspberry over spiced plum, blueberry, candied violet, grape stem, crushed stones and a touch of pepper and forest floor. Medium-bodied and supple with polished tannins and bright, refreshing acidity; fruit generosity is balanced by a savory mineral line. Long, mouth-watering finish that invites another sip.",
+    "aromas": [
+      "black cherry",
+      "ripe strawberry",
+      "wild raspberry",
+      "spiced plum",
+      "blueberry",
+      "candied violet",
+      "grape stem",
+      "crushed stone",
+      "black pepper",
+      "forest floor"
+    ],
+    "varietals": [
+      "Gamay"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "pierres-dorees",
+      "old-vines-90-100yrs",
+      "spontaneous-ferment",
+      "stainless-to-foudre",
+      "unfined-unfiltered",
+      "silky-texture"
+    ],
+    "details": "From the steep 'Balmes' vineyard in Le Bois d'Oingt (Pierres Dorées zone), on limestone- and clay-rich soils with golden chalk. Ancient 90–100-year-old, low-yielding vines harvested by hand. Indigenous-yeast fermentation in stainless; pressed to old, neutral foudres for élevage; bottled with minimal intervention to preserve purity and site character. Estate managed by Pierre and Guillaume Durdilly."
   }
 ] 

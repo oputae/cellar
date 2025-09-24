@@ -71,7 +71,7 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 
 ### Current Wine Collection
 
-The application currently includes 15 wines from various regions:
+The application currently includes 19 wines from various regions:
 
 1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
 2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
@@ -88,6 +88,10 @@ The application currently includes 15 wines from various regions:
 13. **Renzo Castella Langhe Nebbiolo** (2022) - Langhe, Italy
 14. **De Forville Nebbiolo d'Alba "San Rocco"** (2021) - Nebbiolo d'Alba, Italy
 15. **Tiziano Mazzoni Colline Novaresi Nebbiolo "del Monteregio"** (2021) - Colline Novaresi, Italy
+16. **Copper Six Alisos Canyon Gamay** (2023) - Alisos Canyon AVA, California, USA
+17. **Leah Jorgensen Gamay Le Coeur de Tour Rain – Havlin Vineyard** (2022) - Rogue Valley, Oregon, USA
+18. **Domaine du Gueret Moulin-à-Vent** (2023) - Moulin-à-Vent, France
+19. **Domaine des Gryphées Balmes Vieilles Vignes** (2023) - Beaujolais-Villages, France
 
 ### Sample JSON Entry
 
@@ -337,7 +341,7 @@ For questions or issues:
 
 ## Getting Started
 
-The application comes with a curated collection of 15 wines from various regions. To add your own wines:
+The application comes with a curated collection of 19 wines from various regions. To add your own wines:
 
 1. **Use the LLM Prompt Template** (see below) to generate wine entries
 2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`
