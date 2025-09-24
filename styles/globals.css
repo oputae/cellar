@@ -63,6 +63,24 @@
     animation: slideUp 0.3s ease-out;
   }
   
+  /* Enhanced wine card hover effects */
+  .wine-card-hover {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .wine-card-hover:hover {
+    @apply transform scale-[1.02] shadow-xl;
+  }
+  
+  /* Wine type indicator animations */
+  .wine-type-indicator {
+    @apply transition-all duration-200 ease-out;
+  }
+  
+  .wine-type-indicator:hover {
+    @apply transform scale-105;
+  }
+  
   /* Line clamp utilities */
   .line-clamp-3 {
     display: -webkit-box;

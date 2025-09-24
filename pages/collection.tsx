@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { getAllWines, filterWines } from '@/utils/wine';
 import { WineType } from '@/types/wine';
-import { ArrowLeftIcon, BeakerIcon, StarIcon, MagnifyingGlassIcon, Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon, BeakerIcon, StarIcon, MagnifyingGlassIcon, Bars3Icon, XMarkIcon, Squares2X2Icon, ListBulletIcon } from '@heroicons/react/24/outline';
 
 export default function CollectionPage() {
   const allWines = getAllWines();
@@ -11,6 +11,7 @@ export default function CollectionPage() {
   const [selectedType, setSelectedType] = useState<WineType | ''>('');
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   
   // Filter wines based on search and filters
   const filteredWines = useMemo(() => {
@@ -179,13 +180,13 @@ export default function CollectionPage() {
                   onChange={(e) => setSelectedType(e.target.value as WineType | '')}
                   className="w-full px-4 py-2.5 bg-white/10 border border-white/20 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-wine-500/50 focus:border-wine-500/50 transition-all duration-200"
                 >
-                  <option value="">All Types</option>
-                  <option value="red">Red</option>
-                  <option value="white">White</option>
-                  <option value="rosé">Rosé</option>
-                  <option value="sparkling">Sparkling</option>
-                  <option value="dessert">Dessert</option>
-                  <option value="fortified">Fortified</option>
+                  <option value="">All Types ({allWines.length})</option>
+                  <option value="red">Red ({allWines.filter(w => w.type === 'red').length})</option>
+                  <option value="white">White ({allWines.filter(w => w.type === 'white').length})</option>
+                  <option value="rosé">Rosé ({allWines.filter(w => w.type === 'rosé').length})</option>
+                  <option value="sparkling">Sparkling ({allWines.filter(w => w.type === 'sparkling').length})</option>
+                  <option value="dessert">Dessert ({allWines.filter(w => w.type === 'dessert').length})</option>
+                  <option value="fortified">Fortified ({allWines.filter(w => w.type === 'fortified').length})</option>
                 </select>
               </div>
               
@@ -200,8 +201,41 @@ export default function CollectionPage() {
                   }`}
                 >
                   <StarIcon className="h-5 w-5" />
-                  Favorites
+                  Favorites ({allWines.filter(w => w.favorite).length})
                 </button>
+              </div>
+            </div>
+            
+            {/* View Mode Toggle */}
+            <div className="flex items-center justify-between mt-4 pt-4 border-t border-white/10">
+              <div className="flex items-center gap-2">
+                <span className="text-white/70 text-sm">View:</span>
+                <div className="flex bg-white/10 rounded-lg p-1">
+                  <button
+                    onClick={() => setViewMode('grid')}
+                    className={`p-2 rounded-md transition-all duration-200 ${
+                      viewMode === 'grid'
+                        ? 'bg-wine-600/30 text-wine-300'
+                        : 'text-white/70 hover:text-white/90'
+                    }`}
+                  >
+                    <Squares2X2Icon className="h-5 w-5" />
+                  </button>
+                  <button
+                    onClick={() => setViewMode('list')}
+                    className={`p-2 rounded-md transition-all duration-200 ${
+                      viewMode === 'list'
+                        ? 'bg-wine-600/30 text-wine-300'
+                        : 'text-white/70 hover:text-white/90'
+                    }`}
+                  >
+                    <ListBulletIcon className="h-5 w-5" />
+                  </button>
+                </div>
+              </div>
+              
+              <div className="text-white/70 text-sm">
+                Showing {filteredWines.length} of {allWines.length} wines
               </div>
             </div>
             
@@ -233,11 +267,13 @@ export default function CollectionPage() {
               </p>
             </div>
           ) : (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className={`grid gap-6 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
               {filteredWines.map((wine, index) => (
                 <div 
                   key={wine.id} 
-                  className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 shadow-elegant hover:shadow-premium transition-all duration-300 hover:scale-[1.02] animate-slide-up flex flex-col h-[420px]"
+                  className={`bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-5 shadow-elegant hover:shadow-premium wine-card-hover hover:border-wine-500/30 hover:bg-white/8 animate-slide-up flex flex-col ${
+                    viewMode === 'grid' ? 'h-[420px]' : 'h-auto min-h-[200px]'
+                  }`}
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex items-start justify-between mb-4">
@@ -261,9 +297,10 @@ export default function CollectionPage() {
                   </div>
                   
                   <div className="flex items-center gap-2 mb-4">
-                    <span className={`px-3 py-1 text-sm rounded-full border font-medium ${getWineTypeColor(wine.type)}`}>
-                      {wine.type}
-                    </span>
+                    <div className={`px-3 py-1.5 text-sm rounded-full border font-medium flex items-center gap-2 wine-type-indicator ${getWineTypeColor(wine.type)}`}>
+                      <span className="text-lg">{getWineTypeIcon(wine.type)}</span>
+                      <span className="capitalize">{wine.type}</span>
+                    </div>
                   </div>
                   
                   <div className="mb-4 h-20 overflow-hidden">
@@ -306,12 +343,25 @@ export default function CollectionPage() {
 // Helper function for wine type colors
 function getWineTypeColor(type: WineType): string {
   const colors = {
-    red: 'text-red-400 bg-red-900/20 border-red-500/30',
-    white: 'text-yellow-400 bg-yellow-900/20 border-yellow-500/30',
-    'rosé': 'text-pink-400 bg-pink-900/20 border-pink-500/30',
-    sparkling: 'text-purple-400 bg-purple-900/20 border-purple-500/30',
-    dessert: 'text-amber-400 bg-amber-900/20 border-amber-500/30',
-    fortified: 'text-orange-400 bg-orange-900/20 border-orange-500/30',
+    red: 'text-red-300 bg-red-900/30 border-red-500/40',
+    white: 'text-yellow-300 bg-yellow-900/30 border-yellow-500/40',
+    'rosé': 'text-pink-300 bg-pink-900/30 border-pink-500/40',
+    sparkling: 'text-purple-300 bg-purple-900/30 border-purple-500/40',
+    dessert: 'text-amber-300 bg-amber-900/30 border-amber-500/40',
+    fortified: 'text-orange-300 bg-orange-900/30 border-orange-500/40',
   };
-  return colors[type] || 'text-gray-400 bg-gray-900/20 border-gray-500/30';
+  return colors[type] || 'text-gray-300 bg-gray-900/30 border-gray-500/40';
+}
+
+// Helper function for wine type icons
+function getWineTypeIcon(type: WineType): string {
+  const icons = {
+    red: '🍷',
+    white: '🥂',
+    'rosé': '🍾',
+    sparkling: '✨',
+    dessert: '🍯',
+    fortified: '🥃',
+  };
+  return icons[type] || '🍷';
 } 
