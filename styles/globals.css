@@ -95,6 +95,16 @@
     @apply transition-all duration-1000 ease-out;
   }
   
+  /* Mobile touch improvements */
+  .touch-friendly {
+    @apply min-h-[44px] min-w-[44px];
+  }
+  
+  /* Swipe gesture indicators */
+  .swipe-hint {
+    @apply animate-pulse;
+  }
+  
   /* Line clamp utilities */
   .line-clamp-3 {
     display: -webkit-box;

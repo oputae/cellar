@@ -12,6 +12,8 @@ export default function CollectionPage() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [touchStart, setTouchStart] = useState<number | null>(null);
+  const [touchEnd, setTouchEnd] = useState<number | null>(null);
   
   // Filter wines based on search and filters
   const filteredWines = useMemo(() => {
@@ -21,6 +23,31 @@ export default function CollectionPage() {
       favorite: showFavoritesOnly ? true : undefined
     });
   }, [allWines, searchKeyword, selectedType, showFavoritesOnly]);
+
+  // Swipe gesture handlers for mobile
+  const minSwipeDistance = 50;
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    setTouchEnd(null);
+    setTouchStart(e.targetTouches[0].clientX);
+  };
+
+  const onTouchMove = (e: React.TouchEvent) => {
+    setTouchEnd(e.targetTouches[0].clientX);
+  };
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return;
+    
+    const distance = touchStart - touchEnd;
+    const isLeftSwipe = distance > minSwipeDistance;
+    const isRightSwipe = distance < -minSwipeDistance;
+
+    if (isLeftSwipe || isRightSwipe) {
+      // Toggle view mode on swipe
+      setViewMode(prev => prev === 'grid' ? 'list' : 'grid');
+    }
+  };
   
   return (
     <>
@@ -60,7 +87,7 @@ export default function CollectionPage() {
               <div className="md:hidden">
                 <button
                   onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                  className="text-white/70 hover:text-wine-300 p-2 transition-colors duration-200"
+                  className="text-white/70 hover:text-wine-300 p-2 transition-colors duration-200 touch-friendly"
                 >
                   {mobileMenuOpen ? (
                     <XMarkIcon className="h-6 w-6" />
@@ -213,7 +240,7 @@ export default function CollectionPage() {
                 <div className="flex bg-white/10 rounded-lg p-1">
                   <button
                     onClick={() => setViewMode('grid')}
-                    className={`p-2 rounded-md transition-all duration-200 ${
+                    className={`p-2 rounded-md transition-all duration-200 touch-friendly ${
                       viewMode === 'grid'
                         ? 'bg-wine-600/30 text-wine-300'
                         : 'text-white/70 hover:text-white/90'
@@ -223,7 +250,7 @@ export default function CollectionPage() {
                   </button>
                   <button
                     onClick={() => setViewMode('list')}
-                    className={`p-2 rounded-md transition-all duration-200 ${
+                    className={`p-2 rounded-md transition-all duration-200 touch-friendly ${
                       viewMode === 'list'
                         ? 'bg-wine-600/30 text-wine-300'
                         : 'text-white/70 hover:text-white/90'
@@ -236,6 +263,7 @@ export default function CollectionPage() {
               
               <div className="text-white/70 text-sm">
                 Showing {filteredWines.length} of {allWines.length} wines
+                <span className="md:hidden ml-2 text-wine-400">• Swipe to toggle view</span>
               </div>
             </div>
             
@@ -267,7 +295,12 @@ export default function CollectionPage() {
               </p>
             </div>
           ) : (
-            <div className={`grid gap-6 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}>
+            <div 
+              className={`grid gap-6 ${viewMode === 'grid' ? 'grid-cols-1 md:grid-cols-2 lg:grid-cols-3' : 'grid-cols-1'}`}
+              onTouchStart={onTouchStart}
+              onTouchMove={onTouchMove}
+              onTouchEnd={onTouchEnd}
+            >
               {filteredWines.map((wine, index) => (
                 <div 
                   key={wine.id} 
