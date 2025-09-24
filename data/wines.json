@@ -1966,5 +1966,324 @@
       "first-course-wine"
     ],
     "details": "Fruit sourced from loess-rich sites across Kremstal (including Vordenberg and Moosburgerin) with parcels such as Ried Steingraben. Fermented and raised in stainless; a touch of trapped CO₂ lends extra snap on opening. Estate under Josef and Philipp Bründlmayer, pursuing organic certification."
+  },
+  {
+    "id": "bodegas-la-val-rias-baixas-2023",
+    "name": "Bodegas La Val Rías Baixas",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Rías Baixas",
+    "country": "Spain",
+    "winery": "Bodegas La Val",
+    "coordinates": {
+      "lat": 42.300000,
+      "lng": -8.650000
+    },
+    "notes": "Pale straw with silver glints. Expressive nose of lemon zest, green apple, white peach and jasmine layered over sea spray and wet stone. The palate is medium-bodied and intensely saline, with bright, racy acidity framing flavors of citrus pith, pear, and fennel pollen; a gentle leesy creaminess adds mid-palate weight without oak. Finishes long, mouthwatering, and mineral-driven with a whisper of bitter grapefruit rind.",
+    "aromas": [
+      "lemon zest",
+      "green apple",
+      "white peach",
+      "grapefruit pith",
+      "jasmine",
+      "sea spray",
+      "wet stone",
+      "fennel"
+    ],
+    "varietals": [
+      "Albariño"
+    ],
+    "alcohol": 12.8,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "galicia",
+      "albarino",
+      "stainless-steel",
+      "lees-aged",
+      "coastal",
+      "seafood-pairing"
+    ],
+    "details": "Estate founded in 1985 and farmed largely to pergola. Grapes are destemmed, given a brief skin maceration (~2 days), fermented with indigenous yeasts in stainless steel, and aged on fine lees prior to spring release—no oak used."
+  },
+  {
+    "id": "cesar-marquez-bierzo-parajes-2022",
+    "name": "César Márquez Bierzo \"Parajes\"",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Bierzo",
+    "country": "Spain",
+    "winery": "César Márquez",
+    "coordinates": {
+      "lat": 42.550000,
+      "lng": -6.600000
+    },
+    "notes": "Deep ruby with a purple rim. Aromas of blackberry, red cherry, black plum and violet with graphite, dried herbs and a ferrous mineral edge. Medium body with a lively, medium-high acidity and fine, chalk-tinted tannins; flavors echo dark berries, cherry pit, black tea and savory spice. Long, polished finish with floral lift and stony persistence.",
+    "aromas": [
+      "blackberry",
+      "red cherry",
+      "black plum",
+      "violet",
+      "graphite",
+      "dried herbs",
+      "black tea",
+      "minerality"
+    ],
+    "varietals": [
+      "Mencía",
+      "Alicante Bouschet"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "castilla-y-leon",
+      "old-vines",
+      "whole-cluster",
+      "neutral-oak",
+      "site-blend"
+    ],
+    "details": "From organically farmed old-vine parcels across Bierzo; lots fermented separately with native yeasts and 15–100% whole clusters, macerated 15–60 days, then aged ~12 months in neutral oak before blending. César Márquez is the nephew of Raul Pérez."
+  },
+  {
+    "id": "quinta-do-estranxeiro-ribeira-sacra-o-estranxeiro-2021",
+    "name": "Quinta do Estranxeiro Ribeira Sacra Tinto \"O Estranxeiro\"",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Ribeira Sacra",
+    "country": "Spain",
+    "winery": "Quinta do Estranxeiro",
+    "coordinates": {
+      "lat": 42.480000,
+      "lng": -7.520000
+    },
+    "notes": "Bright ruby. Perfumed nose of crushed raspberry, cherry pit, strawberry leaf and rose with cracked pepper, smoke and granite dust. Medium-bodied and energetic on the palate; 30% whole-cluster grip lends fine, savory tannins around red-toned fruit and sage. Finishes long and mineral with a cool, peppery snap.",
+    "aromas": [
+      "raspberry",
+      "cherry pit",
+      "strawberry leaf",
+      "rose",
+      "cracked pepper",
+      "smoke",
+      "granite",
+      "sage"
+    ],
+    "varietals": [
+      "Mencía"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "galicia",
+      "steep-terraces",
+      "whole-cluster",
+      "concrete",
+      "foudre"
+    ],
+    "details": "Primarily Mencía from two terraced sites; spontaneous fermentations with wild yeasts in concrete/chestnut/large neutral oak, ~30% whole cluster and an additional two-week maceration; aged about eight months in foudres and concrete before bottling."
+  },
+  {
+    "id": "bodegas-avancia-valdeorras-cuvee-de-o-2023",
+    "name": "Bodegas Avancia Valdeorras Cuvée de O",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Valdeorras",
+    "country": "Spain",
+    "winery": "Bodegas Avancia",
+    "coordinates": {
+      "lat": 42.410000,
+      "lng": -7.110000
+    },
+    "notes": "Pale yellow-gold. Aromas of pear, Meyer lemon, chamomile, white peach and wet slate. Medium body with a silky, lees-built mid-palate; bright, medium-high acidity keeps Godello's orchard-fruit richness focused. Long, stony, and slightly flinty finish with citrus peel and fennel pollen.",
+    "aromas": [
+      "pear",
+      "Meyer lemon",
+      "chamomile",
+      "white peach",
+      "wet slate",
+      "flint",
+      "fennel pollen"
+    ],
+    "varietals": [
+      "Godello"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "galicia",
+      "godello",
+      "lees-aged",
+      "stainless-and-neutral-oak",
+      "mineral"
+    ],
+    "details": "Founded by importer Jorge Ordóñez. Grapes are chilled for 24h, partially destemmed and pressed; fermentation in stainless steel (~80%) and neutral barrels (~20%), malolactic blocked; aged ~8 months on lees for texture."
+  },
+  {
+    "id": "piquentum-malvazija-istarska-2022",
+    "name": "Piquentum Malvazija Istarska",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Istria",
+    "country": "Croatia",
+    "winery": "Piquentum",
+    "coordinates": {
+      "lat": 45.410000,
+      "lng": 13.970000
+    },
+    "notes": "Bright golden-straw. Aromas of orange oil, yellow peach, white and pink flowers, dried Mediterranean herbs, and crushed limestone with a hint of beeswax. Medium-bodied with a gently phenolic, skin-contact grip, lively, medium-high acidity, and flavors of citrus, quince and sea-salted stone. Finishes long, savory-mineral and clean.",
+    "aromas": [
+      "orange oil",
+      "yellow peach",
+      "white flowers",
+      "pink flowers",
+      "dried herbs",
+      "crushed stone",
+      "beeswax",
+      "sea salt"
+    ],
+    "varietals": [
+      "Malvazija Istarska"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "istria",
+      "skin-maceration",
+      "ambient-yeast",
+      "oak-and-steel",
+      "coastal"
+    ],
+    "details": "Winemaker Dimitri Brečević ferments native Malvazija with ambient yeasts after a brief 3–4 day skin maceration; maturation is split between older oak (≈70%) and stainless steel (≈30%). The cellar occupies a repurposed concrete water tank in Buzet."
+  },
+  {
+    "id": "domaine-des-trois-toits-muscadet-sevre-et-maine-sur-lie-2021",
+    "name": "Les Trois Toits Muscadet Sèvre et Maine Sur Lie",
+    "vintage": 2021,
+    "type": "white",
+    "region": "Muscadet Sèvre et Maine",
+    "country": "France",
+    "winery": "Domaine des Trois Toits",
+    "coordinates": {
+      "lat": 47.150000,
+      "lng": -1.450000
+    },
+    "notes": "Pale straw-gold with green highlights. Briny aromas of lemon, lime zest and tart green apple layered with oyster shell, wet stones and fresh bread dough from sur-lie aging. Light-to-medium body; razor-sharp, high acidity drives a crunchy palate of citrus pith and pear with a creamy lees cushion. Finishes saline, linear and refreshingly dry.",
+    "aromas": [
+      "lemon",
+      "lime zest",
+      "green apple",
+      "oyster shell",
+      "wet stones",
+      "bread dough",
+      "sea brine",
+      "pear"
+    ],
+    "varietals": [
+      "Melon de Bourgogne"
+    ],
+    "alcohol": 12.0,
+    "body": "medium-light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "loire",
+      "sur-lie",
+      "seafood",
+      "stainless-steel",
+      "oyster-wine"
+    ],
+    "details": "Estate rooted in an old stone cave site; Muscadet is pressed cool and fermented in underground tanks, then matured sur lie for months with bâtonnage, yielding texture and subtle yeast notes while preserving briny freshness."
+  },
+  {
+    "id": "mylonas-pgi-attiki-assyrtiko-2023",
+    "name": "Mylonas Winery PGI Attiki Assyrtiko",
+    "vintage": 2023,
+    "type": "white",
+    "region": "PGI Attiki",
+    "country": "Greece",
+    "winery": "Mylonas Winery",
+    "coordinates": {
+      "lat": 37.830000,
+      "lng": 23.960000
+    },
+    "notes": "Pale straw with green flashes. Lively aromas of peach skin, lemon-lime zest, white flowers, bay laurel and rosemary over crushed rock and sea salt. Medium body with zippy, high acidity; the palate is citrus-charged and stony with a saline snap. Dry, bright finish that lingers with herbs and mineral chalk.",
+    "aromas": [
+      "peach skin",
+      "lemon zest",
+      "lime",
+      "white flowers",
+      "bay laurel",
+      "rosemary",
+      "sea salt",
+      "crushed rock"
+    ],
+    "varietals": [
+      "Assyrtiko"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "attica",
+      "assyrtiko",
+      "stainless-steel",
+      "coastal",
+      "saline"
+    ],
+    "details": "Third-generation family estate near Keratea, south of Athens. Hand-harvested fruit is fermented cool in stainless steel and kept on fine lees briefly to emphasize freshness, sea-spray minerality and herb-tinged citrus."
+  },
+  {
+    "id": "uriondo-bizkaiko-txakolina-2023",
+    "name": "Uriondo Bizkaiko Txakolina",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Bizkaiko Txakolina",
+    "country": "Spain",
+    "winery": "Uriondo",
+    "coordinates": {
+      "lat": 43.220000,
+      "lng": -2.880000
+    },
+    "notes": "Pale straw. Brisk aromas of lemon, tart green apple and lime blossom with sea spray, wet stones and a hint of green herbs. Light-to-medium body with piercing, high acidity; a brief lees aging adds texture while the wine remains fully still (no spritz). Salty, mouthwatering finish that screams for shellfish.",
+    "aromas": [
+      "lemon",
+      "green apple",
+      "lime blossom",
+      "sea spray",
+      "wet stones",
+      "green herbs"
+    ],
+    "varietals": [
+      "Hondarrabi Zuri"
+    ],
+    "alcohol": 12.0,
+    "body": "medium-light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "basque-country",
+      "txakoli",
+      "stainless-steel",
+      "lees",
+      "seafood"
+    ],
+    "details": "Founded in 1987 in Zaratamo near Bilbao. Blend led by indigenous Hondarrabi Zuri; fermented in stainless steel and aged a few months on the lees, then bottled still to foreground coastal salinity and citrus-charged precision."
   }
 ] 
