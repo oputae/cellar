@@ -176,6 +176,23 @@ export default function WineDetail({ wine }: WineDetailProps) {
                 </div>
               </div>
 
+              {/* Food Pairing Suggestions */}
+              <div className="bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-elegant p-6 animate-fade-in">
+                <h2 className="text-2xl font-display font-semibold text-white mb-4 flex items-center gap-2">
+                  <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span> 🍽️ Food Pairings
+                </h2>
+                <div className="flex flex-wrap gap-2">
+                  {getFoodPairings(wine).map((pairing, index) => (
+                    <span
+                      key={index}
+                      className="px-3 py-2 bg-green-400/20 text-green-200 rounded-full border border-green-400/30 text-sm font-medium"
+                    >
+                      {pairing}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
               {/* Additional Information */}
               <div className="bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-elegant p-6 animate-fade-in">
                 <h2 className="text-2xl font-display font-semibold text-white mb-4 flex items-center gap-2">
@@ -210,6 +227,91 @@ export default function WineDetail({ wine }: WineDetailProps) {
       </div>
     </>
   );
+}
+
+// Helper function for food pairing suggestions
+function getFoodPairings(wine: { tags?: string[]; type: string; aromas?: string[] }): string[] {
+  const pairings: string[] = [];
+  
+  // Extract food suggestions from tags
+  if (wine.tags) {
+    wine.tags.forEach((tag: string) => {
+      switch (tag) {
+        case 'seafood':
+        case 'seafood-pairing':
+          pairings.push('Grilled fish', 'Oysters', 'Lobster', 'Ceviche');
+          break;
+        case 'bbq-friendly':
+        case 'bbq':
+          pairings.push('Grilled meats', 'BBQ ribs', 'Burgers', 'Steak');
+          break;
+        case 'pizza-pasta':
+          pairings.push('Pizza', 'Pasta', 'Italian dishes', 'Margherita pizza');
+          break;
+        case 'cheese':
+          pairings.push('Cheese board', 'Aged cheeses', 'Soft cheeses');
+          break;
+        case 'charcuterie':
+          pairings.push('Charcuterie board', 'Cured meats', 'Prosciutto');
+          break;
+        case 'spicy-food':
+          pairings.push('Spicy dishes', 'Curry', 'Thai food', 'Mexican cuisine');
+          break;
+        case 'dessert':
+          pairings.push('Desserts', 'Chocolate', 'Fruit tarts', 'Cheesecake');
+          break;
+        case 'aperitif':
+          pairings.push('Appetizers', 'Light snacks', 'Canapés');
+          break;
+      }
+    });
+  }
+  
+  // Add suggestions based on wine type
+  switch (wine.type) {
+    case 'red':
+      if (!pairings.includes('Grilled meats')) pairings.push('Grilled meats', 'Red meat', 'Game');
+      break;
+    case 'white':
+      if (!pairings.includes('Grilled fish')) pairings.push('White fish', 'Chicken', 'Salads');
+      break;
+    case 'rosé':
+      pairings.push('Summer salads', 'Light appetizers', 'Mediterranean cuisine');
+      break;
+    case 'sparkling':
+      pairings.push('Celebration foods', 'Light appetizers', 'Brunch');
+      break;
+    case 'dessert':
+      pairings.push('Desserts', 'Fruit', 'Chocolate', 'Cheese');
+      break;
+  }
+  
+  // Add suggestions based on aromas
+  if (wine.aromas) {
+    wine.aromas.forEach((aroma: string) => {
+      switch (aroma) {
+        case 'lavender':
+        case 'garrigue':
+          pairings.push('Provençal cuisine', 'Herbed dishes', 'Mediterranean food');
+          break;
+        case 'smoke':
+        case 'tobacco':
+          pairings.push('Smoked meats', 'Grilled foods', 'Barbecue');
+          break;
+        case 'citrus':
+        case 'lemon':
+          pairings.push('Seafood', 'Light fish', 'Citrus-based dishes');
+          break;
+        case 'spice':
+        case 'pepper':
+          pairings.push('Spicy foods', 'Asian cuisine', 'Curry');
+          break;
+      }
+    });
+  }
+  
+  // Remove duplicates and return unique suggestions
+  return [...new Set(pairings)].slice(0, 6);
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
