@@ -120,6 +120,21 @@ The application currently includes 62 wines from various regions:
 45. **Geyerhof Kremstal Zweigelt "StockWerk"** (2020) - Kremstal, Austria
 46. **Weingut Zahel Wiener Gemischter Satz** (2022) - Wiener Gemischter Satz, Austria
 47. **Philipp Bründlmayer Grüner Veltliner** (2022) - Kremstal, Austria
+48. **Bodegas La Val Rías Baixas** (2023) - Rías Baixas, Spain
+49. **César Márquez Bierzo "Parajes"** (2022) - Bierzo, Spain
+50. **Quinta do Estranxeiro Ribeira Sacra Tinto "O Estranxeiro"** (2021) - Ribeira Sacra, Spain
+51. **Bodegas Avancia Valdeorras Cuvée de O** (2023) - Valdeorras, Spain
+52. **Piquentum Malvazija Istarska** (2022) - Istria, Croatia
+53. **Les Trois Toits Muscadet Sèvre et Maine Sur Lie** (2021) - Muscadet Sèvre et Maine, France
+54. **Mylonas Winery PGI Attiki Assyrtiko** (2023) - PGI Attiki, Greece
+55. **Uriondo Bizkaiko Txakolina** (2023) - Bizkaiko Txakolina, Spain
+56. **Antonella Corda Cannonau di Sardegna 2021** (2021) - Sardegna, Italy
+57. **Cantina Horus Vittoria Frappato "Sole e Terra" 2021** (2021) - Sicilia, Italy
+58. **Argiolas Vermentino di Sardegna "Merì" 2022** (2022) - Sardegna, Italy
+59. **Curatolo Arini Terre Siciliane Catarratto "Paccamora" 2022** (2022) - Sicilia, Italy
+60. **Château Coustarélle Cahors "Grande Cuvée Prestige" 2019** (2019) - Cahors, France
+61. **Domaine Le Roc Fronton "La Folle Noire d'Ambat" 2020** (2020) - Fronton, France
+62. **Domaine des Cassagnoles Côtes de Gascogne Blanc 2022** (2022) - Côtes de Gascogne, France
 
 ### Sample JSON Entry
 
@@ -144,7 +159,7 @@ The application currently includes 62 wines from various regions:
   "acidity": "medium-high",
   "favorite": false,
   "status": "cellar",
-  "tags": ["madiran", "southwest-france", "tannat", "old-vines", "oak-aged", "age-worthy", "collectible", "hearty-foods"]
+  "tags": ["madiran", "southwest-france", "tannat", "old-vines", "oak-aged", "age-worthy", "collectible", "bbq-friendly", "cheese", "charcuterie"]
 }
 ```
 
@@ -301,16 +316,16 @@ INSTRUCTIONS:
    - Visual appearance (color, clarity, rim variation)
    - Aromas (primary fruit, secondary, tertiary notes)
    - Palate (body, tannins, acidity, finish)
-   - Food pairing suggestions
+   - Food pairing suggestions (also include appropriate food pairing tags)
 4. Include 8-15 specific aromas that would be detected in this wine
 5. List appropriate grape varietals for the region and wine style
 6. Set realistic alcohol content (typically 11-15% for table wines)
 7. Choose appropriate body and acidity levels
-8. Add 5-8 relevant tags including:
+8. Add 5-10 relevant tags including:
    - Region/appellation name
    - Wine style (e.g., "oak-aged", "mineral", "fruity")
-   - Food pairing hints (e.g., "seafood-friendly", "bbq-pairing")
-   - Special characteristics (e.g., "organic", "biodynamic", "age-worthy")
+   - Food pairing hints (e.g., "seafood-pairing", "bbq-friendly", "pizza-pasta", "cheese", "charcuterie", "spicy-food", "dessert", "aperitif")
+   - Special characteristics (e.g., "organic", "biodynamic", "age-worthy", "chillable")
 9. Write detailed winery/region information in the "details" field
 10. Set "favorite" to false and "status" to "cellar" by default
 
