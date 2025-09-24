@@ -71,7 +71,7 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 
 ### Current Wine Collection
 
-The application currently includes 55 wines from various regions:
+The application currently includes 62 wines from various regions:
 
 1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
 2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
@@ -527,7 +527,7 @@ For questions or issues:
 
 ## Getting Started
 
-The application comes with a curated collection of 55 wines from various regions. To add your own wines:
+The application comes with a curated collection of 62 wines from various regions. To add your own wines:
 
 1. **Use the LLM Prompt Template** (see below) to generate wine entries
 2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`

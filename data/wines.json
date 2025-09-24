@@ -35,7 +35,10 @@
       "Willamette Valley",
       "Estate Bottled",
       "Single Vineyard",
-      "2018 Vintage"
+      "2018 Vintage",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Freja Cellars is a small family-owned winery founded in 2005; this bottling comes from a single-vineyard block planted on volcanic soils, offering classic Oregon elegance and age-worthiness."
   },
@@ -83,7 +86,11 @@
       "oak-aged",
       "age-worthy",
       "collectible",
-      "hearty-foods"
+      "hearty-foods",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Flagship cuvée from Domaine Berthoumieu, named for Charles de Batz-Castelmore d'Artagnan—born nearby in Gascony. Typically 90% Tannat and 10% Cabernet Sauvignon from 50–100+ year-old vines; grapes are fully destemmed and fermented by variety (often in cement), with controlled micro-oxygenation—a technique pioneered in Madiran—to tame Tannat's formidable tannins. Élevage is about 12 months in French oak (≈50% new) before blending and light filtration. Madiran's clay-limestone and clay-siliceous soils, along with long, dry autumns, contribute to the wine's power, structure, and capacity to age."
   },
@@ -97,7 +104,7 @@
     "winery": "Bow & Arrow",
     "coordinates": {
       "lat": 45.3245,
-      "lng": -122.7110
+      "lng": -122.711
     },
     "notes": "Pale straw with green highlights. The nose greets with bright citrus zest, Asian pear, fresh apple, and a flinty minerality. On the palate it is crisp and clean—medium-light-bodied with lively acidity, subtle floral hints, and a saline-tinged finish. Refreshing and elegant, echoing pear and lemon, with a gently chalky texture.",
     "aromas": [
@@ -115,7 +122,7 @@
       "Chardonnay",
       "Melon de Bourgogne"
     ],
-    "alcohol": 12.0,
+    "alcohol": 12,
     "body": "medium-light",
     "acidity": "medium-high",
     "favorite": false,
@@ -125,7 +132,9 @@
       "white blend",
       "low-intervention",
       "Loire-style",
-      "everyday"
+      "everyday",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "2024 release by Bow & Arrow, loosely inspired by Loire Valley whites, blending mostly Chenin Blanc with splashes of Chardonnay and Melon de Bourgogne. Made in Portland, the winery embraces humble, drinkable terroir-driven natural wines. Organic farming, fermented in diverse vessels (steel, egg, old oak), light lees aging, low ABV and bright freshness characterize its style."
   },
@@ -138,8 +147,8 @@
     "country": "France",
     "winery": "Bastide de la Ciselette",
     "coordinates": {
-      "lat": 43.470000,
-      "lng": 6.230000
+      "lat": 43.47,
+      "lng": 6.23
     },
     "notes": "Pale salmon with copper glints. Aromas open on wild raspberry, blood orange and ruby grapefruit layered with rosewater, white pepper and a faint sea-spray salinity. The palate is medium-light and brisk, showing vivid citrus and red berry fruit with a gently phenolic, lightly chalky texture from a short skin maceration; high natural acidity keeps it taut and refreshing. Savory notes of sage, rosemary and pink peppercorn add complexity. Dry, clean, and persistent, finishing long on citrus peel, mineral and pepper spice.",
     "aromas": [
@@ -186,8 +195,8 @@
     "country": "Italy",
     "winery": "Murgo",
     "coordinates": {
-      "lat": 37.708900,
-      "lng": 15.114000
+      "lat": 37.7089,
+      "lng": 15.114
     },
     "notes": "Pale salmon/onion-skin hue with brilliant clarity. The nose opens on blood orange, white cherry and nectarine, layered with rose petals, lavender and a whisper of cinnamon, smoke and crushed volcanic rock. Medium-light on the palate with high, citrus-charged acidity and a faint phenolic snap from brief skin contact; flavors echo blood orange, wild strawberry and stone fruit over a saline, mineral spine. Texture is sleek and nervy yet mouthwatering; the finish is long, savory and stony with lingering citrus peel, pink pepper and sea-spray notes.",
     "aromas": [
@@ -234,8 +243,8 @@
     "country": "Spain",
     "winery": "Bodegas Ostatu",
     "coordinates": {
-      "lat": 42.545000,
-      "lng": -2.650000
+      "lat": 42.545,
+      "lng": -2.65
     },
     "notes": "Deep rosy pink/salmon hue. Expressive aromas of watermelon, ripe raspberry and cherry are laced with rose petal, fennel and a faint earthy spice. The palate is medium in body with a succulent, juicy core of red fruits; high-strung, mouthwatering acidity provides the signature snap and twang, while a subtle phenolic nibble from brief skin contact adds texture. Fermentation in stainless steel keeps it vivid and clean, finishing long on red citrus, mineral and light spice.",
     "aromas": [
@@ -256,7 +265,7 @@
       "Garnacha",
       "Viura"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -283,8 +292,8 @@
     "country": "United States",
     "winery": "Ernest Vineyards",
     "coordinates": {
-      "lat": 38.130000,
-      "lng": -121.272000
+      "lat": 38.13,
+      "lng": -121.272
     },
     "notes": "Dusty rose with a hint of onion-skin/orange at the rim. The nose leads with rosy florals and light spice over cranberry, red cherry and orange peel, joined by black tea, dried herbs and a faint mineral dust. Medium-light on the palate with bright, cutting acidity; flavors of tart red berries and citrus ride over a subtly savory, stony core and a gentle phenolic nip from brief skin contact. Stainless-steel precision keeps it crisp and clean. The finish is long and mouthwatering, echoing cranberry, tea and wet stone with a saline snap.",
     "aromas": [
@@ -317,7 +326,10 @@
       "food-versatile",
       "central-valley",
       "sandy-clay",
-      "small-production"
+      "small-production",
+      "seafood-pairing",
+      "pizza-pasta",
+      "cheese"
     ],
     "details": "Produced under Ernest's \"Eugenia\" label devoted to rosé and exploratory projects. Sourced from Bruella Ranch east of Lodi, where Cinsault—naturally heat- and drought-tolerant—thrives in sandy-clay soils with some Pacific influence. After a brief skin maceration, the free-run juice ferments cool in stainless steel to preserve freshness and the variety's naturally high acidity. The 2022 release totaled approximately 675 cases, delivering a crisp, mineral, and food-flexible style."
   },
@@ -330,8 +342,8 @@
     "country": "France",
     "winery": "Château Aney",
     "coordinates": {
-      "lat": 45.160000,
-      "lng": -0.733000
+      "lat": 45.16,
+      "lng": -0.733
     },
     "notes": "Deep ruby with a garnet rim. Classic left-bank bouquet of cassis, blackberry and blackcurrant leaf layered with cedar, graphite, tobacco and pencil shavings. Medium-full on the palate with firm, fine Cabernet tannins, a gravelly mineral line and balanced, medium acidity; Merlot adds plummy flesh while Cab Franc/Petit Verdot bring spice and lift. Long, poised finish echoing cassis, cedar and graphite with a savory, dry close; elegant rather than massive, showing the vintage's ripeness with refined structure.",
     "aromas": [
@@ -364,7 +376,11 @@
       "gravel-soils",
       "oak-aged",
       "age-worthy",
-      "classic-style"
+      "classic-style",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Estate in Cussac-Fort-Médoc between Saint-Julien and Margaux. Final blend mirrors plantings: ~65% Cabernet Sauvignon, 25% Merlot, 7% Cabernet Franc, 3% Petit Verdot. Fermented in a mix of concrete and stainless, aged ~1 year in barrels (≈30% new) and ~1 year in stainless pre-bottling. Built in 1850 by the Aney family; revived by the Raimond family after 1972, regaining Cru Bourgeois status."
   },
@@ -377,8 +393,8 @@
     "country": "France",
     "winery": "Château de Landiras",
     "coordinates": {
-      "lat": 44.555000,
-      "lng": -0.408000
+      "lat": 44.555,
+      "lng": -0.408
     },
     "notes": "Crimson-ruby core. Aromas of blackcurrant, black plum and blackberry framed by graphite, cedar, warm spice and a gentle cocoa/tobacco note. Medium body with supple Merlot mid-palate and Cabernet spine; tannins are polished yet persistent, acidity medium-plus for lift. Finishes savory and long on cassis, graphite and cacao with a faint gravelly mineral echo.",
     "aromas": [
@@ -407,7 +423,11 @@
       "stainless-and-concrete",
       "french-oak",
       "balanced",
-      "drink-or-hold"
+      "drink-or-hold",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "From the Left Bank's Graves AOC, known for sandy, gravelly clay over deep gravels. Blend ~65% Merlot, 35% Cabernet Sauvignon; fermented in temperature-controlled concrete tanks using only ambient yeasts. Aged ~12 months in French oak barriques (≈10% new). Historic château set in the heart of Graves; current ownership has introduced organic practices."
   },
@@ -420,8 +440,8 @@
     "country": "France",
     "winery": "Château Lamoliere",
     "coordinates": {
-      "lat": 44.932000,
-      "lng": -0.317000
+      "lat": 44.932,
+      "lng": -0.317
     },
     "notes": "Opaque ruby-purple. Plummy Merlot fruit and black cherry with damp violets, graphite, warm spice and a hint of green bell pepper from Cab Franc. Medium-full with a ripe, fleshy core, fine-grained tannins and lively, medium-plus acidity; oak is well-judged, adding subtle toast and sweetness. Long finish of dark plum, violets and spice over a limestone-chalky snap.",
     "aromas": [
@@ -439,7 +459,7 @@
       "Merlot",
       "Cabernet Franc"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "medium-full",
     "acidity": "medium-high",
     "favorite": false,
@@ -450,7 +470,10 @@
       "french-oak",
       "merlot-dominant",
       "age-worthy",
-      "value-fronsac"
+      "value-fronsac",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "From rolling hills north of the Dordogne with abundant limestone and clay; vines average ~40 years. Blend ~86% Merlot and 14% Cabernet Franc. Fermented in tank, then transferred to used French oak barrels for ~12 months. Estate linked to Patrick Léon (ex-Mouton Rothschild/Almaviva/Opus One); part of Château Les Trois Croix."
   },
@@ -463,8 +486,8 @@
     "country": "France",
     "winery": "Château La Vaisinerie",
     "coordinates": {
-      "lat": 44.938500,
-      "lng": -0.112000
+      "lat": 44.9385,
+      "lng": -0.112
     },
     "notes": "Deep garnet-red. Aromas of red and black fruits—cranberry, cherry, damson plum and blackberry—woven with tobacco, dried herbs, licorice and crushed stone. Medium-full body with fine, grainy tannins and bright, medium-plus acidity; fruit purity balanced by savory earth and spice. Persistent finish that stays lifted and mineral alongside ripe Merlot flesh.",
     "aromas": [
@@ -482,7 +505,7 @@
       "Merlot",
       "Cabernet Franc"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "medium-full",
     "acidity": "medium-high",
     "favorite": false,
@@ -493,7 +516,11 @@
       "part-oak-aged",
       "right-bank",
       "organic-conversion",
-      "food-friendly"
+      "food-friendly",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Small 17th-century estate (≈25 ha; 13 ha under vine) acquired in 2019 by négociant Alain Moses (Twins). Soils are classic clay/limestone; blend ~90% Merlot, 10% Cabernet Franc. Careful sorting and gentle vinification in concrete; ~50% aged 12–14 months in French barriques (≈1/3 new), remainder in tank. Puisseguin is among Saint-Émilion's stricter satellite AOCs."
   },
@@ -506,8 +533,8 @@
     "country": "Italy",
     "winery": "Angelo Negro",
     "coordinates": {
-      "lat": 44.700000,
-      "lng": 8.040000
+      "lat": 44.7,
+      "lng": 8.04
     },
     "notes": "Bright ruby-red. Perfumed nose of rose petal, violet and fresh red berries (raspberry, cherry) with orange peel and a faint anise/earth note. Medium body with a crunchy, youthful bite; tannins are present and chalky yet fine, acidity high and mouth-watering. Finishes long and lifted on red cherry, floral tones and mineral dust; nimble and energetic.",
     "aromas": [
@@ -535,7 +562,12 @@
       "floral",
       "high-acidity",
       "cask-aged",
-      "hand-harvested"
+      "hand-harvested",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "Sourced from holdings across Langhe and Roero; family grows grapes since the 1600s. Hand-picked Nebbiolo macerated in steel for ~15–18 days, then matured ~12 months in cask. Style emphasizes purity, florals and crunchy red fruit with firm, fine tannins."
   },
@@ -548,8 +580,8 @@
     "country": "Italy",
     "winery": "Renzo Castella",
     "coordinates": {
-      "lat": 44.625000,
-      "lng": 8.016000
+      "lat": 44.625,
+      "lng": 8.016
     },
     "notes": "Transparent ruby. Aromas of dark cherry and redcurrant with rose, violet, white pepper and subtle savory herbs over a stony undertone. Medium body with well-defined, firm tannins and a resonant line of high acidity; purity of cherry fruit carries through. Long, mineral finish with echoes of rose and pepper; structure reminiscent of Barolo in a more approachable frame.",
     "aromas": [
@@ -566,7 +598,7 @@
     "varietals": [
       "Nebbiolo"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "medium",
     "acidity": "high",
     "favorite": false,
@@ -577,7 +609,12 @@
       "neutral-oak",
       "malolactic-in-steel",
       "structured",
-      "value"
+      "value",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "Fruit from a herbicide- and pesticide-free vineyard near the Diano d'Alba/Serralunga border (Barolo area limestone influence). Destemmed, fermented in large neutral oak 'tini' ~1 week on skins; racked to stainless for malolactic and ~8 months' aging. Family farm founded in the early 1900s; Renzo transitioned to estate bottling."
   },
@@ -590,8 +627,8 @@
     "country": "Italy",
     "winery": "De Forville",
     "coordinates": {
-      "lat": 44.660000,
-      "lng": 8.085000
+      "lat": 44.66,
+      "lng": 8.085
     },
     "notes": "Ruby-garnet. Somber dark-fruit profile—black cherry, plum and blackberry—lifted by rose, violet and subtle balsamic/tea notes. Medium body with firm, pithy tannins shaped by an extended skin fermentation; acidity bright and refreshing. Persistent, savory finish with mineral drive and refined grip; approachable yet serious.",
     "aromas": [
@@ -608,7 +645,7 @@
     "varietals": [
       "Nebbiolo"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -619,7 +656,12 @@
       "extended-maceration",
       "large-oak",
       "balanced",
-      "great-value"
+      "great-value",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "From San Rocco d'Elvio near Alba. Hand-harvested; fermented on skins in stainless up to four weeks to tame/shape tannins; then racked to large 50-hl oak barrels for ~1 year before bottling. De Forville-Anfosso family farms ~11 ha across Barbaresco/Neive with a 150-year history."
   },
@@ -632,8 +674,8 @@
     "country": "Italy",
     "winery": "Tiziano Mazzoni",
     "coordinates": {
-      "lat": 45.610000,
-      "lng": 8.420000
+      "lat": 45.61,
+      "lng": 8.42
     },
     "notes": "Luminous garnet-red with pink/orange reflections. Perfumed nose of bing cherry, crushed red raspberry and rose petal over citrus peel, leather, subtle spice and mineral. Medium body with fine-grained, gently assertive tannins and fresh, high acidity; sleek and precise. Smooth, savory finish that lingers on red fruit, rose and a hint of pepper and leather.",
     "aromas": [
@@ -650,7 +692,7 @@
     "varietals": [
       "Nebbiolo"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "high",
     "favorite": false,
@@ -661,7 +703,12 @@
       "indigenous-yeasts",
       "used-tonneaux",
       "unfined-unfiltered",
-      "elegant"
+      "elegant",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "From Cavaglio d'Agogna in the hills east of Ghemme (Alto Piemonte). Hand-harvested, destemmed; fermented with indigenous yeasts in stainless with ~10-day maceration; aged ~1 year in used 500-L French oak tonneaux. Bottled unfined and unfiltered; farming follows organic principles."
   },
@@ -674,8 +721,8 @@
     "country": "United States",
     "winery": "Copper Six Winery",
     "coordinates": {
-      "lat": 34.746500,
-      "lng": -120.220000
+      "lat": 34.7465,
+      "lng": -120.22
     },
     "notes": "Vibrant ruby with violet flashes. Aromas leap from the glass—mountain raspberry, rosehip and black cherry—over crushed granite, chai spice and a twist of white pepper. The palate is lively and medium-bodied with bright, mouth-watering acidity; juicy red fruits are framed by fine, chalk-edged tannins from a touch of whole-cluster. Finishes long, stony and perfumed with violets and herbs; delicious slightly chilled.",
     "aromas": [
@@ -691,7 +738,7 @@
     "varietals": [
       "Gamay"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -703,7 +750,10 @@
       "whole-cluster",
       "neutral-oak",
       "serve-chilled",
-      "crunchy-red-fruit"
+      "crunchy-red-fruit",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Hand-harvested in two passes (late September/early October). After sorting and destemming into open-top tanks, ~25% whole clusters were included; gentle daily pump-overs. A portion barrel-fermented; aging in a mix of neutral French oak (225L, 300L, 500L) prior to bottling to preserve the AVA's cool-Pacific, sandstone/shale-driven freshness."
   },
@@ -716,8 +766,8 @@
     "country": "United States",
     "winery": "Leah Jorgensen Cellars",
     "coordinates": {
-      "lat": 42.326000,
-      "lng": -122.875000
+      "lat": 42.326,
+      "lng": -122.875
     },
     "notes": "Clear ruby. Lively scents of wild red cherry, raspberry and cranberry with violets, peppercorn and a hint of baking spice. Medium in body with bright, driving acidity; tangy red fruit flows across a silken mid-palate, framed by fine, powdery tannins. Long, pepper-tinged finish that remains energetic and food-versatile.",
     "aromas": [
@@ -743,7 +793,10 @@
       "native-yeast",
       "neutral-french-oak",
       "minimal-intervention",
-      "spice-finish"
+      "spice-finish",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Hand-harvested and selectively sorted from Havlin Vineyard (ancient marine-influenced soils of shellfish, limestone and clay loam). Spontaneous fermentation on skins in stainless; then aged in neutral French oak to showcase terroir. No additives or shortcuts—an authentic, terroir-driven Gamay."
   },
@@ -756,8 +809,8 @@
     "country": "France",
     "winery": "Domaine du Gueret",
     "coordinates": {
-      "lat": 46.215300,
-      "lng": 4.728800
+      "lat": 46.2153,
+      "lng": 4.7288
     },
     "notes": "Deep ruby. Intense blackcurrant and black cherry layered with violet, licorice, woody nuance and a ferrous, granitic mineral tone. The palate is ripe and full-bodied for Gamay, with firm, finely knit tannins and brisk acidity giving length and poise. Long, savory finish etched by spice and granite dust—delicious now, with clear potential to develop complexity over a few years.",
     "aromas": [
@@ -784,7 +837,11 @@
       "whole-bunch",
       "long-maceration",
       "neutral-oak",
-      "age-worthy"
+      "age-worthy",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Estate parcels around La Bruyère on manganese- and iron-rich granite slopes. Hand harvest; rigorous sorting; long macerations with whole-bunch fermentations (~10–15 days). Partial élevage in large, neutral oak to add depth without overt wood. The Favre-Curtelin family stewards ~13 ha split between Chénas and MAV; cellar dates to the 18th century."
   },
@@ -797,8 +854,8 @@
     "country": "France",
     "winery": "Domaine des Gryphées",
     "coordinates": {
-      "lat": 45.905000,
-      "lng": 4.600000
+      "lat": 45.905,
+      "lng": 4.6
     },
     "notes": "Deep, reflective ruby with purple highlights. Soaring aromatics of black cherry, ripe strawberry and wild raspberry over spiced plum, blueberry, candied violet, grape stem, crushed stones and a touch of pepper and forest floor. Medium-bodied and supple with polished tannins and bright, refreshing acidity; fruit generosity is balanced by a savory mineral line. Long, mouth-watering finish that invites another sip.",
     "aromas": [
@@ -816,7 +873,7 @@
     "varietals": [
       "Gamay"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -827,7 +884,11 @@
       "spontaneous-ferment",
       "stainless-to-foudre",
       "unfined-unfiltered",
-      "silky-texture"
+      "silky-texture",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "From the steep 'Balmes' vineyard in Le Bois d'Oingt (Pierres Dorées zone), on limestone- and clay-rich soils with golden chalk. Ancient 90–100-year-old, low-yielding vines harvested by hand. Indigenous-yeast fermentation in stainless; pressed to old, neutral foudres for élevage; bottled with minimal intervention to preserve purity and site character. Estate managed by Pierre and Guillaume Durdilly."
   },
@@ -840,8 +901,8 @@
     "country": "Italy",
     "winery": "Tasi",
     "coordinates": {
-      "lat": 45.887000,
-      "lng": 12.305000
+      "lat": 45.887,
+      "lng": 12.305
     },
     "notes": "Bright straw with a fine, persistent mousse. Aromas of white peach, pear skin, quince and white raspberry glide over lemon-lime zest, white flowers and a chalky, crushed-rock edge. On the palate it's dry-Brut on the fruitier side, medium-light in body with brisk, mouth-watering acidity and creamy bubbles from extended Charmat lees time; flavors echo stone fruit and citrus with a saline snap. Clean, refreshing finish with lingering peach, lemon pith and mineral dust.",
     "aromas": [
@@ -856,7 +917,7 @@
     "varietals": [
       "Glera"
     ],
-    "alcohol": 11.0,
+    "alcohol": 11,
     "body": "medium-light",
     "acidity": "medium-high",
     "favorite": false,
@@ -880,8 +941,8 @@
     "country": "Italy",
     "winery": "Venturini",
     "coordinates": {
-      "lat": 45.535000,
-      "lng": 10.930000
+      "lat": 45.535,
+      "lng": 10.93
     },
     "notes": "Translucent ruby. Classic scents of marasca cherry, red currant and kirsch accented by dried rose, wild fennel, a balsamic thread and saline minerals. Medium-bodied with lively, snappy acidity; juicy red fruits ride over silky tannins with a faint almond-kernel bitterness. Finishes bright and savory with dried herbs and crushed stone.",
     "aromas": [
@@ -921,8 +982,8 @@
     "country": "Italy",
     "winery": "Fasoli Gino",
     "coordinates": {
-      "lat": 45.550000,
-      "lng": 10.720000
+      "lat": 45.55,
+      "lng": 10.72
     },
     "notes": "Light ruby with a blue rim. Fragrant mix of wild roses, cherry blossom and crushed strawberry over tart cherry, blood orange and granitic mineral. Medium-light, brisk and crunchy; quick, gentle maceration gives silken tannins and a cool-stone finish. Serve slightly chilled.",
     "aromas": [
@@ -939,7 +1000,7 @@
       "Corvinone",
       "Rondinella"
     ],
-    "alcohol": 12.0,
+    "alcohol": 12,
     "body": "light",
     "acidity": "medium-high",
     "favorite": false,
@@ -962,8 +1023,8 @@
     "country": "Italy",
     "winery": "Corte Mainente",
     "coordinates": {
-      "lat": 45.420000,
-      "lng": 11.250000
+      "lat": 45.42,
+      "lng": 11.25
     },
     "notes": "Bright straw-gold with silver-green glints. Aromas of white peach, nectarine and lime zest with white flowers, cedar, beeswax and crushed limestone. Medium-bodied and silken with crisp, stony acidity; citrus and stone-fruit flavors are shaped by a savory mineral line and a gentle leesy roundness. Finishes long, saline and precise.",
     "aromas": [
@@ -1002,8 +1063,8 @@
     "country": "France",
     "winery": "Domaine Lafond Roc-Epine",
     "coordinates": {
-      "lat": 44.050000,
-      "lng": 4.770000
+      "lat": 44.05,
+      "lng": 4.77
     },
     "notes": "Deep yellow-gold. Heady aromas announce the Viognier share—honeysuckle, jasmine and yellow peach—interlaced with orange oil, grilled nuts and herbal tea. Full-bodied and glossy yet balanced by slow-moving acidity; flavors of fresh peach and citrus peel ride over a viscous, layered texture. Lingering finish with floral perfume and almond richness.",
     "aromas": [
@@ -1020,7 +1081,7 @@
       "Roussanne",
       "Viognier"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "full",
     "acidity": "medium",
     "favorite": false,
@@ -1030,7 +1091,9 @@
       "galets-roules",
       "stainless-aged",
       "floral",
-      "rich-texture"
+      "rich-texture",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "From hot, wind-swept Lirac terraces opposite Châteauneuf-du-Pape. Blend approx. 50% Grenache Blanc, 30% Roussanne, 20% Viognier. Hand-harvested, de-stemmed, brief skin maceration, then cool fermentation and aging in stainless to retain freshness; bottled the following year."
   },
@@ -1043,8 +1106,8 @@
     "country": "France",
     "winery": "Domaine Gavoty",
     "coordinates": {
-      "lat": 43.410000,
-      "lng": 6.250000
+      "lat": 43.41,
+      "lng": 6.25
     },
     "notes": "Medium yellow-gold with green-silver flashes. Aromas of sage, fennel and mint over ripe mango, white peach and green apple, laced with wildflower honey, wet stones and sea spray. Medium-plus in body yet lip-smackingly fresh; crisp acidity frames a fleshy mid-palate. Long, mineral-saline finish.",
     "aromas": [
@@ -1061,7 +1124,7 @@
     "varietals": [
       "Rolle"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -1071,7 +1134,9 @@
       "rolle-vermentino",
       "concrete-and-steel",
       "no-mlf",
-      "organic-estate"
+      "organic-estate",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "100% Rolle from limestone-rich vineyards in Cabasse (northwestern Côtes de Provence). Vinified and aged in a mix of concrete and steel; malolactic is blocked to keep tension. Family estate dating to 1806; organic polyculture farm with grazing in the vines."
   },
@@ -1084,8 +1149,8 @@
     "country": "France",
     "winery": "Domaine Ray-Jane",
     "coordinates": {
-      "lat": 43.200000,
-      "lng": 5.780000
+      "lat": 43.2,
+      "lng": 5.78
     },
     "notes": "Pale straw with green glints. Aromas of white peach, Meyer lemon and green pineapple layered with yellow and orange blossom, acacia honey and a sea-spray salinity. Medium-plus body with lively acidity; exotic fruit and citrus glide over a stony, herbal garrigue backdrop. Persistent, mouth-watering finish.",
     "aromas": [
@@ -1103,7 +1168,7 @@
       "Ugni Blanc",
       "Bourboulenc"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -1113,7 +1178,9 @@
       "stainless-steel",
       "saline",
       "near-term-drinking",
-      "heritage-estate"
+      "heritage-estate",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Sourced from Le Plan du Castellet above Bandol; pebbly limestone and clay close to the Mediterranean impart saline lift. Field blend led by Clairette and Ugni Blanc with other Provençal whites. Direct-press to tank; cool, stainless fermentation and tank aging to preserve primary fruit. The Constant family has farmed here since 1288."
   },
@@ -1126,8 +1193,8 @@
     "country": "France",
     "winery": "Moulin de Gassac",
     "coordinates": {
-      "lat": 43.390000,
-      "lng": 3.520000
+      "lat": 43.39,
+      "lng": 3.52
     },
     "notes": "Silvery straw-gold. Sea-spray, lemon peel and green apple on the nose with crushed shell and a faint creamy lees note. Bracing, high acidity delivers a saline, citrus-driven palate; light body, ultra-clean lines and a whisper of lees roundness. Snappy, bone-dry finish tailor-made for oysters.",
     "aromas": [
@@ -1164,8 +1231,8 @@
     "country": "United States",
     "winery": "Yamhill Valley Vineyards",
     "coordinates": {
-      "lat": 45.210000,
-      "lng": -123.200000
+      "lat": 45.21,
+      "lng": -123.2
     },
     "notes": "Garnet red that opens quickly with air. Aromas of ripe cherry, wild strawberry and blackcurrant are laced with dried rose petals, porcini, cocoa powder, damp pine and earthy notes. Medium body with silky, integrated tannins and bright, lifting acidity; poised and elegant. Long finish echoing red fruit, cocoa and forest floor; built to improve 5–10 years.",
     "aromas": [
@@ -1191,7 +1258,10 @@
       "estate-grown",
       "partial-whole-cluster",
       "oak-aged-10-months",
-      "age-worthy"
+      "age-worthy",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Estate fruit from the McMinnville area of the Willamette Valley. Hand-harvested; ~30% whole clusters used in 2022. Aged ~10 months in a mix of new and used oak barrels; final blend assembled before bottling. Family-founded in 1983, the winery focuses on structured, cool-climate Pinot with old-world sensibility."
   },
@@ -1204,8 +1274,8 @@
     "country": "United States",
     "winery": "Salem Wine Co.",
     "coordinates": {
-      "lat": 45.060000,
-      "lng": -123.080000
+      "lat": 45.06,
+      "lng": -123.08
     },
     "notes": "Pale gold. Ripe yellow and green apple, hazelnut and lemon zest with white flowers and a touch of marzipan. Medium-bodied and classically balanced; native-yeast fermentation in large neutral oak brings gentle breadth while bright acidity delivers Oregon minerality. Long, savory-citrus finish—excellent with shellfish.",
     "aromas": [
@@ -1220,7 +1290,7 @@
     "varietals": [
       "Chardonnay"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -1230,7 +1300,9 @@
       "seven-springs-sourced",
       "neutral-puncheons",
       "no-new-oak",
-      "burgundian-style"
+      "burgundian-style",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Primarily from Seven Springs' Block 9 on steep, east-facing, iron-rich clay with marine sediments. Hand-harvested, gently pressed, fermented with native yeast in 500-L neutral French oak puncheons; aged 6 months on lees with no new oak, then a further ~6 months before bottling for clarity and poise."
   },
@@ -1243,8 +1315,8 @@
     "country": "Italy",
     "winery": "Simon di Brazzan",
     "coordinates": {
-      "lat": 45.958000,
-      "lng": 13.456000
+      "lat": 45.958,
+      "lng": 13.456
     },
     "notes": "Deep ruby tending to magenta at the rim. Vivid aromas of black raspberry, cranberry and black plum skin mingle with pomegranate, tobacco leaf, pink peppercorn, bay and violets over a ponka-derived mineral edge. Medium to medium-full on the palate with silky yet persistent tannins; bright, mouth-watering acidity carries ripe red/black fruit and savory spice. The finish is polished and long, echoing graphite and herbs with a cool, stony snap.",
     "aromas": [
@@ -1271,7 +1343,12 @@
       "ponka-soils",
       "stainless-ferment",
       "silky-tannins",
-      "savory-spice"
+      "savory-spice",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "From Brazzano in Friuli-Venezia Giulia, equidistant to the Julian Alps, Slovenia and the Adriatic. Harvested late October from two parcels; fermented and aged in stainless to emphasize fruit purity and fine, more-grained tannins typical of the area's ponka (sandstone-marl) soils."
   },
@@ -1284,8 +1361,8 @@
     "country": "France",
     "winery": "Château Jeandebout (Vignobles Lacoste)",
     "coordinates": {
-      "lat": 44.583000,
-      "lng": -0.236000
+      "lat": 44.583,
+      "lng": -0.236
     },
     "notes": "Bright ruby. Pure Cabernet Franc tones of red/black currant and cherry are framed by gravel, graphite, cigar-box spice and a loamy, ferrous undertone. Medium body with a firm, finely grained tannic structure and vibrant acidity; fruit concentration remains at the core. Finishes savory and persistent with tobacco, pencil lead and sweet herbs.",
     "aromas": [
@@ -1311,7 +1388,10 @@
       "organic",
       "native-yeasts",
       "tank-aged",
-      "gravelly-soils"
+      "gravelly-soils",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Certified Organic vineyards on the Right Bank of the Garonne south of Saint-Émilion. 100% Cabernet Franc fermented on native yeasts and aged in tank to preserve freshness while showing Bordeaux gravitas and structure."
   },
@@ -1324,8 +1404,8 @@
     "country": "France",
     "winery": "Vignoble Musset-Roullier",
     "coordinates": {
-      "lat": 47.342000,
-      "lng": -0.556000
+      "lat": 47.342,
+      "lng": -0.556
     },
     "notes": "Deep ruby-purple with magenta rim. Perfumed notes of black plum, Bing cherry and currants layer with caraway, rosemary, sage, black pepper and violets. Juicy and tangy on the palate with medium body, lively acidity and fine, powdery tannins; sappy red fruit and savory spice carry into a long, pepper-laced finish. Splash-decant for bistro-ready pleasure.",
     "aromas": [
@@ -1351,7 +1431,10 @@
       "schist-and-limestone",
       "indigenous-yeasts",
       "stainless-steel",
-      "bistro-style"
+      "bistro-style",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "From Anjou sites along the Armorican Massif fault with green/blue schists and limestone. Hand-harvested, destemmed, brief cold maceration; native-yeast fermentation in stainless and 15 months' tank aging for bright, savory, varietal Cabernet Franc."
   },
@@ -1364,8 +1447,8 @@
     "country": "United States",
     "winery": "Fanatic Wine Company",
     "coordinates": {
-      "lat": 38.418000,
-      "lng": -121.537000
+      "lat": 38.418,
+      "lng": -121.537
     },
     "notes": "Translucent, slightly cloudy ruby. Lifted aromas of cherry, raspberry, violet and pink peppercorn hint at Loire-like freshness. Medium-bodied and juicy with bright acidity and gentle tannins; red fruit purity and a touch of herb/spice glide to a crisp, chillable finish tailor-made for BBQ and easy sipping.",
     "aromas": [
@@ -1402,8 +1485,8 @@
     "country": "France",
     "winery": "Domaine Vico",
     "coordinates": {
-      "lat": 42.480000,
-      "lng": 9.250000
+      "lat": 42.48,
+      "lng": 9.25
     },
     "notes": "Luminous ruby. Bursting notes of pomegranate, brambly wild strawberry and raspberry evolve to oolong tea, tomato leaf, black pepper and wild herbs. Medium body with lively acidity and silky but assertive tannins; Niellucciu supplies dark-cherry depth and structure while Sciaccarellu adds floral lift. Long, savory, mineral-tinged finish.",
     "aromas": [
@@ -1430,7 +1513,11 @@
       "volcanic-soils",
       "concrete-aged",
       "indigenous-yeasts",
-      "unfined-unfiltered"
+      "unfined-unfiltered",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "High-elevation terraces with volcanic influence; ~10% whole cluster for complexity. Indigenous yeast fermentation in concrete; ~18 months' aging preserves purity and texture. Estate founded 1901; farmed with biodynamic/permaculture principles."
   },
@@ -1443,8 +1530,8 @@
     "country": "Italy",
     "winery": "I Garagisti di Sorgono",
     "coordinates": {
-      "lat": 39.995000,
-      "lng": 9.111000
+      "lat": 39.995,
+      "lng": 9.111
     },
     "notes": "Vibrant ruby. Aromas of wild strawberry and cherry with Mediterranean herbs over dark berry, spice and a basaltic mineral edge. Light-to-medium in body yet concentrated, with bright acidity and supple but firm tannins; juicy fruit balances savory spice and saline mineral drive. Long, lively finish—great slightly chilled.",
     "aromas": [
@@ -1471,7 +1558,12 @@
       "alberello-bush-vines",
       "volcanic-soils",
       "native-yeasts",
-      "stainless-aged"
+      "stainless-aged",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing",
+      "pizza-pasta"
     ],
     "details": "From steep, high-elevation, volcanic/granitic slopes around Sorgono with 40–70-year-old alberello vines. Varieties are picked/pressed separately; spontaneous ferment in stainless; bottled unfined/unfiltered to preserve authenticity."
   },
@@ -1484,8 +1576,8 @@
     "country": "Greece",
     "winery": "Douloufakis",
     "coordinates": {
-      "lat": 35.214000,
-      "lng": 25.033000
+      "lat": 35.214,
+      "lng": 25.033
     },
     "notes": "Pale golden with green glints. Aromas of peach, apricot and quince interlace with chamomile, jasmine and honeyed melon over a chalky, volcanic minerality. Full-bodied and creamy yet balanced by lively acidity; flavors of stone fruit and Golden Delicious apple glide to a dry, mineral finish of medium length—excellent with spicy seafood.",
     "aromas": [
@@ -1511,7 +1603,10 @@
       "volcanic-limestone",
       "stainless-steel",
       "no-oak",
-      "aromatic-white"
+      "aromatic-white",
+      "seafood-pairing",
+      "cheese",
+      "spicy-food"
     ],
     "details": "Organic vineyards around Dafnes at 350–400 m with volcanic limestone. Hand-selected fruit; cool stainless fermentation and aging to showcase Vidiano's creamy texture, floral lift and mineral precision."
   },
@@ -1524,8 +1619,8 @@
     "country": "Italy",
     "winery": "Caravaglio",
     "coordinates": {
-      "lat": 38.556000,
-      "lng": 14.834000
+      "lat": 38.556,
+      "lng": 14.834
     },
     "notes": "Medium yellow-gold with green/silver flecks. Sicilian citrus, acacia honey and white peach meet Meyer lemon, green herbs and caper brine. Textural yet tense on the palate with citrusy drive, saline minerality and fine lees sheen; long, mouth-watering finish built for seafood and grilling.",
     "aromas": [
@@ -1564,8 +1659,8 @@
     "country": "France",
     "winery": "Clos du Caillou",
     "coordinates": {
-      "lat": 44.088000,
-      "lng": 4.878000
+      "lat": 44.088,
+      "lng": 4.878
     },
     "notes": "After a brief decant, explosive aromas of wild raspberry, blackberry, Bing cherry and redcurrant surge from the glass, backed by red licorice, garrigue, baked clay, black peppercorn, rosewater and wild thyme. Full-bodied yet polished with supple tannins and vibrant freshness; the finish is long, savory and perfumed.",
     "aromas": [
@@ -1597,7 +1692,10 @@
       "old-vines",
       "indigenous-yeasts",
       "foudre-and-concrete",
-      "rich-and-fresh"
+      "rich-and-fresh",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "Parcels encircled by Châteauneuf-du-Pape. 2021 returned to fully destemmed fruit: ~80% Grenache with splashes of Syrah, Carignan, Counoise and Mourvèdre. Native-yeast stainless ferment; ≈1 year in 52-hl foudres and concrete for polish without heavy oak."
   },
@@ -1610,8 +1708,8 @@
     "country": "France",
     "winery": "Mas des Capitelles",
     "coordinates": {
-      "lat": 43.566000,
-      "lng": 3.204000
+      "lat": 43.566,
+      "lng": 3.204
     },
     "notes": "Luscious and full-bodied, announcing itself with saturated color and lavender-garrigue aromatics. Carignan brings juicy plum and blue fruit; Syrah layers black fruit and pepper; Mourvèdre adds smoke and savor. Medium-plus tannins show a fine dustiness that reins in the sappy fruit. Long, savory finish that sings with BBQ.",
     "aromas": [
@@ -1629,7 +1727,7 @@
       "Syrah",
       "Carignan"
     ],
-    "alcohol": 14.0,
+    "alcohol": 14,
     "body": "full",
     "acidity": "medium",
     "favorite": false,
@@ -1639,7 +1737,10 @@
       "schist-soils",
       "old-bush-vines",
       "partial-whole-cluster",
-      "large-cask-aging"
+      "large-cask-aging",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
     ],
     "details": "From schistous slopes in the central Languedoc. Blend approx. 50% Mourvèdre, 25% Syrah, 25% Carignan from very old vines. Long macerations with some whole clusters; élevage ~14 months split between large oak casks and inert vessels (enamel/fiberglass) to preserve freshness and terroir."
   },
@@ -1652,8 +1753,8 @@
     "country": "Italy",
     "winery": "La Mozza",
     "coordinates": {
-      "lat": 42.585800,
-      "lng": 11.255100
+      "lat": 42.5858,
+      "lng": 11.2551
     },
     "notes": "Deep ruby-black to garnet. Inviting aromas of Morello cherry, blackberry and blackcurrant layered with licorice, dark chocolate, leather, tobacco, underbrush and forest floor. Medium-full palate with ripe black fruit framed by bright Tuscan acidity and polished, fine-grained tannins; savory cocoa and balsam notes trail into a long, mouthwatering finish.",
     "aromas": [
@@ -1681,7 +1782,11 @@
       "cabernet-sauvignon",
       "slavonian-oak",
       "stainless-steel",
-      "steak-pairing"
+      "steak-pairing",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "pizza-pasta"
     ],
     "details": "From sustainably farmed vineyards near Magliano in Toscana (Grosseto). Hand-harvested, destemmed fruit fermented in temperature-controlled stainless for ~2 weeks; malolactic in steel, then 12 months in a mix of 4,000-L Slavonian casks and stainless. Estate owned by Joe and Lidia Bastianich; plantings include both local and international varieties."
   },
@@ -1694,8 +1799,8 @@
     "country": "Italy",
     "winery": "Cantina Tramin",
     "coordinates": {
-      "lat": 46.343500,
-      "lng": 11.239300
+      "lat": 46.3435,
+      "lng": 11.2393
     },
     "notes": "Transparent ruby. Sweet-savory mix of red and black cherry, wild strawberry and rhubarb with rose petal, underbrush, smoke, leather and alpine herbs. Medium body with silky tannins and bright, refreshing acidity; ten days on skins gives gentle grip while large casks and concrete preserve purity. Finishes lively and woodland-spiced.",
     "aromas": [
@@ -1712,7 +1817,7 @@
     "varietals": [
       "Pinot Nero"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -1723,7 +1828,11 @@
       "large-casks",
       "concrete",
       "screwcap",
-      "silky-tannins"
+      "silky-tannins",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "pizza-pasta"
     ],
     "details": "Grapes from Mazon and Montan (250–850 m; clay, gravel, limestone, porphyry). Fermented ~10 days in stainless; aged several months in large French/Austrian oak and concrete. Tramin co-op dates to 1898 and farms 270 ha with member growers."
   },
@@ -1736,8 +1845,8 @@
     "country": "Italy",
     "winery": "De Forville",
     "coordinates": {
-      "lat": 44.736200,
-      "lng": 8.142500
+      "lat": 44.7362,
+      "lng": 8.1425
     },
     "notes": "Pale yellow-gold with silver-green flashes. Aromas of green and yellow apple, lemon zest, white flowers and crushed oyster shells over wet stones. Medium-bodied with a gentle creaminess balanced by a spine of citrusy, saline freshness; very clean stainless profile. Crisp, snappy finish suited to seafood or firm Piedmontese cheeses.",
     "aromas": [
@@ -1751,7 +1860,7 @@
     "varietals": [
       "Chardonnay"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -1774,8 +1883,8 @@
     "country": "Italy",
     "winery": "Weingut Niklas",
     "coordinates": {
-      "lat": 46.409300,
-      "lng": 11.248500
+      "lat": 46.4093,
+      "lng": 11.2485
     },
     "notes": "Racy, Sancerre-meets-NZ profile: white grapefruit, elderflower and gooseberry with green pepper, mountain wildflowers and wet stones. Medium body with bright, assertive acidity and a faint touch of residual sweetness lending mid-palate roundness. Long, mineral finish.",
     "aromas": [
@@ -1790,7 +1899,7 @@
     "varietals": [
       "Sauvignon Blanc"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "high",
     "favorite": false,
@@ -1800,7 +1909,10 @@
       "pergola-trained",
       "pebbly-limestone",
       "stainless-steel",
-      "aromatic-white"
+      "aromatic-white",
+      "seafood-pairing",
+      "cheese",
+      "pizza-pasta"
     ],
     "details": "Hillside sites at 500–600 m around St. Nikolaus (Kaltern/Caldaro), pergola-trained vines on pebbly limestone. Brief skin maceration, cool fermentation and aging in stainless preserve lift and precision."
   },
@@ -1813,8 +1925,8 @@
     "country": "Austria",
     "winery": "Weingut Glatzer",
     "coordinates": {
-      "lat": 48.076200,
-      "lng": 16.691800
+      "lat": 48.0762,
+      "lng": 16.6918
     },
     "notes": "Deeply colored yet lively. Juicy black fruits with spicy, meaty and turned-earth notes plus a hint of black pepper and graphite. Medium body; soft-contoured tannins and present, refreshing acidity keep the palate energetic. Fresh, savory finish—great with burgers or BBQ.",
     "aromas": [
@@ -1829,7 +1941,7 @@
     "varietals": [
       "Blaufränkisch"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium",
     "favorite": false,
@@ -1852,8 +1964,8 @@
     "country": "Austria",
     "winery": "Weingut Geyerhof",
     "coordinates": {
-      "lat": 48.372600,
-      "lng": 15.606500
+      "lat": 48.3726,
+      "lng": 15.6065
     },
     "notes": "Inky purple core. Aromas of dark blackberry and purple woodland berries with violets, black pepper, juniper and crushed stones. Plump yet tangy and refreshing, melding fruit and mineral sensations; marginally softer tannins than Blaufränkisch. Chill lightly for a versatile, grill-ready red.",
     "aromas": [
@@ -1877,7 +1989,11 @@
       "granite-gravel-soils",
       "stainless-ferment",
       "neutral-oak",
-      "serve-chilled"
+      "serve-chilled",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Estate with 400+ years of winemaking history. Handpicked, whole-cluster pressed (with intentional brief oxidation in tray), fermented in 3,000-L temperature-controlled stainless; small percentage aged in neutral oak tanks/barrels. Sourced from younger vines around Oberfucha on granite and gravel."
   },
@@ -1890,8 +2006,8 @@
     "country": "Austria",
     "winery": "Weingut Zahel",
     "coordinates": {
-      "lat": 48.264500,
-      "lng": 16.360600
+      "lat": 48.2645,
+      "lng": 16.3606
     },
     "notes": "Light golden-yellow with green highlights. Fresh aromas of yellow apple, peach, white pepper and lemon blossom joined by apricot, honeysuckle, saffron and white flowers. Medium-bodied with a faint, pleasant oiliness cut by lively acidity; clean, saline finish that begs for schnitzel and a lemony side salad.",
     "aromas": [
@@ -1923,7 +2039,9 @@
       "field-blend",
       "co-fermented",
       "stainless-aged",
-      "nussberg"
+      "nussberg",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "From Demeter-certified hillside vineyards around Vienna (notably Nussberg, ~300 m; sandstone over limestone). By law, Gemischter Satz must be a field blend of at least three varieties; Zahel co-ferments and ages in stainless. Family winery founded in 1724; certified biodynamic since 2018."
   },
@@ -1936,8 +2054,8 @@
     "country": "Austria",
     "winery": "Weingut Bründlmayer (Philipp Bründlmayer)",
     "coordinates": {
-      "lat": 48.409500,
-      "lng": 15.614000
+      "lat": 48.4095,
+      "lng": 15.614
     },
     "notes": "Pale yellow-gold with silvery-green reflections. Heady scents of green apple, white peach, grapefruit and lime blossom with green herbs, white pepper, radish and a hint of flinty smoke. Medium-bodied, racy and mouth-watering with almost saline minerality; finishes bright, peppery and clean.",
     "aromas": [
@@ -1963,7 +2081,9 @@
       "stainless-steel",
       "screwcap-1l",
       "fresh-and-saline",
-      "first-course-wine"
+      "first-course-wine",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Fruit sourced from loess-rich sites across Kremstal (including Vordenberg and Moosburgerin) with parcels such as Ried Steingraben. Fermented and raised in stainless; a touch of trapped CO₂ lends extra snap on opening. Estate under Josef and Philipp Bründlmayer, pursuing organic certification."
   },
@@ -1976,8 +2096,8 @@
     "country": "Spain",
     "winery": "Bodegas La Val",
     "coordinates": {
-      "lat": 42.300000,
-      "lng": -8.650000
+      "lat": 42.3,
+      "lng": -8.65
     },
     "notes": "Pale straw with silver glints. Expressive nose of lemon zest, green apple, white peach and jasmine layered over sea spray and wet stone. The palate is medium-bodied and intensely saline, with bright, racy acidity framing flavors of citrus pith, pear, and fennel pollen; a gentle leesy creaminess adds mid-palate weight without oak. Finishes long, mouthwatering, and mineral-driven with a whisper of bitter grapefruit rind.",
     "aromas": [
@@ -2017,8 +2137,8 @@
     "country": "Spain",
     "winery": "César Márquez",
     "coordinates": {
-      "lat": 42.550000,
-      "lng": -6.600000
+      "lat": 42.55,
+      "lng": -6.6
     },
     "notes": "Deep ruby with a purple rim. Aromas of blackberry, red cherry, black plum and violet with graphite, dried herbs and a ferrous mineral edge. Medium body with a lively, medium-high acidity and fine, chalk-tinted tannins; flavors echo dark berries, cherry pit, black tea and savory spice. Long, polished finish with floral lift and stony persistence.",
     "aromas": [
@@ -2035,7 +2155,7 @@
       "Mencía",
       "Alicante Bouschet"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -2045,7 +2165,11 @@
       "old-vines",
       "whole-cluster",
       "neutral-oak",
-      "site-blend"
+      "site-blend",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "From organically farmed old-vine parcels across Bierzo; lots fermented separately with native yeasts and 15–100% whole clusters, macerated 15–60 days, then aged ~12 months in neutral oak before blending. César Márquez is the nephew of Raul Pérez."
   },
@@ -2058,8 +2182,8 @@
     "country": "Spain",
     "winery": "Quinta do Estranxeiro",
     "coordinates": {
-      "lat": 42.480000,
-      "lng": -7.520000
+      "lat": 42.48,
+      "lng": -7.52
     },
     "notes": "Bright ruby. Perfumed nose of crushed raspberry, cherry pit, strawberry leaf and rose with cracked pepper, smoke and granite dust. Medium-bodied and energetic on the palate; 30% whole-cluster grip lends fine, savory tannins around red-toned fruit and sage. Finishes long and mineral with a cool, peppery snap.",
     "aromas": [
@@ -2075,7 +2199,7 @@
     "varietals": [
       "Mencía"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -2085,7 +2209,11 @@
       "steep-terraces",
       "whole-cluster",
       "concrete",
-      "foudre"
+      "foudre",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "seafood-pairing"
     ],
     "details": "Primarily Mencía from two terraced sites; spontaneous fermentations with wild yeasts in concrete/chestnut/large neutral oak, ~30% whole cluster and an additional two-week maceration; aged about eight months in foudres and concrete before bottling."
   },
@@ -2098,8 +2226,8 @@
     "country": "Spain",
     "winery": "Bodegas Avancia",
     "coordinates": {
-      "lat": 42.410000,
-      "lng": -7.110000
+      "lat": 42.41,
+      "lng": -7.11
     },
     "notes": "Pale yellow-gold. Aromas of pear, Meyer lemon, chamomile, white peach and wet slate. Medium body with a silky, lees-built mid-palate; bright, medium-high acidity keeps Godello's orchard-fruit richness focused. Long, stony, and slightly flinty finish with citrus peel and fennel pollen.",
     "aromas": [
@@ -2114,7 +2242,7 @@
     "varietals": [
       "Godello"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -2124,7 +2252,9 @@
       "godello",
       "lees-aged",
       "stainless-and-neutral-oak",
-      "mineral"
+      "mineral",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Founded by importer Jorge Ordóñez. Grapes are chilled for 24h, partially destemmed and pressed; fermentation in stainless steel (~80%) and neutral barrels (~20%), malolactic blocked; aged ~8 months on lees for texture."
   },
@@ -2137,8 +2267,8 @@
     "country": "Croatia",
     "winery": "Piquentum",
     "coordinates": {
-      "lat": 45.410000,
-      "lng": 13.970000
+      "lat": 45.41,
+      "lng": 13.97
     },
     "notes": "Bright golden-straw. Aromas of orange oil, yellow peach, white and pink flowers, dried Mediterranean herbs, and crushed limestone with a hint of beeswax. Medium-bodied with a gently phenolic, skin-contact grip, lively, medium-high acidity, and flavors of citrus, quince and sea-salted stone. Finishes long, savory-mineral and clean.",
     "aromas": [
@@ -2154,7 +2284,7 @@
     "varietals": [
       "Malvazija Istarska"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "medium-high",
     "favorite": false,
@@ -2164,7 +2294,9 @@
       "skin-maceration",
       "ambient-yeast",
       "oak-and-steel",
-      "coastal"
+      "coastal",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Winemaker Dimitri Brečević ferments native Malvazija with ambient yeasts after a brief 3–4 day skin maceration; maturation is split between older oak (≈70%) and stainless steel (≈30%). The cellar occupies a repurposed concrete water tank in Buzet."
   },
@@ -2177,8 +2309,8 @@
     "country": "France",
     "winery": "Domaine des Trois Toits",
     "coordinates": {
-      "lat": 47.150000,
-      "lng": -1.450000
+      "lat": 47.15,
+      "lng": -1.45
     },
     "notes": "Pale straw-gold with green highlights. Briny aromas of lemon, lime zest and tart green apple layered with oyster shell, wet stones and fresh bread dough from sur-lie aging. Light-to-medium body; razor-sharp, high acidity drives a crunchy palate of citrus pith and pear with a creamy lees cushion. Finishes saline, linear and refreshingly dry.",
     "aromas": [
@@ -2194,7 +2326,7 @@
     "varietals": [
       "Melon de Bourgogne"
     ],
-    "alcohol": 12.0,
+    "alcohol": 12,
     "body": "medium-light",
     "acidity": "high",
     "favorite": false,
@@ -2217,8 +2349,8 @@
     "country": "Greece",
     "winery": "Mylonas Winery",
     "coordinates": {
-      "lat": 37.830000,
-      "lng": 23.960000
+      "lat": 37.83,
+      "lng": 23.96
     },
     "notes": "Pale straw with green flashes. Lively aromas of peach skin, lemon-lime zest, white flowers, bay laurel and rosemary over crushed rock and sea salt. Medium body with zippy, high acidity; the palate is citrus-charged and stony with a saline snap. Dry, bright finish that lingers with herbs and mineral chalk.",
     "aromas": [
@@ -2234,7 +2366,7 @@
     "varietals": [
       "Assyrtiko"
     ],
-    "alcohol": 13.0,
+    "alcohol": 13,
     "body": "medium",
     "acidity": "high",
     "favorite": false,
@@ -2244,7 +2376,9 @@
       "assyrtiko",
       "stainless-steel",
       "coastal",
-      "saline"
+      "saline",
+      "seafood-pairing",
+      "cheese"
     ],
     "details": "Third-generation family estate near Keratea, south of Athens. Hand-harvested fruit is fermented cool in stainless steel and kept on fine lees briefly to emphasize freshness, sea-spray minerality and herb-tinged citrus."
   },
@@ -2257,8 +2391,8 @@
     "country": "Spain",
     "winery": "Uriondo",
     "coordinates": {
-      "lat": 43.220000,
-      "lng": -2.880000
+      "lat": 43.22,
+      "lng": -2.88
     },
     "notes": "Pale straw. Brisk aromas of lemon, tart green apple and lime blossom with sea spray, wet stones and a hint of green herbs. Light-to-medium body with piercing, high acidity; a brief lees aging adds texture while the wine remains fully still (no spritz). Salty, mouthwatering finish that screams for shellfish.",
     "aromas": [
@@ -2272,7 +2406,7 @@
     "varietals": [
       "Hondarrabi Zuri"
     ],
-    "alcohol": 12.0,
+    "alcohol": 12,
     "body": "medium-light",
     "acidity": "high",
     "favorite": false,
@@ -2285,5 +2419,300 @@
       "seafood"
     ],
     "details": "Founded in 1987 in Zaratamo near Bilbao. Blend led by indigenous Hondarrabi Zuri; fermented in stainless steel and aged a few months on the lees, then bottled still to foreground coastal salinity and citrus-charged precision."
+  },
+  {
+    "id": "antonella-corda-cannonau-di-sardegna-2021",
+    "name": "Antonella Corda Cannonau di Sardegna 2021",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Sardegna",
+    "country": "Italy",
+    "winery": "Antonella Corda",
+    "coordinates": {
+      "lat": 40.1209,
+      "lng": 9.0129
+    },
+    "notes": "Silky, supple Cannonau with ripe red berries, blood orange peel, rose and Mediterranean herb accents. The palate balances velvet texture with real tension and a clean, savory finish.",
+    "aromas": [
+      "red berries",
+      "blood orange",
+      "rose",
+      "mediterranean herbs"
+    ],
+    "varietals": [
+      "Cannonau"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sardegna",
+      "cannonau",
+      "organic",
+      "stainless-steel",
+      "oak-aged",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "pizza-pasta"
+    ],
+    "details": "Fermented on indigenous yeasts in stainless steel; aged in a mix of stainless steel and used French oak barrels to preserve fruit and add gentle polish."
+  },
+  {
+    "id": "cantina-horus-vittoria-frappato-sole-e-terra-2021",
+    "name": "Cantina Horus Vittoria Frappato \"Sole e Terra\" 2021",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Sicilia",
+    "country": "Italy",
+    "winery": "Cantina Horus",
+    "coordinates": {
+      "lat": 37.5994,
+      "lng": 14.0154
+    },
+    "notes": "Deep cherry-red with pink/orange glints. Bursting aromas of wild strawberry, red currant, black cherry, raspberry, rose petals, underbrush, and a twist of black pepper. Light-bodied, vivid acidity, very soft tannins, and modest alcohol—delicate, refreshing, and eminently chillable.",
+    "aromas": [
+      "wild strawberry",
+      "red currant",
+      "black cherry",
+      "raspberry",
+      "rose petals",
+      "underbrush",
+      "black pepper"
+    ],
+    "varietals": [
+      "Frappato"
+    ],
+    "alcohol": 12.5,
+    "body": "light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sicilia",
+      "frappato",
+      "organic",
+      "stainless-steel",
+      "chillable",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "pizza-pasta"
+    ],
+    "details": "100% Frappato fermented and aged in stainless steel to highlight brightness, perfume, and crunchy red fruit."
+  },
+  {
+    "id": "argiolas-vermentino-di-sardegna-mer-2022",
+    "name": "Argiolas Vermentino di Sardegna \"Merì\" 2022",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Sardegna",
+    "country": "Italy",
+    "winery": "Argiolas",
+    "coordinates": {
+      "lat": 40.1209,
+      "lng": 9.0129
+    },
+    "notes": "Bright yellow-gold with green flecks. Wild sage, fennel, mint, citrus zest, green mango and apple, sea spray, and a touch of wildflower honey. Medium-bodied yet incisive and saline on the finish.",
+    "aromas": [
+      "wild sage",
+      "fennel",
+      "mint",
+      "citrus zest",
+      "green mango",
+      "apple",
+      "sea spray",
+      "wildflower honey"
+    ],
+    "varietals": [
+      "Vermentino"
+    ],
+    "alcohol": 13,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sardegna",
+      "vermentino",
+      "stainless-steel",
+      "coastal",
+      "mineral",
+      "seafood-pairing",
+      "cheese",
+      "pizza-pasta"
+    ],
+    "details": "\"Merì\" is an experimental cuvée: grapes are picked with a special, dry-ice-chilling harvester to preserve aromatics; fermentation and aging are in stainless steel; malolactic is blocked for crispness."
+  },
+  {
+    "id": "curatolo-arini-terre-siciliane-catarratto-paccamora-2022",
+    "name": "Curatolo Arini Terre Siciliane Catarratto \"Paccamora\" 2022",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Sicilia",
+    "country": "Italy",
+    "winery": "Curatolo Arini",
+    "coordinates": {
+      "lat": 37.5994,
+      "lng": 14.0154
+    },
+    "notes": "Deep yellow-gold. Orange blossom, honeysuckle, citrus peel, mango, Mediterranean herbs, and crushed stones. Medium to medium-plus in body with a subtle waxy texture balanced by bright acidity and mineral snap.",
+    "aromas": [
+      "orange blossom",
+      "honeysuckle",
+      "citrus peel",
+      "mango",
+      "mediterranean herbs",
+      "crushed stones"
+    ],
+    "varietals": [
+      "Catarratto"
+    ],
+    "alcohol": 13,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sicilia",
+      "catarratto",
+      "stainless-steel",
+      "mineral",
+      "seafood-pairing",
+      "cheese",
+      "pizza-pasta"
+    ],
+    "details": "Gently de-stemmed with a brief skin maceration for aroma; soft pressing; cool fermentation and short aging in stainless steel."
+  },
+  {
+    "id": "chateau-coustarelle-cahors-grande-cuvee-prestige-2019",
+    "name": "Château Coustarélle Cahors \"Grande Cuvée Prestige\" 2019",
+    "vintage": 2019,
+    "type": "red",
+    "region": "Sud-Ouest",
+    "country": "France",
+    "winery": "Château Coustarélle",
+    "coordinates": {
+      "lat": 44.4448,
+      "lng": 1.4403
+    },
+    "notes": "Purple-black hue. Crushed blackberry and Morello cherry meet licorice, damp violets, coffee grounds, baking spice, smoke, and turned earth. Full-bodied with firm but ripe tannins—benefits from a splash decant.",
+    "aromas": [
+      "blackberry",
+      "morello cherry",
+      "licorice",
+      "violets",
+      "coffee grounds",
+      "baking spice",
+      "smoke",
+      "earth"
+    ],
+    "varietals": [
+      "Malbec",
+      "Tannat"
+    ],
+    "alcohol": 14,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "cahors",
+      "malbec",
+      "tannat",
+      "oak-aged",
+      "decant",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
+    ],
+    "details": "Old-vine fruit fully de-stemmed; ambient-yeast fermentation in stainless; 12 months in tank, then 12 months in oak (about 20% new annually)."
+  },
+  {
+    "id": "domaine-le-roc-fronton-la-folle-noire-dambat-2020",
+    "name": "Domaine Le Roc Fronton \"La Folle Noire d'Ambat\" 2020",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Sud-Ouest",
+    "country": "France",
+    "winery": "Domaine Le Roc",
+    "coordinates": {
+      "lat": 43.6047,
+      "lng": 1.4442
+    },
+    "notes": "Lifted aromas of brambly black fruit, black pepper, wild herbs, graphite/charcoal and a little smokiness. Fresh, lively, and bistro-ready with a savory snap on the finish.",
+    "aromas": [
+      "brambly black fruit",
+      "black pepper",
+      "wild herbs",
+      "graphite",
+      "charcoal",
+      "smoke"
+    ],
+    "varietals": [
+      "Négrette"
+    ],
+    "alcohol": 13,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "fronton",
+      "negrette",
+      "organic",
+      "oak-aged",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
+    ],
+    "details": "Gravity-fed to open-top fermenters without crushing; ambient fermentation ~2 weeks; aged ~8 months in used 20-hL oak casks."
+  },
+  {
+    "id": "domaine-des-cassagnoles-cotes-de-gascogne-blanc-2022",
+    "name": "Domaine des Cassagnoles Côtes de Gascogne Blanc 2022",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Sud-Ouest",
+    "country": "France",
+    "winery": "Domaine des Cassagnoles",
+    "coordinates": {
+      "lat": 43.6047,
+      "lng": 1.4442
+    },
+    "notes": "Shimmering straw-gold. Lime and lemon zest, cut grass, yellow peach, crushed chalk, and wet stones. Crisp, mineral, and refreshingly dry.",
+    "aromas": [
+      "lime zest",
+      "lemon zest",
+      "cut grass",
+      "yellow peach",
+      "crushed chalk",
+      "wet stones"
+    ],
+    "varietals": [
+      "Colombard",
+      "Ugni Blanc",
+      "Gros Manseng",
+      "Sauvignon Blanc"
+    ],
+    "alcohol": 12,
+    "body": "medium-light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "cotes-de-gascogne",
+      "colombard",
+      "ugni-blanc",
+      "gros-manseng",
+      "sauvignon-blanc",
+      "stainless-steel",
+      "mineral",
+      "seafood-pairing",
+      "cheese"
+    ],
+    "details": "From ~20-year-old vines; cool stainless-steel fermentation and aging; brief skin maceration on Gros Manseng/Colombard adds a tea-like tannic nip and extra aroma."
   }
-] 
+]
