@@ -830,5 +830,408 @@
       "silky-texture"
     ],
     "details": "From the steep 'Balmes' vineyard in Le Bois d'Oingt (Pierres Dorées zone), on limestone- and clay-rich soils with golden chalk. Ancient 90–100-year-old, low-yielding vines harvested by hand. Indigenous-yeast fermentation in stainless; pressed to old, neutral foudres for élevage; bottled with minimal intervention to preserve purity and site character. Estate managed by Pierre and Guillaume Durdilly."
+  },
+  {
+    "id": "tasi-prosecco-doc-2023",
+    "name": "Tasi Prosecco DOC",
+    "vintage": 2023,
+    "type": "sparkling",
+    "region": "Prosecco DOC",
+    "country": "Italy",
+    "winery": "Tasi",
+    "coordinates": {
+      "lat": 45.887000,
+      "lng": 12.305000
+    },
+    "notes": "Bright straw with a fine, persistent mousse. Aromas of white peach, pear skin, quince and white raspberry glide over lemon-lime zest, white flowers and a chalky, crushed-rock edge. On the palate it's dry-Brut on the fruitier side, medium-light in body with brisk, mouth-watering acidity and creamy bubbles from extended Charmat lees time; flavors echo stone fruit and citrus with a saline snap. Clean, refreshing finish with lingering peach, lemon pith and mineral dust.",
+    "aromas": [
+      "white peach",
+      "pear skin",
+      "quince",
+      "white raspberry",
+      "lemon zest",
+      "white flowers",
+      "crushed rock"
+    ],
+    "varietals": [
+      "Glera"
+    ],
+    "alcohol": 11.0,
+    "body": "medium-light",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "veneto",
+      "charmat-method",
+      "brut",
+      "organic-biodynamic",
+      "aperitif",
+      "party-friendly"
+    ],
+    "details": "Organic/biodynamic fruit from an old limestone quarry site in Tregnago on the outskirts of the DOC. Hand-harvested Glera is fermented in stainless, then undergoes secondary fermentation in autoclave (Charmat) with ~60 days on fine lees. Bottled with ~10–12 g/L residual sugar for a fruit-forward Brut profile."
+  },
+  {
+    "id": "venturini-valpolicella-classico-2023",
+    "name": "Venturini Valpolicella Classico",
+    "vintage": 2023,
+    "type": "red",
+    "region": "Valpolicella Classico",
+    "country": "Italy",
+    "winery": "Venturini",
+    "coordinates": {
+      "lat": 45.535000,
+      "lng": 10.930000
+    },
+    "notes": "Translucent ruby. Classic scents of marasca cherry, red currant and kirsch accented by dried rose, wild fennel, a balsamic thread and saline minerals. Medium-bodied with lively, snappy acidity; juicy red fruits ride over silky tannins with a faint almond-kernel bitterness. Finishes bright and savory with dried herbs and crushed stone.",
+    "aromas": [
+      "marasca cherry",
+      "red currant",
+      "kirsch",
+      "dried rose",
+      "wild fennel",
+      "balsamic",
+      "saline mineral"
+    ],
+    "varietals": [
+      "Corvina",
+      "Rondinella",
+      "Molinara"
+    ],
+    "alcohol": 12.8,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "veneto",
+      "classico-zone",
+      "stainless-ferment",
+      "native-yeast",
+      "pizza-pasta"
+    ],
+    "details": "From terraced, south/southwest-facing slopes in the historic Classico area (200–600 m). Roughly 70% Corvina, 20% Rondinella, 10% Molinara; hand-picked, destemmed via roller press, fermented ~8 days in temperature-controlled tanks; completes malolactic and rests several months before spring bottling—no oak to preserve lift."
+  },
+  {
+    "id": "fasoli-gino-bardolino-la-corte-del-pozzo-2022",
+    "name": "Fasoli Gino Bardolino \"La Corte del Pozzo\"",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Bardolino",
+    "country": "Italy",
+    "winery": "Fasoli Gino",
+    "coordinates": {
+      "lat": 45.550000,
+      "lng": 10.720000
+    },
+    "notes": "Light ruby with a blue rim. Fragrant mix of wild roses, cherry blossom and crushed strawberry over tart cherry, blood orange and granitic mineral. Medium-light, brisk and crunchy; quick, gentle maceration gives silken tannins and a cool-stone finish. Serve slightly chilled.",
+    "aromas": [
+      "wild rose",
+      "cherry blossom",
+      "crushed strawberry",
+      "tart cherry",
+      "blood orange",
+      "wet stone",
+      "herbal tea"
+    ],
+    "varietals": [
+      "Corvina",
+      "Corvinone",
+      "Rondinella"
+    ],
+    "alcohol": 12.0,
+    "body": "light",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "lake-garda",
+      "organic",
+      "short-maceration",
+      "serve-chilled",
+      "pizza-night"
+    ],
+    "details": "Single hillside parcel on the eastern shore of Lake Garda near Verona; breezy Alpine influence and morainic (glacial) soils. Clusters are pressed quickly for a gentle extraction; ~15-day maceration, then settling in steel and early spring bottling with minimal intervention—true to the family's long-standing organic approach."
+  },
+  {
+    "id": "corte-mainente-soave-classico-tenda-2023",
+    "name": "Corte Mainente Soave Classico \"Tenda\"",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Soave Classico",
+    "country": "Italy",
+    "winery": "Corte Mainente",
+    "coordinates": {
+      "lat": 45.420000,
+      "lng": 11.250000
+    },
+    "notes": "Bright straw-gold with silver-green glints. Aromas of white peach, nectarine and lime zest with white flowers, cedar, beeswax and crushed limestone. Medium-bodied and silken with crisp, stony acidity; citrus and stone-fruit flavors are shaped by a savory mineral line and a gentle leesy roundness. Finishes long, saline and precise.",
+    "aromas": [
+      "white peach",
+      "nectarine",
+      "lime zest",
+      "white flowers",
+      "cedar",
+      "beeswax",
+      "crushed limestone"
+    ],
+    "varietals": [
+      "Garganega"
+    ],
+    "alcohol": 12.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "monte-tenda",
+      "old-vines",
+      "cement-aged",
+      "lees-aging",
+      "saline",
+      "seafood"
+    ],
+    "details": "Single-vineyard Garganega from old vines in the Soave Classico hills (layers of clay over near-pure limestone). Hand-harvested, gently pressed; fermented and aged on fine lees in cement for ~12 months—no Trebbiano, no oak—emphasizing texture, orchard fruit and mineral cut."
+  },
+  {
+    "id": "domaine-lafond-lirac-blanc-roc-epine-2021",
+    "name": "Domaine Lafond Lirac Blanc \"Roc Epine\"",
+    "vintage": 2021,
+    "type": "white",
+    "region": "Lirac",
+    "country": "France",
+    "winery": "Domaine Lafond Roc-Epine",
+    "coordinates": {
+      "lat": 44.050000,
+      "lng": 4.770000
+    },
+    "notes": "Deep yellow-gold. Heady aromas announce the Viognier share—honeysuckle, jasmine and yellow peach—interlaced with orange oil, grilled nuts and herbal tea. Full-bodied and glossy yet balanced by slow-moving acidity; flavors of fresh peach and citrus peel ride over a viscous, layered texture. Lingering finish with floral perfume and almond richness.",
+    "aromas": [
+      "honeysuckle",
+      "jasmine",
+      "yellow peach",
+      "orange oil",
+      "almond",
+      "herbal tea",
+      "white flowers"
+    ],
+    "varietals": [
+      "Grenache Blanc",
+      "Roussanne",
+      "Viognier"
+    ],
+    "alcohol": 14.0,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "southern-rhone",
+      "galets-roules",
+      "stainless-aged",
+      "floral",
+      "rich-texture"
+    ],
+    "details": "From hot, wind-swept Lirac terraces opposite Châteauneuf-du-Pape. Blend approx. 50% Grenache Blanc, 30% Roussanne, 20% Viognier. Hand-harvested, de-stemmed, brief skin maceration, then cool fermentation and aging in stainless to retain freshness; bottled the following year."
+  },
+  {
+    "id": "domaine-gavoty-cotes-de-provence-blanc-grand-classique-2021",
+    "name": "Domaine Gavoty Côtes de Provence Blanc \"Grand Classique\"",
+    "vintage": 2021,
+    "type": "white",
+    "region": "Côtes de Provence",
+    "country": "France",
+    "winery": "Domaine Gavoty",
+    "coordinates": {
+      "lat": 43.410000,
+      "lng": 6.250000
+    },
+    "notes": "Medium yellow-gold with green-silver flashes. Aromas of sage, fennel and mint over ripe mango, white peach and green apple, laced with wildflower honey, wet stones and sea spray. Medium-plus in body yet lip-smackingly fresh; crisp acidity frames a fleshy mid-palate. Long, mineral-saline finish.",
+    "aromas": [
+      "sage",
+      "fennel",
+      "mint",
+      "mango",
+      "white peach",
+      "green apple",
+      "wildflower honey",
+      "wet stone",
+      "sea spray"
+    ],
+    "varietals": [
+      "Rolle"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "provence",
+      "rolle-vermentino",
+      "concrete-and-steel",
+      "no-mlf",
+      "organic-estate"
+    ],
+    "details": "100% Rolle from limestone-rich vineyards in Cabasse (northwestern Côtes de Provence). Vinified and aged in a mix of concrete and steel; malolactic is blocked to keep tension. Family estate dating to 1806; organic polyculture farm with grazing in the vines."
+  },
+  {
+    "id": "domaine-ray-jane-igp-du-var-blanc-2022",
+    "name": "Domaine Ray-Jane IGP du Var Blanc",
+    "vintage": 2022,
+    "type": "white",
+    "region": "IGP du Var",
+    "country": "France",
+    "winery": "Domaine Ray-Jane",
+    "coordinates": {
+      "lat": 43.200000,
+      "lng": 5.780000
+    },
+    "notes": "Pale straw with green glints. Aromas of white peach, Meyer lemon and green pineapple layered with yellow and orange blossom, acacia honey and a sea-spray salinity. Medium-plus body with lively acidity; exotic fruit and citrus glide over a stony, herbal garrigue backdrop. Persistent, mouth-watering finish.",
+    "aromas": [
+      "white peach",
+      "Meyer lemon",
+      "green pineapple",
+      "yellow blossom",
+      "orange blossom",
+      "acacia honey",
+      "sea spray",
+      "herbes de garrigue"
+    ],
+    "varietals": [
+      "Clairette",
+      "Ugni Blanc",
+      "Bourboulenc"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "bandol-plateau",
+      "stainless-steel",
+      "saline",
+      "near-term-drinking",
+      "heritage-estate"
+    ],
+    "details": "Sourced from Le Plan du Castellet above Bandol; pebbly limestone and clay close to the Mediterranean impart saline lift. Field blend led by Clairette and Ugni Blanc with other Provençal whites. Direct-press to tank; cool, stainless fermentation and tank aging to preserve primary fruit. The Constant family has farmed here since 1288."
+  },
+  {
+    "id": "moulin-de-gassac-picpoul-de-pinet-2022",
+    "name": "Moulin de Gassac Picpoul de Pinet",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Picpoul de Pinet",
+    "country": "France",
+    "winery": "Moulin de Gassac",
+    "coordinates": {
+      "lat": 43.390000,
+      "lng": 3.520000
+    },
+    "notes": "Silvery straw-gold. Sea-spray, lemon peel and green apple on the nose with crushed shell and a faint creamy lees note. Bracing, high acidity delivers a saline, citrus-driven palate; light body, ultra-clean lines and a whisper of lees roundness. Snappy, bone-dry finish tailor-made for oysters.",
+    "aromas": [
+      "lemon peel",
+      "green apple",
+      "sea spray",
+      "crushed shell",
+      "white flowers",
+      "fresh herbs"
+    ],
+    "varietals": [
+      "Picpoul"
+    ],
+    "alcohol": 12.5,
+    "body": "light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "languedoc",
+      "etang-de-thau",
+      "lees-aged",
+      "seafood",
+      "value-white"
+    ],
+    "details": "Organic plot near the Etang de Thau lagoon on gravel and limestone. Ambient-yeast fermentation in stainless; brief lees aging (3–5 months) to soften edges while preserving the variety's hallmark saline bite. A project from the Guibert family of Mas de Daumas Gassac showcasing local terroir."
+  },
+  {
+    "id": "yamhill-valley-vineyards-willamette-valley-estate-pinot-noir-2022",
+    "name": "Yamhill Valley Vineyards Willamette Valley Estate Pinot Noir",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Willamette Valley",
+    "country": "United States",
+    "winery": "Yamhill Valley Vineyards",
+    "coordinates": {
+      "lat": 45.210000,
+      "lng": -123.200000
+    },
+    "notes": "Garnet red that opens quickly with air. Aromas of ripe cherry, wild strawberry and blackcurrant are laced with dried rose petals, porcini, cocoa powder, damp pine and earthy notes. Medium body with silky, integrated tannins and bright, lifting acidity; poised and elegant. Long finish echoing red fruit, cocoa and forest floor; built to improve 5–10 years.",
+    "aromas": [
+      "ripe cherry",
+      "wild strawberry",
+      "blackcurrant",
+      "dried rose",
+      "porcini",
+      "cocoa powder",
+      "earth",
+      "damp pine"
+    ],
+    "varietals": [
+      "Pinot Noir"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "oregon",
+      "estate-grown",
+      "partial-whole-cluster",
+      "oak-aged-10-months",
+      "age-worthy"
+    ],
+    "details": "Estate fruit from the McMinnville area of the Willamette Valley. Hand-harvested; ~30% whole clusters used in 2022. Aged ~10 months in a mix of new and used oak barrels; final blend assembled before bottling. Family-founded in 1983, the winery focuses on structured, cool-climate Pinot with old-world sensibility."
+  },
+  {
+    "id": "salem-wine-co-eola-amity-hills-chardonnay-2021",
+    "name": "Salem Wine Co. Eola-Amity Hills Chardonnay",
+    "vintage": 2021,
+    "type": "white",
+    "region": "Eola-Amity Hills",
+    "country": "United States",
+    "winery": "Salem Wine Co.",
+    "coordinates": {
+      "lat": 45.060000,
+      "lng": -123.080000
+    },
+    "notes": "Pale gold. Ripe yellow and green apple, hazelnut and lemon zest with white flowers and a touch of marzipan. Medium-bodied and classically balanced; native-yeast fermentation in large neutral oak brings gentle breadth while bright acidity delivers Oregon minerality. Long, savory-citrus finish—excellent with shellfish.",
+    "aromas": [
+      "yellow apple",
+      "green apple",
+      "hazelnut",
+      "lemon zest",
+      "white flowers",
+      "marzipan",
+      "wet stone"
+    ],
+    "varietals": [
+      "Chardonnay"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "evening-land",
+      "seven-springs-sourced",
+      "neutral-puncheons",
+      "no-new-oak",
+      "burgundian-style"
+    ],
+    "details": "Primarily from Seven Springs' Block 9 on steep, east-facing, iron-rich clay with marine sediments. Hand-harvested, gently pressed, fermented with native yeast in 500-L neutral French oak puncheons; aged 6 months on lees with no new oak, then a further ~6 months before bottling for clarity and poise."
   }
 ] 

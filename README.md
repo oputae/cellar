@@ -71,7 +71,7 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 
 ### Current Wine Collection
 
-The application currently includes 19 wines from various regions:
+The application currently includes 29 wines from various regions:
 
 1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
 2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
@@ -92,6 +92,16 @@ The application currently includes 19 wines from various regions:
 17. **Leah Jorgensen Gamay Le Coeur de Tour Rain – Havlin Vineyard** (2022) - Rogue Valley, Oregon, USA
 18. **Domaine du Gueret Moulin-à-Vent** (2023) - Moulin-à-Vent, France
 19. **Domaine des Gryphées Balmes Vieilles Vignes** (2023) - Beaujolais-Villages, France
+20. **Tasi Prosecco DOC** (2023) - Prosecco DOC, Italy
+21. **Venturini Valpolicella Classico** (2023) - Valpolicella Classico, Italy
+22. **Fasoli Gino Bardolino "La Corte del Pozzo"** (2022) - Bardolino, Italy
+23. **Corte Mainente Soave Classico "Tenda"** (2023) - Soave Classico, Italy
+24. **Domaine Lafond Lirac Blanc "Roc Epine"** (2021) - Lirac, France
+25. **Domaine Gavoty Côtes de Provence Blanc "Grand Classique"** (2021) - Côtes de Provence, France
+26. **Domaine Ray-Jane IGP du Var Blanc** (2022) - IGP du Var, France
+27. **Moulin de Gassac Picpoul de Pinet** (2022) - Picpoul de Pinet, France
+28. **Yamhill Valley Vineyards Willamette Valley Estate Pinot Noir** (2022) - Willamette Valley, Oregon, USA
+29. **Salem Wine Co. Eola-Amity Hills Chardonnay** (2021) - Eola-Amity Hills, Oregon, USA
 
 ### Sample JSON Entry
 
@@ -341,7 +351,7 @@ For questions or issues:
 
 ## Getting Started
 
-The application comes with a curated collection of 19 wines from various regions. To add your own wines:
+The application comes with a curated collection of 29 wines from various regions. To add your own wines:
 
 1. **Use the LLM Prompt Template** (see below) to generate wine entries
 2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`
