@@ -1233,5 +1233,414 @@
       "burgundian-style"
     ],
     "details": "Primarily from Seven Springs' Block 9 on steep, east-facing, iron-rich clay with marine sediments. Hand-harvested, gently pressed, fermented with native yeast in 500-L neutral French oak puncheons; aged 6 months on lees with no new oak, then a further ~6 months before bottling for clarity and poise."
+  },
+  {
+    "id": "simon-di-brazzan-venezia-giulia-cabernet-franc-2021",
+    "name": "Simon di Brazzan Venezia Giulia Cabernet Franc",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Venezia Giulia IGT",
+    "country": "Italy",
+    "winery": "Simon di Brazzan",
+    "coordinates": {
+      "lat": 45.958000,
+      "lng": 13.456000
+    },
+    "notes": "Deep ruby tending to magenta at the rim. Vivid aromas of black raspberry, cranberry and black plum skin mingle with pomegranate, tobacco leaf, pink peppercorn, bay and violets over a ponka-derived mineral edge. Medium to medium-full on the palate with silky yet persistent tannins; bright, mouth-watering acidity carries ripe red/black fruit and savory spice. The finish is polished and long, echoing graphite and herbs with a cool, stony snap.",
+    "aromas": [
+      "black raspberry",
+      "cranberry",
+      "black plum skin",
+      "pomegranate",
+      "tobacco leaf",
+      "pink peppercorn",
+      "bay leaf",
+      "violets",
+      "graphite"
+    ],
+    "varietals": [
+      "Cabernet Franc"
+    ],
+    "alcohol": 13.5,
+    "body": "medium-full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "friuli",
+      "ponka-soils",
+      "stainless-ferment",
+      "silky-tannins",
+      "savory-spice"
+    ],
+    "details": "From Brazzano in Friuli-Venezia Giulia, equidistant to the Julian Alps, Slovenia and the Adriatic. Harvested late October from two parcels; fermented and aged in stainless to emphasize fruit purity and fine, more-grained tannins typical of the area's ponka (sandstone-marl) soils."
+  },
+  {
+    "id": "chateau-jeandebout-bordeaux-rouge-belle-nature-2020",
+    "name": "Château Jeandebout Bordeaux Rouge \"Belle Nature\"",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Bordeaux",
+    "country": "France",
+    "winery": "Château Jeandebout (Vignobles Lacoste)",
+    "coordinates": {
+      "lat": 44.583000,
+      "lng": -0.236000
+    },
+    "notes": "Bright ruby. Pure Cabernet Franc tones of red/black currant and cherry are framed by gravel, graphite, cigar-box spice and a loamy, ferrous undertone. Medium body with a firm, finely grained tannic structure and vibrant acidity; fruit concentration remains at the core. Finishes savory and persistent with tobacco, pencil lead and sweet herbs.",
+    "aromas": [
+      "black currant",
+      "red currant",
+      "cherry",
+      "graphite",
+      "cigar box",
+      "tobacco",
+      "loam",
+      "sweet herbs"
+    ],
+    "varietals": [
+      "Cabernet Franc"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "right-bank-influence",
+      "organic",
+      "native-yeasts",
+      "tank-aged",
+      "gravelly-soils"
+    ],
+    "details": "Certified Organic vineyards on the Right Bank of the Garonne south of Saint-Émilion. 100% Cabernet Franc fermented on native yeasts and aged in tank to preserve freshness while showing Bordeaux gravitas and structure."
+  },
+  {
+    "id": "vignoble-musset-roullier-anjou-rouge-les-neuf-vingt-2021",
+    "name": "Vignoble Musset-Roullier Anjou Rouge \"Les Neuf Vingt\"",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Anjou",
+    "country": "France",
+    "winery": "Vignoble Musset-Roullier",
+    "coordinates": {
+      "lat": 47.342000,
+      "lng": -0.556000
+    },
+    "notes": "Deep ruby-purple with magenta rim. Perfumed notes of black plum, Bing cherry and currants layer with caraway, rosemary, sage, black pepper and violets. Juicy and tangy on the palate with medium body, lively acidity and fine, powdery tannins; sappy red fruit and savory spice carry into a long, pepper-laced finish. Splash-decant for bistro-ready pleasure.",
+    "aromas": [
+      "black plum",
+      "Bing cherry",
+      "blackcurrant",
+      "rosemary",
+      "sage",
+      "black pepper",
+      "violets",
+      "caraway"
+    ],
+    "varietals": [
+      "Cabernet Franc"
+    ],
+    "alcohol": 12.8,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "loire-valley",
+      "schist-and-limestone",
+      "indigenous-yeasts",
+      "stainless-steel",
+      "bistro-style"
+    ],
+    "details": "From Anjou sites along the Armorican Massif fault with green/blue schists and limestone. Hand-harvested, destemmed, brief cold maceration; native-yeast fermentation in stainless and 15 months' tank aging for bright, savory, varietal Cabernet Franc."
+  },
+  {
+    "id": "fanatic-wine-co-clarksburg-cabernet-franc-2021",
+    "name": "Fanatic Wine Co. Clarksburg Cabernet Franc",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Clarksburg AVA",
+    "country": "United States",
+    "winery": "Fanatic Wine Company",
+    "coordinates": {
+      "lat": 38.418000,
+      "lng": -121.537000
+    },
+    "notes": "Translucent, slightly cloudy ruby. Lifted aromas of cherry, raspberry, violet and pink peppercorn hint at Loire-like freshness. Medium-bodied and juicy with bright acidity and gentle tannins; red fruit purity and a touch of herb/spice glide to a crisp, chillable finish tailor-made for BBQ and easy sipping.",
+    "aromas": [
+      "cherry",
+      "raspberry",
+      "violet",
+      "pink peppercorn",
+      "red plum",
+      "fresh herbs"
+    ],
+    "varietals": [
+      "Cabernet Franc"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "delta-breezes",
+      "stainless-ferment",
+      "neutral-oak",
+      "chillable-red",
+      "bbq-friendly"
+    ],
+    "details": "Clarksburg's dense clay/loam by the Sacramento River with cooling Delta fog yields vivid aromatics without green pyrazines. Fully destemmed with short stainless maceration; aged in neutral (used) oak for six months pre-bottling."
+  },
+  {
+    "id": "domaine-vico-corse-rouge-forca-di-pero-2022",
+    "name": "Domaine Vico Corse Rouge \"Forca di Pero\"",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Corse",
+    "country": "France",
+    "winery": "Domaine Vico",
+    "coordinates": {
+      "lat": 42.480000,
+      "lng": 9.250000
+    },
+    "notes": "Luminous ruby. Bursting notes of pomegranate, brambly wild strawberry and raspberry evolve to oolong tea, tomato leaf, black pepper and wild herbs. Medium body with lively acidity and silky but assertive tannins; Niellucciu supplies dark-cherry depth and structure while Sciaccarellu adds floral lift. Long, savory, mineral-tinged finish.",
+    "aromas": [
+      "pomegranate",
+      "wild strawberry",
+      "raspberry",
+      "oolong tea",
+      "tomato leaf",
+      "black pepper",
+      "Mediterranean herbs",
+      "dark cherry"
+    ],
+    "varietals": [
+      "Niellucciu",
+      "Sciaccarellu"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "corsica",
+      "volcanic-soils",
+      "concrete-aged",
+      "indigenous-yeasts",
+      "unfined-unfiltered"
+    ],
+    "details": "High-elevation terraces with volcanic influence; ~10% whole cluster for complexity. Indigenous yeast fermentation in concrete; ~18 months' aging preserves purity and texture. Estate founded 1901; farmed with biodynamic/permaculture principles."
+  },
+  {
+    "id": "i-garagisti-di-sorgono-mandrolisai-rosso-garage-2023",
+    "name": "I Garagisti di Sorgono Mandrolisai Rosso \"Garage\"",
+    "vintage": 2023,
+    "type": "red",
+    "region": "Mandrolisai",
+    "country": "Italy",
+    "winery": "I Garagisti di Sorgono",
+    "coordinates": {
+      "lat": 39.995000,
+      "lng": 9.111000
+    },
+    "notes": "Vibrant ruby. Aromas of wild strawberry and cherry with Mediterranean herbs over dark berry, spice and a basaltic mineral edge. Light-to-medium in body yet concentrated, with bright acidity and supple but firm tannins; juicy fruit balances savory spice and saline mineral drive. Long, lively finish—great slightly chilled.",
+    "aromas": [
+      "wild strawberry",
+      "cherry",
+      "blackberry",
+      "Mediterranean herbs",
+      "anise",
+      "black pepper",
+      "crushed rock"
+    ],
+    "varietals": [
+      "Bovale Sardo",
+      "Cannonau",
+      "Monica"
+    ],
+    "alcohol": 13.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "sardinia",
+      "alberello-bush-vines",
+      "volcanic-soils",
+      "native-yeasts",
+      "stainless-aged"
+    ],
+    "details": "From steep, high-elevation, volcanic/granitic slopes around Sorgono with 40–70-year-old alberello vines. Varieties are picked/pressed separately; spontaneous ferment in stainless; bottled unfined/unfiltered to preserve authenticity."
+  },
+  {
+    "id": "douloufakis-pgi-crete-vidiano-2023",
+    "name": "Douloufakis PGI Crete Vidiano",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Crete PGI",
+    "country": "Greece",
+    "winery": "Douloufakis",
+    "coordinates": {
+      "lat": 35.214000,
+      "lng": 25.033000
+    },
+    "notes": "Pale golden with green glints. Aromas of peach, apricot and quince interlace with chamomile, jasmine and honeyed melon over a chalky, volcanic minerality. Full-bodied and creamy yet balanced by lively acidity; flavors of stone fruit and Golden Delicious apple glide to a dry, mineral finish of medium length—excellent with spicy seafood.",
+    "aromas": [
+      "peach",
+      "apricot",
+      "quince",
+      "chamomile",
+      "jasmine",
+      "honeydew",
+      "Golden Delicious apple",
+      "chalk"
+    ],
+    "varietals": [
+      "Vidiano"
+    ],
+    "alcohol": 13.5,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "crete",
+      "volcanic-limestone",
+      "stainless-steel",
+      "no-oak",
+      "aromatic-white"
+    ],
+    "details": "Organic vineyards around Dafnes at 350–400 m with volcanic limestone. Hand-selected fruit; cool stainless fermentation and aging to showcase Vidiano's creamy texture, floral lift and mineral precision."
+  },
+  {
+    "id": "caravaglio-igp-salina-bianco-2023",
+    "name": "Caravaglio IGP Salina Bianco",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Salina IGP",
+    "country": "Italy",
+    "winery": "Caravaglio",
+    "coordinates": {
+      "lat": 38.556000,
+      "lng": 14.834000
+    },
+    "notes": "Medium yellow-gold with green/silver flecks. Sicilian citrus, acacia honey and white peach meet Meyer lemon, green herbs and caper brine. Textural yet tense on the palate with citrusy drive, saline minerality and fine lees sheen; long, mouth-watering finish built for seafood and grilling.",
+    "aromas": [
+      "Sicilian citrus",
+      "acacia honey",
+      "white peach",
+      "Meyer lemon",
+      "green herbs",
+      "caper brine",
+      "sea spray"
+    ],
+    "varietals": [
+      "Malvasia",
+      "Catarratto"
+    ],
+    "alcohol": 12.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "aeolian-islands",
+      "ambient-yeasts",
+      "fine-lees",
+      "island-salinity",
+      "seafood-pairing"
+    ],
+    "details": "Hand-harvested, whole-cluster gentle pressing; ambient-yeast fermentation in stainless with three months on fine lees. Blend is ~90% Malvasia with ~10% Catarratto; certified organic vineyards on volcanic Salina."
+  },
+  {
+    "id": "clos-du-caillou-cotes-du-rhone-cuvee-unique-vieilles-vignes-2021",
+    "name": "Clos du Caillou Côtes du Rhône \"Cuvée Unique\" Vieilles Vignes",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Côtes du Rhône",
+    "country": "France",
+    "winery": "Clos du Caillou",
+    "coordinates": {
+      "lat": 44.088000,
+      "lng": 4.878000
+    },
+    "notes": "After a brief decant, explosive aromas of wild raspberry, blackberry, Bing cherry and redcurrant surge from the glass, backed by red licorice, garrigue, baked clay, black peppercorn, rosewater and wild thyme. Full-bodied yet polished with supple tannins and vibrant freshness; the finish is long, savory and perfumed.",
+    "aromas": [
+      "wild raspberry",
+      "blackberry",
+      "Bing cherry",
+      "redcurrant",
+      "red licorice",
+      "garrigue",
+      "baked clay",
+      "black peppercorn",
+      "rosewater",
+      "wild thyme"
+    ],
+    "varietals": [
+      "Grenache",
+      "Syrah",
+      "Carignan",
+      "Counoise",
+      "Mourvèdre"
+    ],
+    "alcohol": 14.5,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "southern-rhone",
+      "old-vines",
+      "indigenous-yeasts",
+      "foudre-and-concrete",
+      "rich-and-fresh"
+    ],
+    "details": "Parcels encircled by Châteauneuf-du-Pape. 2021 returned to fully destemmed fruit: ~80% Grenache with splashes of Syrah, Carignan, Counoise and Mourvèdre. Native-yeast stainless ferment; ≈1 year in 52-hl foudres and concrete for polish without heavy oak."
+  },
+  {
+    "id": "mas-des-capitelles-faugeres-vieilles-vignes-2020",
+    "name": "Mas des Capitelles Faugères \"Vieilles Vignes\"",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Faugères",
+    "country": "France",
+    "winery": "Mas des Capitelles",
+    "coordinates": {
+      "lat": 43.566000,
+      "lng": 3.204000
+    },
+    "notes": "Luscious and full-bodied, announcing itself with saturated color and lavender-garrigue aromatics. Carignan brings juicy plum and blue fruit; Syrah layers black fruit and pepper; Mourvèdre adds smoke and savor. Medium-plus tannins show a fine dustiness that reins in the sappy fruit. Long, savory finish that sings with BBQ.",
+    "aromas": [
+      "lavender",
+      "garrigue",
+      "plum",
+      "blueberry",
+      "blackberry",
+      "black pepper",
+      "smoke",
+      "dried herbs"
+    ],
+    "varietals": [
+      "Mourvèdre",
+      "Syrah",
+      "Carignan"
+    ],
+    "alcohol": 14.0,
+    "body": "full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "languedoc",
+      "schist-soils",
+      "old-bush-vines",
+      "partial-whole-cluster",
+      "large-cask-aging"
+    ],
+    "details": "From schistous slopes in the central Languedoc. Blend approx. 50% Mourvèdre, 25% Syrah, 25% Carignan from very old vines. Long macerations with some whole clusters; élevage ~14 months split between large oak casks and inert vessels (enamel/fiberglass) to preserve freshness and terroir."
   }
 ] 

@@ -71,7 +71,7 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 
 ### Current Wine Collection
 
-The application currently includes 29 wines from various regions:
+The application currently includes 41 wines from various regions:
 
 1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
 2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
@@ -102,6 +102,16 @@ The application currently includes 29 wines from various regions:
 27. **Moulin de Gassac Picpoul de Pinet** (2022) - Picpoul de Pinet, France
 28. **Yamhill Valley Vineyards Willamette Valley Estate Pinot Noir** (2022) - Willamette Valley, Oregon, USA
 29. **Salem Wine Co. Eola-Amity Hills Chardonnay** (2021) - Eola-Amity Hills, Oregon, USA
+30. **Simon di Brazzan Venezia Giulia Cabernet Franc** (2021) - Venezia Giulia IGT, Italy
+31. **Château Jeandebout Bordeaux Rouge "Belle Nature"** (2020) - Bordeaux, France
+32. **Vignoble Musset-Roullier Anjou Rouge "Les Neuf Vingt"** (2021) - Anjou, France
+33. **Fanatic Wine Co. Clarksburg Cabernet Franc** (2021) - Clarksburg AVA, California, USA
+34. **Domaine Vico Corse Rouge "Forca di Pero"** (2022) - Corse, France
+35. **I Garagisti di Sorgono Mandrolisai Rosso "Garage"** (2023) - Mandrolisai, Italy
+36. **Douloufakis PGI Crete Vidiano** (2023) - Crete PGI, Greece
+37. **Caravaglio IGP Salina Bianco** (2023) - Salina IGP, Italy
+38. **Clos du Caillou Côtes du Rhône "Cuvée Unique" Vieilles Vignes** (2021) - Côtes du Rhône, France
+39. **Mas des Capitelles Faugères "Vieilles Vignes"** (2020) - Faugères, France
 
 ### Sample JSON Entry
 
@@ -351,7 +361,7 @@ For questions or issues:
 
 ## Getting Started
 
-The application comes with a curated collection of 29 wines from various regions. To add your own wines:
+The application comes with a curated collection of 41 wines from various regions. To add your own wines:
 
 1. **Use the LLM Prompt Template** (see below) to generate wine entries
 2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`
