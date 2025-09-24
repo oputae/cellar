@@ -1642,5 +1642,329 @@
       "large-cask-aging"
     ],
     "details": "From schistous slopes in the central Languedoc. Blend approx. 50% Mourvèdre, 25% Syrah, 25% Carignan from very old vines. Long macerations with some whole clusters; élevage ~14 months split between large oak casks and inert vessels (enamel/fiberglass) to preserve freshness and terroir."
+  },
+  {
+    "id": "la-mozza-maremma-toscana-cabernet-sauvignon-i-perazzi-2021",
+    "name": "La Mozza Maremma Toscana Cabernet Sauvignon \"I Perazzi\"",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Maremma Toscana",
+    "country": "Italy",
+    "winery": "La Mozza",
+    "coordinates": {
+      "lat": 42.585800,
+      "lng": 11.255100
+    },
+    "notes": "Deep ruby-black to garnet. Inviting aromas of Morello cherry, blackberry and blackcurrant layered with licorice, dark chocolate, leather, tobacco, underbrush and forest floor. Medium-full palate with ripe black fruit framed by bright Tuscan acidity and polished, fine-grained tannins; savory cocoa and balsam notes trail into a long, mouthwatering finish.",
+    "aromas": [
+      "Morello cherry",
+      "blackberry",
+      "blackcurrant",
+      "licorice",
+      "dark chocolate",
+      "leather",
+      "tobacco",
+      "underbrush",
+      "forest floor"
+    ],
+    "varietals": [
+      "Cabernet Sauvignon"
+    ],
+    "alcohol": 13.5,
+    "body": "medium-full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "tuscany",
+      "maremma",
+      "cabernet-sauvignon",
+      "slavonian-oak",
+      "stainless-steel",
+      "steak-pairing"
+    ],
+    "details": "From sustainably farmed vineyards near Magliano in Toscana (Grosseto). Hand-harvested, destemmed fruit fermented in temperature-controlled stainless for ~2 weeks; malolactic in steel, then 12 months in a mix of 4,000-L Slavonian casks and stainless. Estate owned by Joe and Lidia Bastianich; plantings include both local and international varieties."
+  },
+  {
+    "id": "cantina-tramin-alto-adige-pinot-nero-2022",
+    "name": "Cantina Tramin Alto Adige Pinot Nero",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Alto Adige",
+    "country": "Italy",
+    "winery": "Cantina Tramin",
+    "coordinates": {
+      "lat": 46.343500,
+      "lng": 11.239300
+    },
+    "notes": "Transparent ruby. Sweet-savory mix of red and black cherry, wild strawberry and rhubarb with rose petal, underbrush, smoke, leather and alpine herbs. Medium body with silky tannins and bright, refreshing acidity; ten days on skins gives gentle grip while large casks and concrete preserve purity. Finishes lively and woodland-spiced.",
+    "aromas": [
+      "red cherry",
+      "black cherry",
+      "wild strawberry",
+      "rhubarb",
+      "rose petals",
+      "underbrush",
+      "smoke",
+      "leather",
+      "herbs"
+    ],
+    "varietals": [
+      "Pinot Nero"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "dolomites",
+      "cooperative",
+      "large-casks",
+      "concrete",
+      "screwcap",
+      "silky-tannins"
+    ],
+    "details": "Grapes from Mazon and Montan (250–850 m; clay, gravel, limestone, porphyry). Fermented ~10 days in stainless; aged several months in large French/Austrian oak and concrete. Tramin co-op dates to 1898 and farms 270 ha with member growers."
+  },
+  {
+    "id": "deforville-piemonte-chardonnay-2022",
+    "name": "De Forville Piemonte Chardonnay",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Piemonte",
+    "country": "Italy",
+    "winery": "De Forville",
+    "coordinates": {
+      "lat": 44.736200,
+      "lng": 8.142500
+    },
+    "notes": "Pale yellow-gold with silver-green flashes. Aromas of green and yellow apple, lemon zest, white flowers and crushed oyster shells over wet stones. Medium-bodied with a gentle creaminess balanced by a spine of citrusy, saline freshness; very clean stainless profile. Crisp, snappy finish suited to seafood or firm Piedmontese cheeses.",
+    "aromas": [
+      "green apple",
+      "yellow apple",
+      "lemon zest",
+      "white flowers",
+      "crushed oyster shell",
+      "wet stone"
+    ],
+    "varietals": [
+      "Chardonnay"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "castagnole-lanze",
+      "coazzolo",
+      "stainless-ferment",
+      "bottle-aged",
+      "seafood-friendly"
+    ],
+    "details": "Fruit from Castagnole Lanze and Coazzolo on clay-limestone with sandstone, near Barbaresco's eastern border. 100% Chardonnay fermented and aged in stainless; bottled in spring following harvest, then given several months' bottle age before release. Family estate dating to the mid-1800s."
+  },
+  {
+    "id": "weingut-niklas-alto-adige-sauvignon-2022",
+    "name": "Weingut Niklas Alto Adige Sauvignon",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Alto Adige",
+    "country": "Italy",
+    "winery": "Weingut Niklas",
+    "coordinates": {
+      "lat": 46.409300,
+      "lng": 11.248500
+    },
+    "notes": "Racy, Sancerre-meets-NZ profile: white grapefruit, elderflower and gooseberry with green pepper, mountain wildflowers and wet stones. Medium body with bright, assertive acidity and a faint touch of residual sweetness lending mid-palate roundness. Long, mineral finish.",
+    "aromas": [
+      "white grapefruit",
+      "elderflower",
+      "gooseberry",
+      "green pepper",
+      "mountain wildflowers",
+      "wet stone",
+      "lemon zest"
+    ],
+    "varietals": [
+      "Sauvignon Blanc"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "kaltern-caldaro",
+      "pergola-trained",
+      "pebbly-limestone",
+      "stainless-steel",
+      "aromatic-white"
+    ],
+    "details": "Hillside sites at 500–600 m around St. Nikolaus (Kaltern/Caldaro), pergola-trained vines on pebbly limestone. Brief skin maceration, cool fermentation and aging in stainless preserve lift and precision."
+  },
+  {
+    "id": "glatzer-carnuntum-dac-blaufrankisch-2021",
+    "name": "Glatzer Carnuntum DAC Blaufränkisch",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Carnuntum",
+    "country": "Austria",
+    "winery": "Weingut Glatzer",
+    "coordinates": {
+      "lat": 48.076200,
+      "lng": 16.691800
+    },
+    "notes": "Deeply colored yet lively. Juicy black fruits with spicy, meaty and turned-earth notes plus a hint of black pepper and graphite. Medium body; soft-contoured tannins and present, refreshing acidity keep the palate energetic. Fresh, savory finish—great with burgers or BBQ.",
+    "aromas": [
+      "blackberry",
+      "black cherry",
+      "black pepper",
+      "graphite",
+      "meaty spice",
+      "turned earth",
+      "violet"
+    ],
+    "varietals": [
+      "Blaufränkisch"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "carnuntum-dac",
+      "stainless-start",
+      "used-austrian-oak",
+      "gentle-punchdowns",
+      "bbq-friendly"
+    ],
+    "details": "Fermented in stainless then matured in large, used Austrian oak. Gentle extraction to maximize aromatics while keeping tannins fine. Organic farming across ~50 ha between the Danube and Lake Neusiedl."
+  },
+  {
+    "id": "geyerhof-kremstal-zweigelt-stockwerk-2020",
+    "name": "Geyerhof Kremstal Zweigelt \"StockWerk\"",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Kremstal",
+    "country": "Austria",
+    "winery": "Weingut Geyerhof",
+    "coordinates": {
+      "lat": 48.372600,
+      "lng": 15.606500
+    },
+    "notes": "Inky purple core. Aromas of dark blackberry and purple woodland berries with violets, black pepper, juniper and crushed stones. Plump yet tangy and refreshing, melding fruit and mineral sensations; marginally softer tannins than Blaufränkisch. Chill lightly for a versatile, grill-ready red.",
+    "aromas": [
+      "blackberry",
+      "blueberry",
+      "violet",
+      "black pepper",
+      "juniper",
+      "crushed stone"
+    ],
+    "varietals": [
+      "Zweigelt"
+    ],
+    "alcohol": 12.8,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "kremstal",
+      "granite-gravel-soils",
+      "stainless-ferment",
+      "neutral-oak",
+      "serve-chilled"
+    ],
+    "details": "Estate with 400+ years of winemaking history. Handpicked, whole-cluster pressed (with intentional brief oxidation in tray), fermented in 3,000-L temperature-controlled stainless; small percentage aged in neutral oak tanks/barrels. Sourced from younger vines around Oberfucha on granite and gravel."
+  },
+  {
+    "id": "weingut-zahel-wiener-gemischter-satz-2022",
+    "name": "Weingut Zahel Wiener Gemischter Satz",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Wiener Gemischter Satz",
+    "country": "Austria",
+    "winery": "Weingut Zahel",
+    "coordinates": {
+      "lat": 48.264500,
+      "lng": 16.360600
+    },
+    "notes": "Light golden-yellow with green highlights. Fresh aromas of yellow apple, peach, white pepper and lemon blossom joined by apricot, honeysuckle, saffron and white flowers. Medium-bodied with a faint, pleasant oiliness cut by lively acidity; clean, saline finish that begs for schnitzel and a lemony side salad.",
+    "aromas": [
+      "yellow apple",
+      "peach",
+      "white pepper",
+      "lemon blossom",
+      "apricot",
+      "honeysuckle",
+      "saffron",
+      "white flowers"
+    ],
+    "varietals": [
+      "Grüner Veltliner",
+      "Riesling",
+      "Grauburgunder",
+      "Weissburgunder",
+      "Chardonnay",
+      "Traminer"
+    ],
+    "alcohol": 12.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "vienna",
+      "biodynamic-demeter",
+      "field-blend",
+      "co-fermented",
+      "stainless-aged",
+      "nussberg"
+    ],
+    "details": "From Demeter-certified hillside vineyards around Vienna (notably Nussberg, ~300 m; sandstone over limestone). By law, Gemischter Satz must be a field blend of at least three varieties; Zahel co-ferments and ages in stainless. Family winery founded in 1724; certified biodynamic since 2018."
+  },
+  {
+    "id": "philipp-brundlmayer-gruner-veltliner-2022",
+    "name": "Philipp Bründlmayer Grüner Veltliner",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Kremstal",
+    "country": "Austria",
+    "winery": "Weingut Bründlmayer (Philipp Bründlmayer)",
+    "coordinates": {
+      "lat": 48.409500,
+      "lng": 15.614000
+    },
+    "notes": "Pale yellow-gold with silvery-green reflections. Heady scents of green apple, white peach, grapefruit and lime blossom with green herbs, white pepper, radish and a hint of flinty smoke. Medium-bodied, racy and mouth-watering with almost saline minerality; finishes bright, peppery and clean.",
+    "aromas": [
+      "green apple",
+      "white peach",
+      "grapefruit",
+      "lime blossom",
+      "green herbs",
+      "white pepper",
+      "radish",
+      "flinty smoke"
+    ],
+    "varietals": [
+      "Grüner Veltliner"
+    ],
+    "alcohol": 12.5,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "loess-soils",
+      "stainless-steel",
+      "screwcap-1l",
+      "fresh-and-saline",
+      "first-course-wine"
+    ],
+    "details": "Fruit sourced from loess-rich sites across Kremstal (including Vordenberg and Moosburgerin) with parcels such as Ried Steingraben. Fermented and raised in stainless; a touch of trapped CO₂ lends extra snap on opening. Estate under Josef and Philipp Bründlmayer, pursuing organic certification."
   }
 ] 

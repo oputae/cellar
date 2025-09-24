@@ -71,7 +71,7 @@ The wine data follows a comprehensive JSON schema located at `/data/wine.schema.
 
 ### Current Wine Collection
 
-The application currently includes 41 wines from various regions:
+The application currently includes 57 wines from various regions:
 
 1. **Freja Cellars Pinot Noir** (2018) - Willamette Valley, Oregon, USA
 2. **Domaine Berthoumieu Charles de Batz** (2017) - Madiran, Southwest France
@@ -112,6 +112,14 @@ The application currently includes 41 wines from various regions:
 37. **Caravaglio IGP Salina Bianco** (2023) - Salina IGP, Italy
 38. **Clos du Caillou Côtes du Rhône "Cuvée Unique" Vieilles Vignes** (2021) - Côtes du Rhône, France
 39. **Mas des Capitelles Faugères "Vieilles Vignes"** (2020) - Faugères, France
+40. **La Mozza Maremma Toscana Cabernet Sauvignon "I Perazzi"** (2021) - Maremma Toscana, Italy
+41. **Cantina Tramin Alto Adige Pinot Nero** (2022) - Alto Adige, Italy
+42. **De Forville Piemonte Chardonnay** (2022) - Piemonte, Italy
+43. **Weingut Niklas Alto Adige Sauvignon** (2022) - Alto Adige, Italy
+44. **Glatzer Carnuntum DAC Blaufränkisch** (2021) - Carnuntum, Austria
+45. **Geyerhof Kremstal Zweigelt "StockWerk"** (2020) - Kremstal, Austria
+46. **Weingut Zahel Wiener Gemischter Satz** (2022) - Wiener Gemischter Satz, Austria
+47. **Philipp Bründlmayer Grüner Veltliner** (2022) - Kremstal, Austria
 
 ### Sample JSON Entry
 
@@ -142,24 +150,182 @@ The application currently includes 41 wines from various regions:
 
 ## LLM Prompt Template
 
-Use this template to generate wine entries with AI assistance:
+Use this comprehensive template to generate wine entries with AI assistance:
 
 ```
-You are a wine expert. Given the wine name and vintage, create a comprehensive wine entry following this JSON schema:
+You are a wine expert and sommelier. Given a wine name and vintage, create a detailed wine entry following this exact JSON schema:
 
-[PASTE THE ENTIRE JSON SCHEMA FROM /data/wine.schema.json]
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Wine Entry Schema",
+  "description": "Schema for wine tracking entries with geographic and tasting data",
+  "type": "object",
+  "required": ["id", "name", "vintage", "type", "region", "coordinates"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9-_]+$",
+      "description": "Unique identifier for the wine entry"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 200,
+      "description": "Name of the wine"
+    },
+    "vintage": {
+      "type": "integer",
+      "minimum": 1900,
+      "maximum": 2030,
+      "description": "Vintage year of the wine"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["red", "white", "rosé", "sparkling", "dessert", "fortified"],
+      "description": "Type of wine"
+    },
+    "region": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Wine region or appellation"
+    },
+    "country": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 50,
+      "description": "Country of origin"
+    },
+    "winery": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 100,
+      "description": "Winery or producer name"
+    },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": {
+          "type": "number",
+          "minimum": -90,
+          "maximum": 90,
+          "description": "Latitude coordinate"
+        },
+        "lng": {
+          "type": "number",
+          "minimum": -180,
+          "maximum": 180,
+          "description": "Longitude coordinate"
+        }
+      },
+      "additionalProperties": false
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Tasting notes or personal observations"
+    },
+    "aromas": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "maxItems": 20,
+      "description": "Array of detected aromas"
+    },
+    "varietals": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "maxItems": 10,
+      "description": "Grape varietals used"
+    },
+    "alcohol": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 25,
+      "description": "Alcohol percentage"
+    },
+    "body": {
+      "type": "string",
+      "enum": ["light", "medium-light", "medium", "medium-full", "full"],
+      "description": "Wine body"
+    },
+    "acidity": {
+      "type": "string",
+      "enum": ["low", "medium-low", "medium", "medium-high", "high"],
+      "description": "Acidity level"
+    },
+    "favorite": {
+      "type": "boolean",
+      "default": false,
+      "description": "Whether this wine is marked as favorite"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["cellar", "consumed"],
+      "description": "Whether the wine is still in the cellar or has been consumed."
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 30
+      },
+      "maxItems": 10,
+      "description": "Custom tags for categorization"
+    },
+    "details": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Unique facts or context about the wine, region, or winery."
+    }
+  },
+  "additionalProperties": false
+}
 
 Wine Name: [WINE_NAME]
 Vintage: [VINTAGE_YEAR]
 
-Generate a complete wine entry with realistic data. Include:
-- Geographic coordinates for the wine region
-- Detailed tasting notes with specific aromas
-- Appropriate varietals for the region
-- Wine characteristics (tannins, body, acidity)
-- Relevant tags for categorization
+INSTRUCTIONS:
+1. Create a unique ID using lowercase, hyphens, and numbers (e.g., "chateau-margaux-2015")
+2. Provide accurate geographic coordinates for the wine region (use 4-6 decimal places)
+3. Write detailed, professional tasting notes (150-300 words) describing:
+   - Visual appearance (color, clarity, rim variation)
+   - Aromas (primary fruit, secondary, tertiary notes)
+   - Palate (body, tannins, acidity, finish)
+   - Food pairing suggestions
+4. Include 8-15 specific aromas that would be detected in this wine
+5. List appropriate grape varietals for the region and wine style
+6. Set realistic alcohol content (typically 11-15% for table wines)
+7. Choose appropriate body and acidity levels
+8. Add 5-8 relevant tags including:
+   - Region/appellation name
+   - Wine style (e.g., "oak-aged", "mineral", "fruity")
+   - Food pairing hints (e.g., "seafood-friendly", "bbq-pairing")
+   - Special characteristics (e.g., "organic", "biodynamic", "age-worthy")
+9. Write detailed winery/region information in the "details" field
+10. Set "favorite" to false and "status" to "cellar" by default
 
-Output ONLY valid JSON that conforms to the schema. Do not include any explanatory text.
+OUTPUT REQUIREMENTS:
+- Return ONLY valid JSON that conforms to the schema
+- Do not include any explanatory text or markdown formatting
+- Ensure all required fields are present
+- Validate that coordinates are within valid ranges
+- Use proper JSON formatting with correct quotes and commas
+
+EXAMPLE USAGE:
+Wine Name: Château Margaux
+Vintage: 2015
+
+[Generate complete JSON entry following the schema and instructions above]
 ```
 
 ### Example LLM Usage
@@ -361,7 +527,7 @@ For questions or issues:
 
 ## Getting Started
 
-The application comes with a curated collection of 41 wines from various regions. To add your own wines:
+The application comes with a curated collection of 57 wines from various regions. To add your own wines:
 
 1. **Use the LLM Prompt Template** (see below) to generate wine entries
 2. **Add wine images** to `/public/images/` with the naming convention `[wine-id].jpg`
