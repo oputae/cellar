@@ -16,6 +16,18 @@ export default function StatsPage() {
   const vintages = wines.map(w => w.vintage).filter(Boolean);
   const oldestVintage = vintages.length ? Math.min(...vintages) : null;
   const newestVintage = vintages.length ? Math.max(...vintages) : null;
+  
+  // Calculate vintage distribution by decade
+  const vintageDistribution = vintages.reduce((acc, vintage) => {
+    const decade = Math.floor(vintage / 10) * 10;
+    const decadeKey = `${decade}s`;
+    acc[decadeKey] = (acc[decadeKey] || 0) + 1;
+    return acc;
+  }, {} as Record<string, number>);
+  
+  const vintageDecades = Object.entries(vintageDistribution)
+    .sort(([a], [b]) => parseInt(a) - parseInt(b))
+    .map(([decade, count]) => ({ decade, count }));
 
   // Calculate additional stats
   const winesWithNotes = wines.filter(w => w.notes).length;
@@ -153,6 +165,41 @@ export default function StatsPage() {
 
           </div>
 
+          {/* Region Diversity Chart */}
+          <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-8 shadow-elegant animate-scale-in mb-8">
+            <div className="flex items-center gap-3 mb-6">
+              <div className="h-8 w-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center">
+                <GlobeAltIcon className="h-4 w-4 text-white" />
+              </div>
+              <h3 className="text-2xl font-display font-semibold text-white">Region Diversity</h3>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+              {countries
+                .map(country => ({
+                  country,
+                  count: wines.filter(w => w.country === country).length,
+                  percentage: Math.round((wines.filter(w => w.country === country).length / totalWines) * 100)
+                }))
+                .sort((a, b) => b.count - a.count)
+                .map(({ country, count, percentage }, index) => (
+                  <div key={country} className="bg-white/5 rounded-xl p-4 border border-white/10">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-white/60 text-sm font-medium">#{index + 1}</span>
+                      <span className="text-white font-semibold">{percentage}%</span>
+                    </div>
+                    <div className="text-white font-medium mb-2">{country}</div>
+                    <div className="w-full bg-white/10 rounded-full h-2">
+                      <div 
+                        className="bg-gradient-to-r from-blue-500 to-blue-600 h-2 rounded-full transition-all duration-500"
+                        style={{ width: `${percentage}%` }}
+                      ></div>
+                    </div>
+                    <div className="text-white/70 text-sm mt-1">{count} wines</div>
+                  </div>
+                ))}
+            </div>
+          </div>
+
           {/* Detailed Analytics */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             {/* Wine Types Distribution */}
@@ -193,14 +240,37 @@ export default function StatsPage() {
                 </div>
                 <h3 className="text-2xl font-display font-semibold text-white">Vintage Analysis</h3>
               </div>
-              <div className="grid grid-cols-1 gap-4">
-                <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                  <span className="text-white/80">Oldest Vintage</span>
-                  <span className="text-2xl font-display font-bold text-white">{oldestVintage ?? 'N/A'}</span>
+              <div className="space-y-4">
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+                    <span className="text-white/80">Oldest Vintage</span>
+                    <span className="text-xl font-display font-bold text-white">{oldestVintage ?? 'N/A'}</span>
+                  </div>
+                  <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
+                    <span className="text-white/80">Newest Vintage</span>
+                    <span className="text-xl font-display font-bold text-white">{newestVintage ?? 'N/A'}</span>
+                  </div>
                 </div>
-                <div className="flex items-center justify-between p-4 bg-white/5 rounded-xl">
-                  <span className="text-white/80">Newest Vintage</span>
-                  <span className="text-2xl font-display font-bold text-white">{newestVintage ?? 'N/A'}</span>
+                
+                {/* Vintage Distribution by Decade */}
+                <div className="mt-6">
+                  <h4 className="text-lg font-semibold text-white mb-4">Distribution by Decade</h4>
+                  <div className="space-y-3">
+                    {vintageDecades.map(({ decade, count }) => (
+                      <div key={decade} className="flex items-center justify-between">
+                        <span className="text-white/80 font-medium">{decade}</span>
+                        <div className="flex items-center gap-3">
+                          <div className="w-24 bg-white/10 rounded-full h-2">
+                            <div 
+                              className="bg-gradient-to-r from-gold-500 to-gold-600 h-2 rounded-full transition-all duration-500"
+                              style={{ width: `${(count / totalWines) * 100}%` }}
+                            ></div>
+                          </div>
+                          <span className="text-white font-semibold min-w-[2rem] text-right">{count}</span>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
