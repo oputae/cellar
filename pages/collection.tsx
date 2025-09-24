@@ -344,6 +344,23 @@ export default function CollectionPage() {
                     )}
                   </div>
                   
+                  {/* Food Pairing Suggestions */}
+                  <div className="mb-4">
+                    <div className="flex items-center gap-2 mb-2">
+                      <span className="text-white/60 text-xs font-medium">🍽️ Food Pairings</span>
+                    </div>
+                    <div className="flex flex-wrap gap-1">
+                      {getFoodPairings(wine).map((pairing, index) => (
+                        <span
+                          key={index}
+                          className="px-2 py-1 text-xs bg-white/10 text-white/80 rounded-full border border-white/20"
+                        >
+                          {pairing}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  
                   <div className="flex items-center justify-between pt-4 border-t border-white/10 mt-auto">
                     <div className="flex items-center gap-3 text-sm text-white/70">
                       {wine.winery && (
@@ -397,4 +414,89 @@ function getWineTypeIcon(type: WineType): string {
     fortified: '🥃',
   };
   return icons[type] || '🍷';
+}
+
+// Helper function for food pairing suggestions
+function getFoodPairings(wine: { tags?: string[]; type: string; aromas?: string[] }): string[] {
+  const pairings: string[] = [];
+  
+  // Extract food suggestions from tags
+  if (wine.tags) {
+    wine.tags.forEach((tag: string) => {
+      switch (tag) {
+        case 'seafood':
+        case 'seafood-pairing':
+          pairings.push('Grilled fish', 'Oysters', 'Lobster', 'Ceviche');
+          break;
+        case 'bbq-friendly':
+        case 'bbq':
+          pairings.push('Grilled meats', 'BBQ ribs', 'Burgers', 'Steak');
+          break;
+        case 'pizza-pasta':
+          pairings.push('Pizza', 'Pasta', 'Italian dishes', 'Margherita pizza');
+          break;
+        case 'cheese':
+          pairings.push('Cheese board', 'Aged cheeses', 'Soft cheeses');
+          break;
+        case 'charcuterie':
+          pairings.push('Charcuterie board', 'Cured meats', 'Prosciutto');
+          break;
+        case 'spicy-food':
+          pairings.push('Spicy dishes', 'Curry', 'Thai food', 'Mexican cuisine');
+          break;
+        case 'dessert':
+          pairings.push('Desserts', 'Chocolate', 'Fruit tarts', 'Cheesecake');
+          break;
+        case 'aperitif':
+          pairings.push('Appetizers', 'Light snacks', 'Canapés');
+          break;
+      }
+    });
+  }
+  
+  // Add suggestions based on wine type
+  switch (wine.type) {
+    case 'red':
+      if (!pairings.includes('Grilled meats')) pairings.push('Grilled meats', 'Red meat', 'Game');
+      break;
+    case 'white':
+      if (!pairings.includes('Grilled fish')) pairings.push('White fish', 'Chicken', 'Salads');
+      break;
+    case 'rosé':
+      pairings.push('Summer salads', 'Light appetizers', 'Mediterranean cuisine');
+      break;
+    case 'sparkling':
+      pairings.push('Celebration foods', 'Light appetizers', 'Brunch');
+      break;
+    case 'dessert':
+      pairings.push('Desserts', 'Fruit', 'Chocolate', 'Cheese');
+      break;
+  }
+  
+  // Add suggestions based on aromas
+  if (wine.aromas) {
+    wine.aromas.forEach((aroma: string) => {
+      switch (aroma) {
+        case 'lavender':
+        case 'garrigue':
+          pairings.push('Provençal cuisine', 'Herbed dishes', 'Mediterranean food');
+          break;
+        case 'smoke':
+        case 'tobacco':
+          pairings.push('Smoked meats', 'Grilled foods', 'Barbecue');
+          break;
+        case 'citrus':
+        case 'lemon':
+          pairings.push('Seafood', 'Light fish', 'Citrus-based dishes');
+          break;
+        case 'spice':
+        case 'pepper':
+          pairings.push('Spicy foods', 'Asian cuisine', 'Curry');
+          break;
+      }
+    });
+  }
+  
+  // Remove duplicates and return unique suggestions
+  return [...new Set(pairings)].slice(0, 4);
 } 
