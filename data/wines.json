@@ -3061,5 +3061,171 @@
       "fresh"
     ],
     "details": "Abbazia di Novacella, founded in 1142 by Augustinian monks, is one of Italy's oldest active wineries. Located in the Isarco Valley near Bolzano, the estate cultivates Alpine varietals on steep, glacial moraine soils. Known for crisp whites and light, fragrant reds, Novacella's Schiava is a historic expression of Alto Adige tradition."
+  },
+  {
+    "id": "cirelli-montepulciano-dabruzzo-2022",
+    "name": "Cirelli Montepulciano d'Abruzzo",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Abruzzo",
+    "country": "Italy",
+    "winery": "Agricola Cirelli",
+    "coordinates": {
+      "lat": 42.580700,
+      "lng": 13.976000
+    },
+    "notes": "Deep ruby with purple highlights at the rim. The bouquet bursts with black raspberry, plum, pomegranate, maraschino cherry, and violet, layered over subtle floral tones. On the palate, medium body with soft tannins and a supple texture. Youthful, juicy fruit lingers with moderate acidity, making it easy-drinking yet vibrant. Slight reductive notes may benefit from aeration. Pair with Abruzzese specialties like spaghetti alla chitarra or southern Italian spiced dishes. Best served slightly chilled.",
+    "aromas": [
+      "black raspberry",
+      "pomegranate",
+      "maraschino cherry",
+      "violet",
+      "plum",
+      "floral",
+      "red currant",
+      "earth"
+    ],
+    "varietals": [
+      "Montepulciano"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "abruzzo",
+      "organic",
+      "fruit-driven",
+      "pizza-pasta",
+      "cheese",
+      "charcuterie",
+      "easy-drinking",
+      "chillable"
+    ],
+    "details": "Francesco Cirelli, who established Agricola Cirelli in 2003, farms organically near Atri, Abruzzo. His holistic estate integrates vines with olive groves, fig trees, and barley, managed with natural practices like geese for weeding. The wines reflect the balance of mountain and maritime influences, producing expressive, terroir-driven Montepulciano."
+  },
+  {
+    "id": "il-mostro-striga-2021",
+    "name": "Il Mostro Cerasuolo d'Abruzzo \"Striga\"",
+    "vintage": 2021,
+    "type": "rosé",
+    "region": "Abruzzo",
+    "country": "Italy",
+    "winery": "Il Mostro (Poggio Anima & Vine Street Imports)",
+    "coordinates": {
+      "lat": 42.307700,
+      "lng": 14.183600
+    },
+    "notes": "Bright cherry-red with glints of rose. Aromas of fresh red currant, cherry, hibiscus tea, and citrus peel. On the palate, it shows tangy, mouthwatering acidity balanced with soft fruit. Medium-bodied yet vibrant, with hibiscus and orange zest complexity on the finish. Perfectly fresh, food-friendly rosato style ideal for grilled meats, seafood, or Abruzzese arrosticini lamb skewers. Youthful, lively, and expressive.",
+    "aromas": [
+      "red cherry",
+      "red currant",
+      "hibiscus tea",
+      "orange peel",
+      "raspberry",
+      "citrus zest",
+      "floral"
+    ],
+    "varietals": [
+      "Montepulciano"
+    ],
+    "alcohol": 12.5,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "abruzzo",
+      "cerasuolo",
+      "rosé",
+      "fresh",
+      "seafood-pairing",
+      "cheese",
+      "charcuterie",
+      "bright"
+    ],
+    "details": "Il Mostro (\"the monster\") is a joint project by Riccardo Campinoti of Le Ragnaie in Montalcino and American importer Ronnie Sanders. Produced from organic Abruzzo vineyards near Monteodorisio, \"Striga\" is named for a folkloric winged monster. Crafted naturally, it shows the vivid fruit and tangy edge typical of Cerasuolo."
+  },
+  {
+    "id": "ciavolic-pecorino-aries-2022",
+    "name": "Ciavolic Colline Pescaresi Pecorino \"Aries\"",
+    "vintage": 2022,
+    "type": "white",
+    "region": "Colline Pescaresi IGP, Abruzzo",
+    "country": "Italy",
+    "winery": "Ciavolic",
+    "coordinates": {
+      "lat": 42.416700,
+      "lng": 14.133300
+    },
+    "notes": "Pale straw-yellow with greenish reflections. Savory nose with green apple, fig, citrus, and herb notes of sage and thyme. Mineral-driven palate with firm acidity, warm spice, and creamy texture from partial oak aging. Medium-plus body with saline edge, showing both fruit and savory character. Long finish with a mineral backbone. Ideal with roasted chicken, poached halibut, or herbed dishes.",
+    "aromas": [
+      "green apple",
+      "fig",
+      "citrus",
+      "sage",
+      "thyme",
+      "wet stone",
+      "cream",
+      "spice"
+    ],
+    "varietals": [
+      "Pecorino"
+    ],
+    "alcohol": 13.0,
+    "body": "medium-full",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "abruzzo",
+      "pecorino",
+      "savory",
+      "mineral",
+      "seafood-pairing",
+      "cheese",
+      "charcuterie"
+    ],
+    "details": "The Ciavolic family has deep roots in Abruzzo winemaking, dating back to 1560. With vineyards in Loreto Aprutino and Pianella, they farm 40 hectares in Pescara province. Chiara Ciavolic and her husband Gianluca manage the estate, producing terroir-driven Pecorino wines like \"Aries\" with distinct mineral and savory character."
+  },
+  {
+    "id": "vallevo-trebbiano-dabruzzo-2023",
+    "name": "Vallevò Trebbiano d'Abruzzo",
+    "vintage": 2023,
+    "type": "white",
+    "region": "Abruzzo",
+    "country": "Italy",
+    "winery": "Cantina Frentana (Vallevò label)",
+    "coordinates": {
+      "lat": 42.100000,
+      "lng": 14.400000
+    },
+    "notes": "Pale straw-gold with bright reflections. Aromas of green apple, yellow apple, melon, citrus peel, lemongrass, and fresh cream. Crisp and juicy palate with lip-smacking acidity, medium body, and fresh texture. Clean, fruit-driven finish with zesty energy. An easy-drinking yet refreshing white, best with branzino, red mullet, or seafood pasta. Serve at 8–10 °C.",
+    "aromas": [
+      "green apple",
+      "yellow apple",
+      "melon",
+      "citrus peel",
+      "lemongrass",
+      "fresh cream"
+    ],
+    "varietals": [
+      "Trebbiano"
+    ],
+    "alcohol": 12.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "abruzzo",
+      "trebbiano",
+      "fresh",
+      "seafood-pairing",
+      "cheese",
+      "charcuterie"
+    ],
+    "details": "Vallevò is the label of Cantina Frentana, a cooperative winery founded in 1958 in Abruzzo's Chieti province. Focused on sustainable viticulture, only the best growers' grapes are bottled under the Vallevò name. The cooperative emphasizes coastal freshness and mountain-mineral character in its Trebbiano wines."
   }
 ]
