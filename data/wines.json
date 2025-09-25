@@ -2714,5 +2714,352 @@
       "cheese"
     ],
     "details": "From ~20-year-old vines; cool stainless-steel fermentation and aging; brief skin maceration on Gros Manseng/Colombard adds a tea-like tannic nip and extra aroma."
+  },
+  {
+    "id": "hermanos-pecina-crianza-2016",
+    "name": "Hermanos Peciña Crianza",
+    "vintage": 2016,
+    "type": "red",
+    "region": "Rioja Alta",
+    "country": "Spain",
+    "winery": "Hermanos Peciña",
+    "coordinates": {
+      "lat": 42.566200,
+      "lng": -2.737400
+    },
+    "notes": "Deep ruby with garnet reflections and a pink-magenta rim. The nose reveals black raspberry, cherry, and dusty earth, framed by cedar, wild herbs, and tobacco leaf. On the palate, medium-full body with polished yet rustic tannins and vibrant acidity. Layers of crushed berries, rocky minerality, and subtle leather evolve into a persistent finish. Balanced and traditional Rioja Crianza with generous fruit and savory nuances. Ideal with grilled lamb chops, roasted pork, or aged Manchego cheese.",
+    "aromas": [
+      "black raspberry",
+      "cherry",
+      "plum",
+      "dusty earth",
+      "cedar",
+      "tobacco",
+      "leather",
+      "wild herbs",
+      "spice",
+      "mineral"
+    ],
+    "varietals": [
+      "Tempranillo"
+    ],
+    "alcohol": 13.5,
+    "body": "medium-full",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "rioja",
+      "oak-aged",
+      "age-worthy",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "rustic",
+      "tempranillo"
+    ],
+    "details": "Founded by Pedro Peciña, former vineyard manager at La Rioja Alta, Hermanos Peciña emphasizes traditional winemaking and extended aging regimens. Located in Rioja Alta's limestone-rich soils, the estate produces classically styled wines with elegance and longevity."
+  },
+  {
+    "id": "martue-evolution-2020",
+    "name": "Martúe Vino de la Tierra Tempranillo \"Evolution\"",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Castilla-La Mancha",
+    "country": "Spain",
+    "winery": "Martúe",
+    "coordinates": {
+      "lat": 39.868100,
+      "lng": -4.334000
+    },
+    "notes": "Deep purple-red with youthful intensity. Aromas of black fruit—plum, blackberry, and cherry—interwoven with vanilla, toast, and earthy spice. Medium-plus body, ripe tannins, and freshness lend balance. Flavors of dark berries, cocoa, and tobacco leaf persist with a mineral lift. Structured yet approachable, with a toasty French oak frame. Perfect with grilled meats, roasted vegetables, and stews.",
+    "aromas": [
+      "blackberry",
+      "plum",
+      "cherry",
+      "vanilla",
+      "toast",
+      "cocoa",
+      "tobacco leaf",
+      "earth",
+      "spice",
+      "mineral"
+    ],
+    "varietals": [
+      "Tempranillo"
+    ],
+    "alcohol": 14.0,
+    "body": "medium-full",
+    "acidity": "medium",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "castilla-la-mancha",
+      "oak-aged",
+      "fruity",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie"
+    ],
+    "details": "Martúe is based in La Guardia de Toledo, with vineyards at 850m altitude offering limestone-rich soils and wide diurnal shifts. Fausto Gonzalez established the estate in 1990, gaining recognition with a Vino de Pago designation for Campo de la Guardia. Known for bold, fruit-driven wines with oak influence."
+  },
+  {
+    "id": "goyo-garcia-joven-vinas-viejas-2021",
+    "name": "Goyo García Joven de Viñas Viejas",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Ribera del Duero",
+    "country": "Spain",
+    "winery": "Goyo García",
+    "coordinates": {
+      "lat": 41.593700,
+      "lng": -3.786100
+    },
+    "notes": "Ruby red with an indigo core. Aromas of violets, lavender, red plums, black cherries, tobacco leaf, and allspice. Medium-bodied with firm tannins and lively acidity. Earthy minerality and saline notes add depth. Flavors of red and black fruits linger on a textured, savory finish. Unoak-aged yet structured, this is a natural, expressive Ribera del Duero perfect for roasted lamb or pork.",
+    "aromas": [
+      "violet",
+      "lavender",
+      "red plum",
+      "black cherry",
+      "tobacco leaf",
+      "allspice",
+      "earth",
+      "saline mineral"
+    ],
+    "varietals": [
+      "Tempranillo (Tinto Fino)"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "ribera-del-duero",
+      "natural-wine",
+      "organic",
+      "savory",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "tempranillo"
+    ],
+    "details": "Goyo García Viadero farms 40 hectares organically, producing natural wines with minimal intervention. Inspired by Jura traditions, he emphasizes terroir transparency, no new oak, and low sulfur. This cuvée comes from old-vine Tinto Fino grown in Ribera's arid plateau."
+  },
+  {
+    "id": "el-vino-prodigo-placeres-sensoriales-2022",
+    "name": "El Vino Prodigo Rioja \"Placeres Sensoriales\"",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Rioja Alta",
+    "country": "Spain",
+    "winery": "El Vino Prodigo",
+    "coordinates": {
+      "lat": 42.464300,
+      "lng": -2.587600
+    },
+    "notes": "Bright purple with a vibrant magenta rim. Aromas of Damson plum, blackberry, violets, dried herbs, and crushed stones. On the palate, medium-bodied with brisk acidity and juicy fruit character. Semi-carbonic maceration lends lift and freshness, creating a Beaujolais-like Rioja with Spanish intensity. Best with steak au poivre, juicy burgers, or charcuterie.",
+    "aromas": [
+      "damson plum",
+      "blackberry",
+      "violet",
+      "dried herbs",
+      "black cherry",
+      "crushed stones",
+      "spice",
+      "earth"
+    ],
+    "varietals": [
+      "Tempranillo"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "rioja",
+      "fruit-driven",
+      "semi-carbonic",
+      "fresh",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "tempranillo"
+    ],
+    "details": "El Vino Prodigo is the project of Pedro Peciña Gil, who previously worked with Hermanos Peciña. Based in Rioja Alta, he sources old-vine fruit from high-altitude vineyards. The 2022 vintage highlights semi-carbonic maceration, yielding expressive, fruit-driven Rioja wines with lively acidity."
+  },
+  {
+    "id": "paul-achs-zweigelt-2021",
+    "name": "Paul Achs Zweigelt",
+    "vintage": 2021,
+    "type": "red",
+    "region": "Burgenland",
+    "country": "Austria",
+    "winery": "Paul Achs",
+    "coordinates": {
+      "lat": 47.820300,
+      "lng": 16.908400
+    },
+    "notes": "Deep ruby with purple hues. Aromas of woodland berries, violet, black pepper, juniper, and crushed stone. Medium-bodied with lively acidity and soft tannins, balancing fruit and savory mineral notes. Refreshing yet complex, with a long spicy finish. Excellent with sausages, ribs, chops, and grilled vegetables.",
+    "aromas": [
+      "blackberry",
+      "blueberry",
+      "violet",
+      "black pepper",
+      "juniper",
+      "crushed stone",
+      "spice",
+      "earth"
+    ],
+    "varietals": [
+      "Zweigelt"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "medium-high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "burgenland",
+      "zweigelt",
+      "biodynamic",
+      "fresh",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "peppery"
+    ],
+    "details": "Paul Achs, a respected biodynamic grower, produces wines from 25 hectares around Gols in Burgenland. Zweigelt, Austria's most planted red variety, thrives in gravelly, sandy soils of Heideboden. Achs emphasizes terroir-driven, precise reds with both fruit purity and savory depth."
+  },
+  {
+    "id": "friedrich-becker-pfalz-pinot-noir-2019",
+    "name": "Familie Friedrich Becker Pfalz Pinot Noir",
+    "vintage": 2019,
+    "type": "red",
+    "region": "Pfalz",
+    "country": "Germany",
+    "winery": "Friedrich Becker",
+    "coordinates": {
+      "lat": 49.070100,
+      "lng": 8.010800
+    },
+    "notes": "Light ruby red with a translucent rim. Aromas of raspberry, wild strawberry, cranberry, and forest underbrush with faint smokiness. On the palate, tangy and bright with soft tannins, lively acidity, and a crisp finish. A lighter-bodied Pinot with red-fruited freshness and minerality. Pairs beautifully with salmon, roast chicken, or mushroom dishes.",
+    "aromas": [
+      "raspberry",
+      "strawberry",
+      "cranberry",
+      "underbrush",
+      "smoke",
+      "herbs",
+      "cherry",
+      "earth"
+    ],
+    "varietals": [
+      "Pinot Noir"
+    ],
+    "alcohol": 12.5,
+    "body": "light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "pfalz",
+      "pinot-noir",
+      "light-bodied",
+      "seafood-pairing",
+      "cheese",
+      "charcuterie",
+      "bright",
+      "crisp"
+    ],
+    "details": "Friedrich Becker, based in Schweigen in southern Pfalz, farms vineyards stretching into Alsace. The estate is known for Pinot Noir, producing elegant, Burgundy-inspired styles. As VDP members, the Beckers follow strict quality standards and craft terroir-expressive wines."
+  },
+  {
+    "id": "bio-weingut-schreiner-blaufraenkisch-2020",
+    "name": "Bio-Weingut Schreiner Burgenland Blaufränkisch",
+    "vintage": 2020,
+    "type": "red",
+    "region": "Burgenland",
+    "country": "Austria",
+    "winery": "Bio-Weingut Schreiner",
+    "coordinates": {
+      "lat": 47.799000,
+      "lng": 16.673300
+    },
+    "notes": "Deep ruby moving to magenta with bright reflections. Aromas of blackberry, pomegranate, grilled herbs, violets, lavender, licorice, coffee, and warm spice. Medium-bodied with energetic acidity and soft tannins. Layers of dark fruit and savory herbs mingle with cocoa and underbrush, finishing with earthy elegance. Best with herb-crusted lamb chops or roasted root vegetables.",
+    "aromas": [
+      "blackberry",
+      "pomegranate",
+      "violet",
+      "lavender",
+      "licorice",
+      "coffee",
+      "cacao",
+      "herbs",
+      "spice",
+      "earth"
+    ],
+    "varietals": [
+      "Blaufränkisch"
+    ],
+    "alcohol": 13.0,
+    "body": "medium",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "burgenland",
+      "organic",
+      "blaufraenkisch",
+      "herbal",
+      "bbq-friendly",
+      "cheese",
+      "charcuterie",
+      "spicy-food"
+    ],
+    "details": "Gernot and Victoria Schreiner farm six hectares organically in Rust, Burgenland, with certification achieved in 2012. Their Blaufränkisch thrives in loamy and gravel soils near Lake Neusiedl. The estate has been in the Schreiner family for over a century, producing terroir-driven, certified organic wines."
+  },
+  {
+    "id": "abbazia-novacella-schiava-2022",
+    "name": "Abbazia di Novacella Alto Adige Schiava",
+    "vintage": 2022,
+    "type": "red",
+    "region": "Alto Adige",
+    "country": "Italy",
+    "winery": "Abbazia di Novacella",
+    "coordinates": {
+      "lat": 46.729900,
+      "lng": 11.658600
+    },
+    "notes": "Pale ruby with bright glints. Aromas of woodland berries, mountain wildflowers, red cherry, and a touch of smoke. On the palate, light-bodied, juicy, and softly contoured, with lively acidity. Flavors of cranberry, raspberry, and herbs mingle with faint earthy spice. A refreshing Alpine red, best served slightly chilled. Pairs well with Tyrolean dishes like speck dumplings, or roasted poultry.",
+    "aromas": [
+      "cherry",
+      "raspberry",
+      "cranberry",
+      "wildflowers",
+      "herbs",
+      "smoke",
+      "earth",
+      "strawberry"
+    ],
+    "varietals": [
+      "Schiava (Vernatsch)"
+    ],
+    "alcohol": 12.0,
+    "body": "light",
+    "acidity": "high",
+    "favorite": false,
+    "status": "cellar",
+    "tags": [
+      "alto-adige",
+      "light-bodied",
+      "chillable",
+      "seafood-pairing",
+      "cheese",
+      "charcuterie",
+      "fresh"
+    ],
+    "details": "Abbazia di Novacella, founded in 1142 by Augustinian monks, is one of Italy's oldest active wineries. Located in the Isarco Valley near Bolzano, the estate cultivates Alpine varietals on steep, glacial moraine soils. Known for crisp whites and light, fragrant reds, Novacella's Schiava is a historic expression of Alto Adige tradition."
   }
 ]
